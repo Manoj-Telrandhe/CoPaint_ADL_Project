@@ -65,22 +65,3 @@ Below is an example to run `Copaint` on `CelebA-HQ` dataset with `half` mask:
 ```shell
 python main.py --dataset_name celebahq --algorithm o_ddim --outdir celebresults --mask_type half --config_file configs/celebahq.yaml
 ```
-
-## References
-If you find our work useful for your research, please consider citing our paper:
-```bibtex
-@misc{zhang2023coherent,
-      title={Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models},
-      author={Guanhua Zhang and Jiabao Ji and Yang Zhang and Mo Yu and Tommi Jaakkola and Shiyu Chang},
-      year={2023},
-      eprint={2304.03322},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-
-Our implementation is based on following repos:
-* https://github.com/andreas128/RePaint
-* https://github.com/bahjat-kawar/ddrm
-* https://github.com/wyhuai/DDNM
-* https://github.com/DPS2022/diffusion-posterior-sampling
