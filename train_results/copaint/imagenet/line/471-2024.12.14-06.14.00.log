@@ -1,0 +1,7 @@
+2024-12-14-06:14:04-root-INFO: Load 100 samples
+2024-12-14-06:14:04-root-INFO: Prepare model...
+2024-12-14-06:14:08-root-INFO: Loading model from ./checkpoints/256x256_diffusion.pt...
+2024-12-14-06:14:16-root-INFO: Start sampling
+2024-12-14-06:14:18-root-INFO: step: 249 lr_xt 0.00012706
+2024-12-14-06:14:18-root-INFO: grad norm: 12223.657 8651.604 8635.250
+2024-12-14-06:14:18-root-INFO: grad norm: 7709.029 5464.913 5437.266

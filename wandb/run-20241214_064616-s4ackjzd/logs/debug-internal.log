@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:46:16.500754051+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:46:16.500781765+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_064616-s4ackjzd/logs/debug-core.log"}
+{"time":"2024-12-14T06:46:16.611814966+05:30","level":"INFO","msg":"created new stream","id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:16.611868485+05:30","level":"INFO","msg":"stream: started","id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:16.611961147+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:16.612011198+05:30","level":"INFO","msg":"handler: started","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:16.612086388+05:30","level":"INFO","msg":"sender: started","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:17.039568158+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:46:18.529815527+05:30","level":"INFO","msg":"stream: closing","id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:18.529874458+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:46:18.530966092+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:46:20.644178218+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:46:20.972874137+05:30","level":"INFO","msg":"handler: closed","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:20.972939162+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:20.972952132+05:30","level":"INFO","msg":"sender: closed","stream_id":"s4ackjzd"}
+{"time":"2024-12-14T06:46:20.973037431+05:30","level":"INFO","msg":"stream: closed","id":"s4ackjzd"}

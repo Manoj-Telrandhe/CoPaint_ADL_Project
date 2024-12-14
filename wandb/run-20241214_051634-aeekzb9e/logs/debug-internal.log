@@ -1,0 +1,11 @@
+{"time":"2024-12-14T05:16:34.356219287+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T05:16:34.356251418+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_051634-aeekzb9e/logs/debug-core.log"}
+{"time":"2024-12-14T05:16:34.470099347+05:30","level":"INFO","msg":"created new stream","id":"aeekzb9e"}
+{"time":"2024-12-14T05:16:34.47018244+05:30","level":"INFO","msg":"stream: started","id":"aeekzb9e"}
+{"time":"2024-12-14T05:16:34.470205504+05:30","level":"INFO","msg":"handler: started","stream_id":"aeekzb9e"}
+{"time":"2024-12-14T05:16:34.470307216+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"aeekzb9e"}
+{"time":"2024-12-14T05:16:34.470309155+05:30","level":"INFO","msg":"sender: started","stream_id":"aeekzb9e"}
+{"time":"2024-12-14T05:16:34.854896695+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T05:19:11.601773938+05:30","level":"INFO","msg":"stream: closing","id":"aeekzb9e"}
+{"time":"2024-12-14T05:19:11.601838061+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T05:19:11.602800954+05:30","level":"INFO","msg":"Stopped system monitor"}

@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:24:37.514448204+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:24:37.514475625+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_062437-4lyope4b/logs/debug-core.log"}
+{"time":"2024-12-14T06:24:37.627184519+05:30","level":"INFO","msg":"created new stream","id":"4lyope4b"}
+{"time":"2024-12-14T06:24:37.627257603+05:30","level":"INFO","msg":"stream: started","id":"4lyope4b"}
+{"time":"2024-12-14T06:24:37.627350969+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:24:37.627408936+05:30","level":"INFO","msg":"sender: started","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:24:37.627498569+05:30","level":"INFO","msg":"handler: started","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:24:38.053081505+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:29:07.882978822+05:30","level":"INFO","msg":"stream: closing","id":"4lyope4b"}
+{"time":"2024-12-14T06:29:07.88303137+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:29:07.883953342+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:29:10.802542777+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:29:11.112988198+05:30","level":"INFO","msg":"handler: closed","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:29:11.113032906+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:29:11.113074113+05:30","level":"INFO","msg":"sender: closed","stream_id":"4lyope4b"}
+{"time":"2024-12-14T06:29:11.113137947+05:30","level":"INFO","msg":"stream: closed","id":"4lyope4b"}

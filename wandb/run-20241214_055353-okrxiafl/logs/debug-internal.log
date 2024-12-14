@@ -1,0 +1,16 @@
+{"time":"2024-12-14T05:53:53.853035938+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T05:53:53.853063312+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_055353-okrxiafl/logs/debug-core.log"}
+{"time":"2024-12-14T05:53:53.964348782+05:30","level":"INFO","msg":"created new stream","id":"okrxiafl"}
+{"time":"2024-12-14T05:53:53.9644157+05:30","level":"INFO","msg":"stream: started","id":"okrxiafl"}
+{"time":"2024-12-14T05:53:53.964458985+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:53:53.964510071+05:30","level":"INFO","msg":"handler: started","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:53:53.964624423+05:30","level":"INFO","msg":"sender: started","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:53:54.395208758+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T05:58:14.813761588+05:30","level":"INFO","msg":"stream: closing","id":"okrxiafl"}
+{"time":"2024-12-14T05:58:14.81382551+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T05:58:14.814655901+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T05:58:17.60269146+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T05:58:17.948810483+05:30","level":"INFO","msg":"handler: closed","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:58:17.948856661+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:58:17.948894033+05:30","level":"INFO","msg":"sender: closed","stream_id":"okrxiafl"}
+{"time":"2024-12-14T05:58:17.948960333+05:30","level":"INFO","msg":"stream: closed","id":"okrxiafl"}

@@ -1,0 +1,16 @@
+{"time":"2024-12-14T04:54:33.207768279+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T04:54:33.20779808+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_045433-rgtccmoq/logs/debug-core.log"}
+{"time":"2024-12-14T04:54:33.320937639+05:30","level":"INFO","msg":"created new stream","id":"rgtccmoq"}
+{"time":"2024-12-14T04:54:33.321004493+05:30","level":"INFO","msg":"stream: started","id":"rgtccmoq"}
+{"time":"2024-12-14T04:54:33.321034464+05:30","level":"INFO","msg":"handler: started","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:54:33.321118586+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:54:33.321113551+05:30","level":"INFO","msg":"sender: started","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:54:33.716076386+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T04:59:28.701711332+05:30","level":"INFO","msg":"stream: closing","id":"rgtccmoq"}
+{"time":"2024-12-14T04:59:28.701773543+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T04:59:28.702795535+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T04:59:31.665902273+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T04:59:32.029555324+05:30","level":"INFO","msg":"handler: closed","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:59:32.029605628+05:30","level":"INFO","msg":"sender: closed","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:59:32.029602705+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rgtccmoq"}
+{"time":"2024-12-14T04:59:32.029737012+05:30","level":"INFO","msg":"stream: closed","id":"rgtccmoq"}

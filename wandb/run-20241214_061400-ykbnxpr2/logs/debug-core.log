@@ -1,0 +1,14 @@
+{"time":"2024-12-14T06:13:58.813757829+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmphc2myam2/port-31236.txt","pid":31236,"debug":false,"disable-analytics":false}
+{"time":"2024-12-14T06:13:58.813792257+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-12-14T06:13:58.814519968+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":31236}
+{"time":"2024-12-14T06:13:58.814510885+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":34675,"Zone":""}}
+{"time":"2024-12-14T06:13:58.99436907+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:00.214426637+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"ykbnxpr2","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:00.325431257+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"ykbnxpr2","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:18.993733485+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:18.993859067+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-12-14T06:14:18.993847563+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:18.993995619+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:21.46785821+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:21.467905228+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:60638"}
+{"time":"2024-12-14T06:14:21.467936216+05:30","level":"INFO","msg":"server is closed"}

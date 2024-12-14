@@ -1,0 +1,32 @@
+2024-12-14-06:14:04-root-INFO: Load 100 samples
+2024-12-14-06:14:04-root-INFO: Prepare model...
+2024-12-14-06:14:08-root-INFO: Loading model from ./checkpoints/256x256_diffusion.pt...
+/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/dist_util.py:25: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return th.load(io.BytesIO(data), **kwargs)
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/lpips/weights/v0.1/alex.pth
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/lpips/lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)
+2024-12-14-06:14:16-root-INFO: Start sampling
+  0%|                                                                                                                                                                                                                 | 0/249 [00:02<?, ?it/s]
+  0%|                                                                                                                                                                                                                 | 0/100 [00:02<?, ?it/s]
+2024-12-14-06:14:18-root-INFO: step: 249 lr_xt 0.00012706
+2024-12-14-06:14:18-root-INFO: grad norm: 12223.657 8651.604 8635.250
+2024-12-14-06:14:18-root-INFO: grad norm: 7709.029 5464.913 5437.266
+Traceback (most recent call last):
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 351, in <module>
+    main()
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 246, in main
+    result = sampler.p_sample_loop(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 736, in p_sample_loop
+    output = self.p_sample(
+             ^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 652, in p_sample
+    wnb.log({"grad_norm": f"{torch.norm(x_grad, p=2).item():.3f}"})
+                                        ^^^^^^
+UnboundLocalError: cannot access local variable 'x_grad' where it is not associated with a value

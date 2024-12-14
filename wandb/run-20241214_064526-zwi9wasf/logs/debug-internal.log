@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:45:26.222881549+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:45:26.222909209+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_064526-zwi9wasf/logs/debug-core.log"}
+{"time":"2024-12-14T06:45:26.334016716+05:30","level":"INFO","msg":"created new stream","id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:26.334089732+05:30","level":"INFO","msg":"stream: started","id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:26.334188663+05:30","level":"INFO","msg":"sender: started","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:26.334183755+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:26.334307023+05:30","level":"INFO","msg":"handler: started","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:26.728188033+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:45:42.767841824+05:30","level":"INFO","msg":"stream: closing","id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:42.767969773+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:45:42.769961868+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:45:44.103626028+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:45:44.466518259+05:30","level":"INFO","msg":"handler: closed","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:44.46656008+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:44.466606059+05:30","level":"INFO","msg":"sender: closed","stream_id":"zwi9wasf"}
+{"time":"2024-12-14T06:45:44.466693082+05:30","level":"INFO","msg":"stream: closed","id":"zwi9wasf"}

@@ -1,0 +1,11 @@
+{"time":"2024-12-14T06:14:28.293323236+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:14:28.29337745+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_061428-od6k4ghy/logs/debug-core.log"}
+{"time":"2024-12-14T06:14:28.404988921+05:30","level":"INFO","msg":"created new stream","id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:28.405049112+05:30","level":"INFO","msg":"stream: started","id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:28.405122092+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:28.405199958+05:30","level":"INFO","msg":"sender: started","stream_id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:28.405272719+05:30","level":"INFO","msg":"handler: started","stream_id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:28.82698545+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:14:33.649014089+05:30","level":"INFO","msg":"stream: closing","id":"od6k4ghy"}
+{"time":"2024-12-14T06:14:33.649072616+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:14:33.650020899+05:30","level":"INFO","msg":"Stopped system monitor"}

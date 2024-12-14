@@ -1,0 +1,11 @@
+{"time":"2024-12-14T06:16:52.260707367+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:16:52.260733467+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_061652-vz71wh9m/logs/debug-core.log"}
+{"time":"2024-12-14T06:16:52.372474656+05:30","level":"INFO","msg":"created new stream","id":"vz71wh9m"}
+{"time":"2024-12-14T06:16:52.372543371+05:30","level":"INFO","msg":"stream: started","id":"vz71wh9m"}
+{"time":"2024-12-14T06:16:52.372634984+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vz71wh9m"}
+{"time":"2024-12-14T06:16:52.372687006+05:30","level":"INFO","msg":"sender: started","stream_id":"vz71wh9m"}
+{"time":"2024-12-14T06:16:52.372778619+05:30","level":"INFO","msg":"handler: started","stream_id":"vz71wh9m"}
+{"time":"2024-12-14T06:16:52.775577078+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:18:27.624111624+05:30","level":"INFO","msg":"stream: closing","id":"vz71wh9m"}
+{"time":"2024-12-14T06:18:27.62415658+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:18:27.625104917+05:30","level":"INFO","msg":"Stopped system monitor"}

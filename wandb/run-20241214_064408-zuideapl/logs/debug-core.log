@@ -1,0 +1,14 @@
+{"time":"2024-12-14T06:44:07.09990816+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmpz_xpnvls/port-33454.txt","pid":33454,"debug":false,"disable-analytics":false}
+{"time":"2024-12-14T06:44:07.099940207+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-12-14T06:44:07.100577405+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":33454}
+{"time":"2024-12-14T06:44:07.100567942+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":33005,"Zone":""}}
+{"time":"2024-12-14T06:44:07.282318323+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:08.507481101+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"zuideapl","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:08.620049303+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"zuideapl","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:25.95638601+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:25.956540465+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-12-14T06:44:25.956536395+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:25.956727415+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:28.541970953+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:28.54200961+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:34878"}
+{"time":"2024-12-14T06:44:28.54202976+05:30","level":"INFO","msg":"server is closed"}

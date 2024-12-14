@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:50:05.342714824+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:50:05.342742441+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_065005-akowrt5y/logs/debug-core.log"}
+{"time":"2024-12-14T06:50:05.454643601+05:30","level":"INFO","msg":"created new stream","id":"akowrt5y"}
+{"time":"2024-12-14T06:50:05.454703185+05:30","level":"INFO","msg":"stream: started","id":"akowrt5y"}
+{"time":"2024-12-14T06:50:05.454823117+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:05.454847742+05:30","level":"INFO","msg":"handler: started","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:05.454863619+05:30","level":"INFO","msg":"sender: started","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:05.845513671+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:50:22.410489822+05:30","level":"INFO","msg":"stream: closing","id":"akowrt5y"}
+{"time":"2024-12-14T06:50:22.410536777+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:50:22.411512185+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:50:24.536465812+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:50:24.875995666+05:30","level":"INFO","msg":"handler: closed","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:24.876038215+05:30","level":"INFO","msg":"sender: closed","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:24.876037602+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"akowrt5y"}
+{"time":"2024-12-14T06:50:24.876206702+05:30","level":"INFO","msg":"stream: closed","id":"akowrt5y"}

@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:46:27.139182081+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:46:27.139210559+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_064627-rlius4fg/logs/debug-core.log"}
+{"time":"2024-12-14T06:46:27.251235023+05:30","level":"INFO","msg":"created new stream","id":"rlius4fg"}
+{"time":"2024-12-14T06:46:27.251322111+05:30","level":"INFO","msg":"stream: started","id":"rlius4fg"}
+{"time":"2024-12-14T06:46:27.251356034+05:30","level":"INFO","msg":"handler: started","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:27.251363179+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:27.251412518+05:30","level":"INFO","msg":"sender: started","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:27.683143695+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:46:29.09785496+05:30","level":"INFO","msg":"stream: closing","id":"rlius4fg"}
+{"time":"2024-12-14T06:46:29.09791068+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:46:29.098694823+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:46:31.232196292+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:46:31.572239135+05:30","level":"INFO","msg":"handler: closed","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:31.57232563+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:31.572366749+05:30","level":"INFO","msg":"sender: closed","stream_id":"rlius4fg"}
+{"time":"2024-12-14T06:46:31.572440768+05:30","level":"INFO","msg":"stream: closed","id":"rlius4fg"}

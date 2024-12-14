@@ -1,0 +1,25 @@
+name: copaint
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - pandas
+  - tqdm
+  - pyYaml
+  - pillow
+  - filelock
+  - joblib
+  - gitpython
+  - gdown
+  - unzip
+  - pip:
+    - lpips
+    - blobfile
+    - lxml
+    - opencv-python

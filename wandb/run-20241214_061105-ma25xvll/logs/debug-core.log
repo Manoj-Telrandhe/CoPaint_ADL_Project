@@ -1,0 +1,14 @@
+{"time":"2024-12-14T06:11:03.914352338+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp3mrp3obb/port-30850.txt","pid":30850,"debug":false,"disable-analytics":false}
+{"time":"2024-12-14T06:11:03.914383797+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-12-14T06:11:03.915056505+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":30850}
+{"time":"2024-12-14T06:11:03.915045673+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":43635,"Zone":""}}
+{"time":"2024-12-14T06:11:04.096885436+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:05.330024151+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"ma25xvll","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:05.442107222+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"ma25xvll","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:07.289631006+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:07.289701154+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:07.289795346+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-12-14T06:11:07.289871461+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:09.728378722+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:09.72843116+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:37238"}
+{"time":"2024-12-14T06:11:09.728464867+05:30","level":"INFO","msg":"server is closed"}

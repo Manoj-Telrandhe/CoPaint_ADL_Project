@@ -1,0 +1,1 @@
+{"_timestamp":1.7341373072033691e+09,"_runtime":94.945646595,"_step":307,"loss":1616.829345703125,"regularization_coeff":0.33180809020996094,"learning_rate":0.050110583344350396,"_wandb":{"runtime":95},"grad_norm":"192.170"}

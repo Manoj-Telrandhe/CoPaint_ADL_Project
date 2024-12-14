@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:11:05.330303932+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:11:05.330332511+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_061105-ma25xvll/logs/debug-core.log"}
+{"time":"2024-12-14T06:11:05.442051665+05:30","level":"INFO","msg":"created new stream","id":"ma25xvll"}
+{"time":"2024-12-14T06:11:05.442098591+05:30","level":"INFO","msg":"stream: started","id":"ma25xvll"}
+{"time":"2024-12-14T06:11:05.442944795+05:30","level":"INFO","msg":"handler: started","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:05.443066386+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:05.443359651+05:30","level":"INFO","msg":"sender: started","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:05.821235006+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:11:07.289704431+05:30","level":"INFO","msg":"stream: closing","id":"ma25xvll"}
+{"time":"2024-12-14T06:11:07.289772537+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:11:07.290719184+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:11:09.402551682+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:11:09.728090388+05:30","level":"INFO","msg":"handler: closed","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:09.728167358+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:09.728187529+05:30","level":"INFO","msg":"sender: closed","stream_id":"ma25xvll"}
+{"time":"2024-12-14T06:11:09.728259192+05:30","level":"INFO","msg":"stream: closed","id":"ma25xvll"}

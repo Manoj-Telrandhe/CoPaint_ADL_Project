@@ -1,0 +1,74 @@
+2024-12-14-06:08:48-root-INFO: Load 100 samples
+2024-12-14-06:08:48-root-INFO: Prepare model...
+2024-12-14-06:08:52-root-INFO: Loading model from ./checkpoints/celeba256_250000.pt...
+/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/dist_util.py:25: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  return th.load(io.BytesIO(data), **kwargs)
+Setting up [LPIPS] perceptual loss: trunk [alex], v[0.1], spatial [off]
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=AlexNet_Weights.IMAGENET1K_V1`. You can also use `weights=AlexNet_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Loading model from: /home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/lpips/weights/v0.1/alex.pth
+/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/lpips/lpips.py:107: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.load_state_dict(torch.load(model_path, map_location='cpu'), strict=False)
+2024-12-14-06:08:59-root-INFO: Start sampling
+  0%|                                                                                                                                                                                                                 | 0/249 [00:02<?, ?it/s]
+  0%|                                                                                                                                                                                                                 | 0/100 [00:02<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 351, in <module>
+    main()
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 246, in main
+    result = sampler.p_sample_loop(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 731, in p_sample_loop
+    output = self.p_sample(
+             ^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 602, in p_sample
+    e_t = get_et(_x=x, _t=t)
+          ^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 478, in get_et
+    res = self._get_et(model_fn, _x, _t, model_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/ddim.py", line 40, in _get_et
+    model_output = model_fn(x, self._scale_timesteps(t), **model_kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/respace.py", line 163, in __call__
+    return self.model(x, new_ts, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 183, in model_fn
+    return unet(x, t, y if config.class_cond else None, gt=gt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 654, in forward
+    h = module(h, emb)
+        ^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 76, in forward
+    x = layer(x, emb)
+        ^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 233, in forward
+    return checkpoint(
+           ^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/nn.py", line 141, in checkpoint
+    return func(*inputs)
+           ^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 252, in _forward
+    h = out_norm(h) * (1 + scale) + shift
+        ~~~~~~~~~~~~^~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 128.00 MiB. GPU 0 has a total capacity of 31.74 GiB of which 51.12 MiB is free. Process 12909 has 21.25 GiB memory in use. Including non-PyTorch memory, this process has 10.44 GiB memory in use. Of the allocated memory 9.20 GiB is allocated by PyTorch, and 53.21 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

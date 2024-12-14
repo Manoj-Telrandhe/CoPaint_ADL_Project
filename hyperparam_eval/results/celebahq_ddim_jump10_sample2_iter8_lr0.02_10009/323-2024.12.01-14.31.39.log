@@ -1,0 +1,18 @@
+2024-12-01-14:31:41-root-INFO: Prepare model...
+2024-12-01-14:31:58-root-INFO: Loading model from ./checkpoints/celeba256_250000.pt...
+2024-12-01-14:32:18-root-INFO: Start sampling
+2024-12-01-14:33:04-root-INFO: It takes 45.546 seconds for image sample0
+2024-12-01-14:33:04-root-INFO: lpips_score_sample0: 0.217
+2024-12-01-14:33:04-root-INFO: psnr_score_sample0: 11.623
+2024-12-01-14:33:04-root-INFO: ssim_score_sample0: 0.645
+2024-12-01-14:33:04-root-INFO: mean_lpips: 0.2172781229019165
+2024-12-01-14:33:04-root-INFO: best_mean_lpips: 0.2172781229019165
+2024-12-01-14:33:04-root-INFO: mean_psnr: 11.623143196105957
+2024-12-01-14:33:04-root-INFO: best_mean_psnr: 11.623143196105957
+2024-12-01-14:33:04-root-INFO: mean_ssim: 0.6454010009765625
+2024-12-01-14:33:04-root-INFO: best_mean_ssim: 0.6454010009765625
+2024-12-01-14:33:04-root-INFO: mean time: 45.54608607292175
+2024-12-01-14:33:04-root-INFO: Your samples are ready and waiting for you here: 
+./hyperparam_eval/results/celebahq_ddim_jump10_sample2_iter8_lr0.02_10009 
+ 
+Enjoy.

@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:33:49.363218323+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:33:49.363246836+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_063349-6736wi54/logs/debug-core.log"}
+{"time":"2024-12-14T06:33:49.474897101+05:30","level":"INFO","msg":"created new stream","id":"6736wi54"}
+{"time":"2024-12-14T06:33:49.474960873+05:30","level":"INFO","msg":"stream: started","id":"6736wi54"}
+{"time":"2024-12-14T06:33:49.475051222+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:33:49.475099059+05:30","level":"INFO","msg":"handler: started","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:33:49.475206346+05:30","level":"INFO","msg":"sender: started","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:33:49.877573528+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:38:09.831101475+05:30","level":"INFO","msg":"stream: closing","id":"6736wi54"}
+{"time":"2024-12-14T06:38:09.831154102+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:38:09.832138005+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:38:11.563696884+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:38:12.005545981+05:30","level":"INFO","msg":"handler: closed","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:38:12.005591172+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:38:12.005613593+05:30","level":"INFO","msg":"sender: closed","stream_id":"6736wi54"}
+{"time":"2024-12-14T06:38:12.005721533+05:30","level":"INFO","msg":"stream: closed","id":"6736wi54"}

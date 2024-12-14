@@ -1,0 +1,56 @@
+{
+  "os":  "Linux-4.15.0-76-generic-x86_64-with-glibc2.27",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2024-12-14T01:20:05.339797Z",
+  "args":  [
+    "--dataset_name",
+    "celebahq",
+    "--n_samples",
+    "2",
+    "--config_file",
+    "configs/celebahq.yaml",
+    "--outdir",
+    "train_results/copaint/celebahq/half/",
+    "--mask_type",
+    "half",
+    "--algorithm",
+    "o_ddim"
+  ],
+  "program":  "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py",
+  "codePath":  "main.py",
+  "git":  {
+    "remote":  "git@github.com:UCSB-NLP-Chang/CoPaint.git",
+    "commit":  "0b728b02c2c09e123ca376cc04cc8e59a15e8e34"
+  },
+  "email":  "shashank23088@iiitd.ac.in",
+  "root":  "/home/shashank23088/Documents/shashank/adl_project/CoPaint",
+  "host":  "MtechDEServer1",
+  "executable":  "/home/shashank23088/anaconda3/envs/copaint/bin/python",
+  "codePathLocal":  "main.py",
+  "cpu_count":  20,
+  "cpu_count_logical":  40,
+  "gpu":  "Tesla V100-PCIE-32GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "11904441843712",
+      "used":  "7473470496768"
+    }
+  },
+  "memory":  {
+    "total":  "134796386304"
+  },
+  "cpu":  {
+    "count":  20,
+    "countLogical":  40
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla V100-PCIE-32GB",
+      "memoryTotal":  "34359738368",
+      "cudaCores":  5120,
+      "architecture":  "Volta"
+    }
+  ],
+  "cudaVersion":  "12.1"
+}

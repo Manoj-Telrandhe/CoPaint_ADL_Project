@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:10:54.66497215+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:10:54.665002004+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_061054-v0tfdefk/logs/debug-core.log"}
+{"time":"2024-12-14T06:10:54.775850727+05:30","level":"INFO","msg":"created new stream","id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:54.775911781+05:30","level":"INFO","msg":"stream: started","id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:54.776000466+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:54.776064145+05:30","level":"INFO","msg":"handler: started","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:54.776152046+05:30","level":"INFO","msg":"sender: started","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:55.206272532+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:10:56.645735364+05:30","level":"INFO","msg":"stream: closing","id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:56.64578166+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:10:56.646687207+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:10:58.784225371+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:10:59.109601327+05:30","level":"INFO","msg":"handler: closed","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:59.10964816+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:59.109679484+05:30","level":"INFO","msg":"sender: closed","stream_id":"v0tfdefk"}
+{"time":"2024-12-14T06:10:59.109751417+05:30","level":"INFO","msg":"stream: closed","id":"v0tfdefk"}

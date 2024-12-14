@@ -1,0 +1,16 @@
+{"time":"2024-12-14T06:44:08.50773621+05:30","level":"INFO","msg":"using version","core version":"0.19.1"}
+{"time":"2024-12-14T06:44:08.507763243+05:30","level":"INFO","msg":"created symlink","path":"/home/shashank23088/Documents/shashank/adl_project/CoPaint/wandb/run-20241214_064408-zuideapl/logs/debug-core.log"}
+{"time":"2024-12-14T06:44:08.619966559+05:30","level":"INFO","msg":"created new stream","id":"zuideapl"}
+{"time":"2024-12-14T06:44:08.620036023+05:30","level":"INFO","msg":"stream: started","id":"zuideapl"}
+{"time":"2024-12-14T06:44:08.620128251+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:08.620179794+05:30","level":"INFO","msg":"sender: started","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:08.620226394+05:30","level":"INFO","msg":"handler: started","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:09.016055621+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-14T06:44:25.956492633+05:30","level":"INFO","msg":"stream: closing","id":"zuideapl"}
+{"time":"2024-12-14T06:44:25.956552078+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-14T06:44:25.957611084+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-14T06:44:28.204888046+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-14T06:44:28.541710182+05:30","level":"INFO","msg":"handler: closed","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:28.541760732+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:28.541783693+05:30","level":"INFO","msg":"sender: closed","stream_id":"zuideapl"}
+{"time":"2024-12-14T06:44:28.541878865+05:30","level":"INFO","msg":"stream: closed","id":"zuideapl"}

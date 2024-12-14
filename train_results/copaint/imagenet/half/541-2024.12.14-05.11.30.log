@@ -1,0 +1,1754 @@
+2024-12-14-05:11:34-root-INFO: Load 100 samples
+2024-12-14-05:11:34-root-INFO: Prepare model...
+2024-12-14-05:11:38-root-INFO: Loading model from ./checkpoints/256x256_diffusion.pt...
+2024-12-14-05:11:46-root-INFO: Start sampling
+2024-12-14-05:11:48-root-INFO: step: 249 lr_xt 0.00012706
+2024-12-14-05:11:48-root-INFO: grad norm: 14115.905 10978.781 8872.718
+2024-12-14-05:11:49-root-INFO: grad norm: 7998.707 6385.668 4816.903
+2024-12-14-05:11:49-root-INFO: Loss Change: 76954.578 -> 50967.086
+2024-12-14-05:11:49-root-INFO: Regularization Change: 0.000 -> 7.406
+2024-12-14-05:11:49-root-INFO: Learning rate of xt decay: 0.02000 -> 0.02024.
+2024-12-14-05:11:49-root-INFO: step: 248 lr_xt 0.00013388
+2024-12-14-05:11:49-root-INFO: grad norm: 7267.302 5784.022 4399.860
+2024-12-14-05:11:50-root-INFO: grad norm: 7188.774 5695.016 4386.942
+2024-12-14-05:11:50-root-INFO: Loss Change: 52040.609 -> 38237.562
+2024-12-14-05:11:50-root-INFO: Regularization Change: 0.000 -> 3.705
+2024-12-14-05:11:50-root-INFO: Learning rate of xt decay: 0.02024 -> 0.02048.
+2024-12-14-05:11:50-root-INFO: step: 247 lr_xt 0.00014104
+2024-12-14-05:11:50-root-INFO: grad norm: 7210.951 5679.599 4442.968
+2024-12-14-05:11:51-root-INFO: grad norm: 6458.327 5045.915 4030.972
+2024-12-14-05:11:51-root-INFO: Loss Change: 37583.250 -> 25212.559
+2024-12-14-05:11:51-root-INFO: Regularization Change: 0.000 -> 3.702
+2024-12-14-05:11:51-root-INFO: Learning rate of xt decay: 0.02048 -> 0.02073.
+2024-12-14-05:11:51-root-INFO: step: 246 lr_xt 0.00014856
+2024-12-14-05:11:51-root-INFO: grad norm: 5028.770 3904.684 3168.906
+2024-12-14-05:11:52-root-INFO: grad norm: 3601.390 2784.292 2284.235
+2024-12-14-05:11:52-root-INFO: Loss Change: 24093.109 -> 19229.445
+2024-12-14-05:11:52-root-INFO: Regularization Change: 0.000 -> 1.635
+2024-12-14-05:11:52-root-INFO: Learning rate of xt decay: 0.02073 -> 0.02098.
+2024-12-14-05:11:52-root-INFO: step: 245 lr_xt 0.00015646
+2024-12-14-05:11:52-root-INFO: grad norm: 2458.851 1915.344 1541.884
+2024-12-14-05:11:53-root-INFO: grad norm: 1876.972 1490.309 1141.053
+2024-12-14-05:11:53-root-INFO: Loss Change: 18968.828 -> 17636.393
+2024-12-14-05:11:53-root-INFO: Regularization Change: 0.000 -> 0.455
+2024-12-14-05:11:53-root-INFO: Learning rate of xt decay: 0.02098 -> 0.02123.
+2024-12-14-05:11:53-root-INFO: step: 244 lr_xt 0.00016475
+2024-12-14-05:11:53-root-INFO: grad norm: 1467.921 1202.843 841.404
+2024-12-14-05:11:54-root-INFO: grad norm: 1327.179 1102.926 738.213
+2024-12-14-05:11:54-root-INFO: Loss Change: 17518.365 -> 16929.176
+2024-12-14-05:11:54-root-INFO: Regularization Change: 0.000 -> 0.211
+2024-12-14-05:11:54-root-INFO: Learning rate of xt decay: 0.02123 -> 0.02148.
+2024-12-14-05:11:54-root-INFO: step: 243 lr_xt 0.00017345
+2024-12-14-05:11:54-root-INFO: grad norm: 1215.510 1027.575 649.273
+2024-12-14-05:11:55-root-INFO: grad norm: 1163.687 988.415 614.168
+2024-12-14-05:11:55-root-INFO: Loss Change: 16700.348 -> 16217.833
+2024-12-14-05:11:55-root-INFO: Regularization Change: 0.000 -> 0.170
+2024-12-14-05:11:55-root-INFO: Learning rate of xt decay: 0.02148 -> 0.02174.
+2024-12-14-05:11:55-root-INFO: step: 242 lr_xt 0.00018258
+2024-12-14-05:11:55-root-INFO: grad norm: 1194.172 1005.085 644.866
+2024-12-14-05:11:56-root-INFO: grad norm: 1117.077 950.498 586.870
+2024-12-14-05:11:56-root-INFO: Loss Change: 16027.180 -> 15572.783
+2024-12-14-05:11:56-root-INFO: Regularization Change: 0.000 -> 0.177
+2024-12-14-05:11:56-root-INFO: Learning rate of xt decay: 0.02174 -> 0.02200.
+2024-12-14-05:11:56-root-INFO: step: 241 lr_xt 0.00019216
+2024-12-14-05:11:56-root-INFO: grad norm: 1157.800 976.532 622.001
+2024-12-14-05:11:57-root-INFO: grad norm: 1075.134 917.843 559.890
+2024-12-14-05:11:57-root-INFO: Loss Change: 15470.157 -> 15021.449
+2024-12-14-05:11:57-root-INFO: Regularization Change: 0.000 -> 0.182
+2024-12-14-05:11:57-root-INFO: Learning rate of xt decay: 0.02200 -> 0.02227.
+2024-12-14-05:11:57-root-INFO: step: 240 lr_xt 0.00020221
+2024-12-14-05:11:57-root-INFO: grad norm: 1118.469 944.935 598.391
+2024-12-14-05:11:58-root-INFO: grad norm: 1042.542 892.458 538.899
+2024-12-14-05:11:58-root-INFO: Loss Change: 14885.659 -> 14434.747
+2024-12-14-05:11:58-root-INFO: Regularization Change: 0.000 -> 0.189
+2024-12-14-05:11:58-root-INFO: Learning rate of xt decay: 0.02227 -> 0.02253.
+2024-12-14-05:11:58-root-INFO: step: 239 lr_xt 0.00021275
+2024-12-14-05:11:58-root-INFO: grad norm: 1183.265 987.770 651.480
+2024-12-14-05:11:59-root-INFO: grad norm: 1038.110 884.376 543.646
+2024-12-14-05:11:59-root-INFO: Loss Change: 14474.761 -> 13966.519
+2024-12-14-05:11:59-root-INFO: Regularization Change: 0.000 -> 0.217
+2024-12-14-05:11:59-root-INFO: Learning rate of xt decay: 0.02253 -> 0.02280.
+2024-12-14-05:11:59-root-INFO: step: 238 lr_xt 0.00022380
+2024-12-14-05:11:59-root-INFO: grad norm: 1031.705 880.685 537.409
+2024-12-14-05:12:00-root-INFO: grad norm: 995.676 854.751 510.659
+2024-12-14-05:12:00-root-INFO: Loss Change: 13863.377 -> 13411.490
+2024-12-14-05:12:00-root-INFO: Regularization Change: 0.000 -> 0.205
+2024-12-14-05:12:00-root-INFO: Learning rate of xt decay: 0.02280 -> 0.02308.
+2024-12-14-05:12:00-root-INFO: step: 237 lr_xt 0.00023539
+2024-12-14-05:12:00-root-INFO: grad norm: 1226.953 1015.121 689.161
+2024-12-14-05:12:00-root-INFO: grad norm: 1005.582 851.895 534.294
+2024-12-14-05:12:01-root-INFO: Loss Change: 13369.873 -> 12835.303
+2024-12-14-05:12:01-root-INFO: Regularization Change: 0.000 -> 0.260
+2024-12-14-05:12:01-root-INFO: Learning rate of xt decay: 0.02308 -> 0.02335.
+2024-12-14-05:12:01-root-INFO: step: 236 lr_xt 0.00024753
+2024-12-14-05:12:01-root-INFO: grad norm: 994.341 839.726 532.516
+2024-12-14-05:12:01-root-INFO: grad norm: 959.151 812.711 509.384
+2024-12-14-05:12:02-root-INFO: Loss Change: 12709.762 -> 12228.374
+2024-12-14-05:12:02-root-INFO: Regularization Change: 0.000 -> 0.232
+2024-12-14-05:12:02-root-INFO: Learning rate of xt decay: 0.02335 -> 0.02364.
+2024-12-14-05:12:02-root-INFO: step: 235 lr_xt 0.00026027
+2024-12-14-05:12:02-root-INFO: grad norm: 1059.318 877.013 594.141
+2024-12-14-05:12:02-root-INFO: grad norm: 972.965 811.504 536.770
+2024-12-14-05:12:03-root-INFO: Loss Change: 12208.146 -> 11687.402
+2024-12-14-05:12:03-root-INFO: Regularization Change: 0.000 -> 0.273
+2024-12-14-05:12:03-root-INFO: Learning rate of xt decay: 0.02364 -> 0.02392.
+2024-12-14-05:12:03-root-INFO: step: 234 lr_xt 0.00027361
+2024-12-14-05:12:03-root-INFO: grad norm: 1010.079 847.969 548.825
+2024-12-14-05:12:03-root-INFO: grad norm: 913.223 768.071 494.008
+2024-12-14-05:12:04-root-INFO: Loss Change: 11575.064 -> 11095.197
+2024-12-14-05:12:04-root-INFO: Regularization Change: 0.000 -> 0.266
+2024-12-14-05:12:04-root-INFO: Learning rate of xt decay: 0.02392 -> 0.02421.
+2024-12-14-05:12:04-root-INFO: step: 233 lr_xt 0.00028759
+2024-12-14-05:12:04-root-INFO: grad norm: 984.986 816.243 551.313
+2024-12-14-05:12:04-root-INFO: grad norm: 877.010 727.477 489.820
+2024-12-14-05:12:05-root-INFO: Loss Change: 10978.771 -> 10510.490
+2024-12-14-05:12:05-root-INFO: Regularization Change: 0.000 -> 0.272
+2024-12-14-05:12:05-root-INFO: Learning rate of xt decay: 0.02421 -> 0.02450.
+2024-12-14-05:12:05-root-INFO: step: 232 lr_xt 0.00030224
+2024-12-14-05:12:05-root-INFO: grad norm: 944.516 786.749 522.624
+2024-12-14-05:12:05-root-INFO: grad norm: 809.666 669.484 455.357
+2024-12-14-05:12:06-root-INFO: Loss Change: 10433.789 -> 10015.669
+2024-12-14-05:12:06-root-INFO: Regularization Change: 0.000 -> 0.256
+2024-12-14-05:12:06-root-INFO: Learning rate of xt decay: 0.02450 -> 0.02479.
+2024-12-14-05:12:06-root-INFO: step: 231 lr_xt 0.00031758
+2024-12-14-05:12:06-root-INFO: grad norm: 797.836 663.762 442.678
+2024-12-14-05:12:06-root-INFO: grad norm: 738.439 609.540 416.836
+2024-12-14-05:12:07-root-INFO: Loss Change: 9879.325 -> 9524.594
+2024-12-14-05:12:07-root-INFO: Regularization Change: 0.000 -> 0.230
+2024-12-14-05:12:07-root-INFO: Learning rate of xt decay: 0.02479 -> 0.02509.
+2024-12-14-05:12:07-root-INFO: step: 230 lr_xt 0.00033364
+2024-12-14-05:12:07-root-INFO: grad norm: 919.172 760.332 516.499
+2024-12-14-05:12:07-root-INFO: grad norm: 716.846 582.171 418.264
+2024-12-14-05:12:08-root-INFO: Loss Change: 9510.829 -> 9149.745
+2024-12-14-05:12:08-root-INFO: Regularization Change: 0.000 -> 0.236
+2024-12-14-05:12:08-root-INFO: Learning rate of xt decay: 0.02509 -> 0.02539.
+2024-12-14-05:12:08-root-INFO: step: 229 lr_xt 0.00035047
+2024-12-14-05:12:08-root-INFO: grad norm: 745.120 626.974 402.625
+2024-12-14-05:12:08-root-INFO: grad norm: 627.505 516.551 356.283
+2024-12-14-05:12:09-root-INFO: Loss Change: 9093.852 -> 8808.224
+2024-12-14-05:12:09-root-INFO: Regularization Change: 0.000 -> 0.197
+2024-12-14-05:12:09-root-INFO: Learning rate of xt decay: 0.02539 -> 0.02569.
+2024-12-14-05:12:09-root-INFO: step: 228 lr_xt 0.00036807
+2024-12-14-05:12:09-root-INFO: grad norm: 704.773 598.548 372.083
+2024-12-14-05:12:09-root-INFO: grad norm: 585.853 485.019 328.604
+2024-12-14-05:12:10-root-INFO: Loss Change: 8767.277 -> 8508.671
+2024-12-14-05:12:10-root-INFO: Regularization Change: 0.000 -> 0.185
+2024-12-14-05:12:10-root-INFO: Learning rate of xt decay: 0.02569 -> 0.02600.
+2024-12-14-05:12:10-root-INFO: step: 227 lr_xt 0.00038651
+2024-12-14-05:12:10-root-INFO: grad norm: 581.830 497.524 301.656
+2024-12-14-05:12:10-root-INFO: grad norm: 521.984 437.477 284.747
+2024-12-14-05:12:11-root-INFO: Loss Change: 8447.908 -> 8234.009
+2024-12-14-05:12:11-root-INFO: Regularization Change: 0.000 -> 0.163
+2024-12-14-05:12:11-root-INFO: Learning rate of xt decay: 0.02600 -> 0.02631.
+2024-12-14-05:12:11-root-INFO: step: 226 lr_xt 0.00040579
+2024-12-14-05:12:11-root-INFO: grad norm: 826.652 705.692 430.526
+2024-12-14-05:12:11-root-INFO: grad norm: 594.811 494.510 330.545
+2024-12-14-05:12:11-root-INFO: Loss Change: 8231.424 -> 7977.723
+2024-12-14-05:12:11-root-INFO: Regularization Change: 0.000 -> 0.186
+2024-12-14-05:12:11-root-INFO: Learning rate of xt decay: 0.02631 -> 0.02663.
+2024-12-14-05:12:12-root-INFO: step: 225 lr_xt 0.00042598
+2024-12-14-05:12:12-root-INFO: grad norm: 660.293 567.321 337.836
+2024-12-14-05:12:12-root-INFO: grad norm: 519.767 436.829 281.671
+2024-12-14-05:12:12-root-INFO: Loss Change: 7945.548 -> 7753.612
+2024-12-14-05:12:12-root-INFO: Regularization Change: 0.000 -> 0.162
+2024-12-14-05:12:12-root-INFO: Learning rate of xt decay: 0.02663 -> 0.02695.
+2024-12-14-05:12:13-root-INFO: step: 224 lr_xt 0.00044709
+2024-12-14-05:12:13-root-INFO: grad norm: 635.939 547.588 323.366
+2024-12-14-05:12:13-root-INFO: grad norm: 511.815 431.618 275.064
+2024-12-14-05:12:13-root-INFO: Loss Change: 7742.201 -> 7564.360
+2024-12-14-05:12:13-root-INFO: Regularization Change: 0.000 -> 0.152
+2024-12-14-05:12:13-root-INFO: Learning rate of xt decay: 0.02695 -> 0.02727.
+2024-12-14-05:12:14-root-INFO: step: 223 lr_xt 0.00046917
+2024-12-14-05:12:14-root-INFO: grad norm: 803.580 678.465 430.610
+2024-12-14-05:12:14-root-INFO: grad norm: 611.476 511.257 335.437
+2024-12-14-05:12:14-root-INFO: Loss Change: 7601.303 -> 7392.056
+2024-12-14-05:12:14-root-INFO: Regularization Change: 0.000 -> 0.177
+2024-12-14-05:12:14-root-INFO: Learning rate of xt decay: 0.02727 -> 0.02760.
+2024-12-14-05:12:15-root-INFO: step: 222 lr_xt 0.00049227
+2024-12-14-05:12:15-root-INFO: grad norm: 741.482 624.555 399.659
+2024-12-14-05:12:15-root-INFO: grad norm: 623.695 520.877 343.049
+2024-12-14-05:12:15-root-INFO: Loss Change: 7400.102 -> 7219.742
+2024-12-14-05:12:15-root-INFO: Regularization Change: 0.000 -> 0.160
+2024-12-14-05:12:15-root-INFO: Learning rate of xt decay: 0.02760 -> 0.02793.
+2024-12-14-05:12:16-root-INFO: step: 221 lr_xt 0.00051641
+2024-12-14-05:12:16-root-INFO: grad norm: 914.736 760.791 507.877
+2024-12-14-05:12:16-root-INFO: grad norm: 808.653 668.520 454.973
+2024-12-14-05:12:16-root-INFO: Loss Change: 7257.324 -> 7074.233
+2024-12-14-05:12:16-root-INFO: Regularization Change: 0.000 -> 0.166
+2024-12-14-05:12:16-root-INFO: Learning rate of xt decay: 0.02793 -> 0.02827.
+2024-12-14-05:12:16-root-INFO: step: 220 lr_xt 0.00054166
+2024-12-14-05:12:17-root-INFO: grad norm: 1024.283 846.024 577.406
+2024-12-14-05:12:17-root-INFO: grad norm: 927.932 766.065 523.644
+2024-12-14-05:12:17-root-INFO: Loss Change: 7132.366 -> 6928.618
+2024-12-14-05:12:17-root-INFO: Regularization Change: 0.000 -> 0.178
+2024-12-14-05:12:17-root-INFO: Learning rate of xt decay: 0.02827 -> 0.02861.
+2024-12-14-05:12:17-root-INFO: step: 219 lr_xt 0.00056804
+2024-12-14-05:12:18-root-INFO: grad norm: 1100.712 904.432 627.350
+2024-12-14-05:12:18-root-INFO: grad norm: 1055.825 871.149 596.544
+2024-12-14-05:12:18-root-INFO: Loss Change: 6978.287 -> 6792.393
+2024-12-14-05:12:18-root-INFO: Regularization Change: 0.000 -> 0.196
+2024-12-14-05:12:18-root-INFO: Learning rate of xt decay: 0.02861 -> 0.02895.
+2024-12-14-05:12:18-root-INFO: step: 218 lr_xt 0.00059561
+2024-12-14-05:12:19-root-INFO: grad norm: 1257.738 1035.247 714.261
+2024-12-14-05:12:19-root-INFO: grad norm: 1242.290 1024.264 702.970
+2024-12-14-05:12:19-root-INFO: Loss Change: 6834.855 -> 6646.378
+2024-12-14-05:12:19-root-INFO: Regularization Change: 0.000 -> 0.218
+2024-12-14-05:12:19-root-INFO: Learning rate of xt decay: 0.02895 -> 0.02930.
+2024-12-14-05:12:19-root-INFO: step: 217 lr_xt 0.00062443
+2024-12-14-05:12:20-root-INFO: grad norm: 1327.221 1096.042 748.471
+2024-12-14-05:12:20-root-INFO: grad norm: 1267.673 1053.895 704.485
+2024-12-14-05:12:20-root-INFO: Loss Change: 6696.835 -> 6427.103
+2024-12-14-05:12:20-root-INFO: Regularization Change: 0.000 -> 0.282
+2024-12-14-05:12:20-root-INFO: Learning rate of xt decay: 0.02930 -> 0.02965.
+2024-12-14-05:12:20-root-INFO: step: 216 lr_xt 0.00065452
+2024-12-14-05:12:21-root-INFO: grad norm: 1355.439 1129.942 748.630
+2024-12-14-05:12:21-root-INFO: grad norm: 1102.633 928.244 595.115
+2024-12-14-05:12:21-root-INFO: Loss Change: 6482.487 -> 5987.147
+2024-12-14-05:12:21-root-INFO: Regularization Change: 0.000 -> 0.433
+2024-12-14-05:12:21-root-INFO: Learning rate of xt decay: 0.02965 -> 0.03000.
+2024-12-14-05:12:21-root-INFO: step: 215 lr_xt 0.00068596
+2024-12-14-05:12:21-root-INFO: grad norm: 1071.520 899.203 582.742
+2024-12-14-05:12:22-root-INFO: grad norm: 828.238 703.020 437.882
+2024-12-14-05:12:22-root-INFO: Loss Change: 6019.040 -> 5525.234
+2024-12-14-05:12:22-root-INFO: Regularization Change: 0.000 -> 0.537
+2024-12-14-05:12:22-root-INFO: Learning rate of xt decay: 0.03000 -> 0.03036.
+2024-12-14-05:12:22-root-INFO: step: 214 lr_xt 0.00071879
+2024-12-14-05:12:22-root-INFO: grad norm: 784.081 656.906 428.086
+2024-12-14-05:12:23-root-INFO: grad norm: 626.987 528.922 336.681
+2024-12-14-05:12:23-root-INFO: Loss Change: 5518.295 -> 5101.192
+2024-12-14-05:12:23-root-INFO: Regularization Change: 0.000 -> 0.541
+2024-12-14-05:12:23-root-INFO: Learning rate of xt decay: 0.03036 -> 0.03073.
+2024-12-14-05:12:23-root-INFO: step: 213 lr_xt 0.00075308
+2024-12-14-05:12:23-root-INFO: grad norm: 621.624 521.114 338.905
+2024-12-14-05:12:24-root-INFO: grad norm: 552.303 461.722 303.070
+2024-12-14-05:12:24-root-INFO: Loss Change: 5090.377 -> 4693.814
+2024-12-14-05:12:24-root-INFO: Regularization Change: 0.000 -> 0.553
+2024-12-14-05:12:24-root-INFO: Learning rate of xt decay: 0.03073 -> 0.03110.
+2024-12-14-05:12:24-root-INFO: step: 212 lr_xt 0.00078886
+2024-12-14-05:12:24-root-INFO: grad norm: 591.616 498.957 317.885
+2024-12-14-05:12:25-root-INFO: grad norm: 617.292 504.132 356.230
+2024-12-14-05:12:25-root-INFO: Loss Change: 4680.699 -> 4169.886
+2024-12-14-05:12:25-root-INFO: Regularization Change: 0.000 -> 0.780
+2024-12-14-05:12:25-root-INFO: Learning rate of xt decay: 0.03110 -> 0.03147.
+2024-12-14-05:12:25-root-INFO: step: 211 lr_xt 0.00082622
+2024-12-14-05:12:25-root-INFO: grad norm: 594.739 492.240 333.787
+2024-12-14-05:12:26-root-INFO: grad norm: 455.335 370.467 264.735
+2024-12-14-05:12:26-root-INFO: Loss Change: 4172.723 -> 3834.317
+2024-12-14-05:12:26-root-INFO: Regularization Change: 0.000 -> 0.561
+2024-12-14-05:12:26-root-INFO: Learning rate of xt decay: 0.03147 -> 0.03185.
+2024-12-14-05:12:26-root-INFO: step: 210 lr_xt 0.00086520
+2024-12-14-05:12:26-root-INFO: grad norm: 524.932 442.542 282.331
+2024-12-14-05:12:27-root-INFO: grad norm: 469.852 384.777 269.643
+2024-12-14-05:12:27-root-INFO: Loss Change: 3838.439 -> 3652.898
+2024-12-14-05:12:27-root-INFO: Regularization Change: 0.000 -> 0.342
+2024-12-14-05:12:27-root-INFO: Learning rate of xt decay: 0.03185 -> 0.03223.
+2024-12-14-05:12:27-root-INFO: step: 209 lr_xt 0.00090588
+2024-12-14-05:12:27-root-INFO: grad norm: 594.577 500.080 321.624
+2024-12-14-05:12:28-root-INFO: grad norm: 758.689 621.301 435.424
+2024-12-14-05:12:28-root-INFO: Loss too large (3626.681->3669.705)! Learning rate decreased to 0.00072.
+2024-12-14-05:12:28-root-INFO: Loss Change: 3660.920 -> 3574.707
+2024-12-14-05:12:28-root-INFO: Regularization Change: 0.000 -> 0.224
+2024-12-14-05:12:28-root-INFO: Learning rate of xt decay: 0.03223 -> 0.03262.
+2024-12-14-05:12:28-root-INFO: step: 208 lr_xt 0.00094831
+2024-12-14-05:12:28-root-INFO: grad norm: 859.430 714.346 477.838
+2024-12-14-05:12:29-root-INFO: Loss too large (3608.182->3658.770)! Learning rate decreased to 0.00076.
+2024-12-14-05:12:29-root-INFO: grad norm: 811.876 665.605 464.878
+2024-12-14-05:12:29-root-INFO: Loss Change: 3608.182 -> 3482.431
+2024-12-14-05:12:29-root-INFO: Regularization Change: 0.000 -> 0.174
+2024-12-14-05:12:29-root-INFO: Learning rate of xt decay: 0.03262 -> 0.03301.
+2024-12-14-05:12:29-root-INFO: step: 207 lr_xt 0.00100094
+2024-12-14-05:12:30-root-INFO: grad norm: 884.040 735.426 490.587
+2024-12-14-05:12:30-root-INFO: Loss too large (3515.071->3576.015)! Learning rate decreased to 0.00080.
+2024-12-14-05:12:30-root-INFO: grad norm: 818.519 669.610 470.740
+2024-12-14-05:12:30-root-INFO: Loss Change: 3515.071 -> 3385.787
+2024-12-14-05:12:30-root-INFO: Regularization Change: 0.000 -> 0.167
+2024-12-14-05:12:30-root-INFO: Learning rate of xt decay: 0.03301 -> 0.03340.
+2024-12-14-05:12:31-root-INFO: step: 206 lr_xt 0.00104745
+2024-12-14-05:12:31-root-INFO: grad norm: 874.717 725.292 488.959
+2024-12-14-05:12:31-root-INFO: Loss too large (3425.378->3473.561)! Learning rate decreased to 0.00084.
+2024-12-14-05:12:31-root-INFO: grad norm: 771.354 631.218 443.341
+2024-12-14-05:12:31-root-INFO: Loss Change: 3425.378 -> 3276.754
+2024-12-14-05:12:31-root-INFO: Regularization Change: 0.000 -> 0.170
+2024-12-14-05:12:31-root-INFO: Learning rate of xt decay: 0.03340 -> 0.03380.
+2024-12-14-05:12:32-root-INFO: step: 205 lr_xt 0.00109594
+2024-12-14-05:12:32-root-INFO: grad norm: 770.019 638.767 430.008
+2024-12-14-05:12:32-root-INFO: Loss too large (3302.710->3328.540)! Learning rate decreased to 0.00088.
+2024-12-14-05:12:32-root-INFO: grad norm: 670.656 548.569 385.812
+2024-12-14-05:12:33-root-INFO: Loss Change: 3302.710 -> 3168.860
+2024-12-14-05:12:33-root-INFO: Regularization Change: 0.000 -> 0.159
+2024-12-14-05:12:33-root-INFO: Learning rate of xt decay: 0.03380 -> 0.03421.
+2024-12-14-05:12:33-root-INFO: step: 204 lr_xt 0.00114648
+2024-12-14-05:12:33-root-INFO: grad norm: 663.325 550.548 369.996
+2024-12-14-05:12:33-root-INFO: Loss too large (3186.935->3205.515)! Learning rate decreased to 0.00092.
+2024-12-14-05:12:33-root-INFO: grad norm: 575.752 470.198 332.271
+2024-12-14-05:12:34-root-INFO: Loss Change: 3186.935 -> 3075.471
+2024-12-14-05:12:34-root-INFO: Regularization Change: 0.000 -> 0.139
+2024-12-14-05:12:34-root-INFO: Learning rate of xt decay: 0.03421 -> 0.03462.
+2024-12-14-05:12:34-root-INFO: step: 203 lr_xt 0.00119917
+2024-12-14-05:12:34-root-INFO: grad norm: 544.631 450.547 305.991
+2024-12-14-05:12:34-root-INFO: grad norm: 657.923 537.264 379.751
+2024-12-14-05:12:35-root-INFO: Loss too large (3066.250->3098.940)! Learning rate decreased to 0.00096.
+2024-12-14-05:12:35-root-INFO: Loss Change: 3079.468 -> 3009.142
+2024-12-14-05:12:35-root-INFO: Regularization Change: 0.000 -> 0.157
+2024-12-14-05:12:35-root-INFO: Learning rate of xt decay: 0.03462 -> 0.03504.
+2024-12-14-05:12:35-root-INFO: step: 202 lr_xt 0.00125407
+2024-12-14-05:12:35-root-INFO: grad norm: 580.108 478.932 327.336
+2024-12-14-05:12:36-root-INFO: grad norm: 670.848 549.357 385.025
+2024-12-14-05:12:36-root-INFO: Loss too large (3008.088->3031.604)! Learning rate decreased to 0.00100.
+2024-12-14-05:12:36-root-INFO: Loss Change: 3021.977 -> 2939.489
+2024-12-14-05:12:36-root-INFO: Regularization Change: 0.000 -> 0.152
+2024-12-14-05:12:36-root-INFO: Learning rate of xt decay: 0.03504 -> 0.03546.
+2024-12-14-05:12:36-root-INFO: step: 201 lr_xt 0.00131127
+2024-12-14-05:12:36-root-INFO: grad norm: 537.287 445.988 299.620
+2024-12-14-05:12:37-root-INFO: grad norm: 551.731 453.575 314.128
+2024-12-14-05:12:37-root-INFO: Loss Change: 2947.896 -> 2900.445
+2024-12-14-05:12:37-root-INFO: Regularization Change: 0.000 -> 0.172
+2024-12-14-05:12:37-root-INFO: Learning rate of xt decay: 0.03546 -> 0.03588.
+2024-12-14-05:12:37-root-INFO: step: 200 lr_xt 0.00137086
+2024-12-14-05:12:37-root-INFO: grad norm: 586.150 487.888 324.865
+2024-12-14-05:12:38-root-INFO: grad norm: 602.701 495.217 343.523
+2024-12-14-05:12:38-root-INFO: Loss Change: 2908.953 -> 2868.501
+2024-12-14-05:12:38-root-INFO: Regularization Change: 0.000 -> 0.161
+2024-12-14-05:12:38-root-INFO: Learning rate of xt decay: 0.03588 -> 0.03631.
+2024-12-14-05:12:38-root-INFO: step: 199 lr_xt 0.00143293
+2024-12-14-05:12:38-root-INFO: grad norm: 626.635 521.305 347.726
+2024-12-14-05:12:39-root-INFO: grad norm: 553.197 458.870 308.974
+2024-12-14-05:12:39-root-INFO: Loss Change: 2879.632 -> 2767.434
+2024-12-14-05:12:39-root-INFO: Regularization Change: 0.000 -> 0.189
+2024-12-14-05:12:39-root-INFO: Learning rate of xt decay: 0.03631 -> 0.03675.
+2024-12-14-05:12:39-root-INFO: step: 198 lr_xt 0.00149757
+2024-12-14-05:12:39-root-INFO: grad norm: 481.089 407.334 255.979
+2024-12-14-05:12:40-root-INFO: grad norm: 403.494 336.512 222.636
+2024-12-14-05:12:40-root-INFO: Loss Change: 2765.915 -> 2670.324
+2024-12-14-05:12:40-root-INFO: Regularization Change: 0.000 -> 0.165
+2024-12-14-05:12:40-root-INFO: Learning rate of xt decay: 0.03675 -> 0.03719.
+2024-12-14-05:12:40-root-INFO: step: 197 lr_xt 0.00156486
+2024-12-14-05:12:40-root-INFO: grad norm: 372.787 314.323 200.426
+2024-12-14-05:12:41-root-INFO: grad norm: 312.752 266.216 164.143
+2024-12-14-05:12:41-root-INFO: Loss Change: 2671.917 -> 2593.979
+2024-12-14-05:12:41-root-INFO: Regularization Change: 0.000 -> 0.168
+2024-12-14-05:12:41-root-INFO: Learning rate of xt decay: 0.03719 -> 0.03764.
+2024-12-14-05:12:41-root-INFO: step: 196 lr_xt 0.00163492
+2024-12-14-05:12:41-root-INFO: grad norm: 311.953 265.189 164.284
+2024-12-14-05:12:42-root-INFO: grad norm: 256.746 223.740 125.932
+2024-12-14-05:12:42-root-INFO: Loss Change: 2595.001 -> 2525.515
+2024-12-14-05:12:42-root-INFO: Regularization Change: 0.000 -> 0.174
+2024-12-14-05:12:42-root-INFO: Learning rate of xt decay: 0.03764 -> 0.03809.
+2024-12-14-05:12:42-root-INFO: step: 195 lr_xt 0.00170783
+2024-12-14-05:12:42-root-INFO: grad norm: 241.521 208.699 121.561
+2024-12-14-05:12:42-root-INFO: grad norm: 200.526 178.272 91.813
+2024-12-14-05:12:43-root-INFO: Loss Change: 2525.435 -> 2466.112
+2024-12-14-05:12:43-root-INFO: Regularization Change: 0.000 -> 0.168
+2024-12-14-05:12:43-root-INFO: Learning rate of xt decay: 0.03809 -> 0.03854.
+2024-12-14-05:12:43-root-INFO: step: 194 lr_xt 0.00178371
+2024-12-14-05:12:43-root-INFO: grad norm: 200.267 175.225 96.970
+2024-12-14-05:12:43-root-INFO: grad norm: 166.614 150.048 72.426
+2024-12-14-05:12:44-root-INFO: Loss Change: 2464.764 -> 2410.481
+2024-12-14-05:12:44-root-INFO: Regularization Change: 0.000 -> 0.169
+2024-12-14-05:12:44-root-INFO: Learning rate of xt decay: 0.03854 -> 0.03901.
+2024-12-14-05:12:44-root-INFO: step: 193 lr_xt 0.00186266
+2024-12-14-05:12:44-root-INFO: grad norm: 172.042 153.573 77.548
+2024-12-14-05:12:44-root-INFO: grad norm: 146.650 133.355 61.015
+2024-12-14-05:12:45-root-INFO: Loss Change: 2410.344 -> 2362.948
+2024-12-14-05:12:45-root-INFO: Regularization Change: 0.000 -> 0.167
+2024-12-14-05:12:45-root-INFO: Learning rate of xt decay: 0.03901 -> 0.03947.
+2024-12-14-05:12:45-root-INFO: step: 192 lr_xt 0.00194479
+2024-12-14-05:12:45-root-INFO: grad norm: 176.963 161.211 72.985
+2024-12-14-05:12:45-root-INFO: grad norm: 159.280 146.543 62.411
+2024-12-14-05:12:46-root-INFO: Loss Change: 2362.622 -> 2318.449
+2024-12-14-05:12:46-root-INFO: Regularization Change: 0.000 -> 0.168
+2024-12-14-05:12:46-root-INFO: Learning rate of xt decay: 0.03947 -> 0.03995.
+2024-12-14-05:12:46-root-INFO: step: 191 lr_xt 0.00203021
+2024-12-14-05:12:46-root-INFO: grad norm: 187.660 173.192 72.255
+2024-12-14-05:12:46-root-INFO: grad norm: 175.722 163.494 64.405
+2024-12-14-05:12:47-root-INFO: Loss Change: 2319.057 -> 2278.761
+2024-12-14-05:12:47-root-INFO: Regularization Change: 0.000 -> 0.164
+2024-12-14-05:12:47-root-INFO: Learning rate of xt decay: 0.03995 -> 0.04043.
+2024-12-14-05:12:47-root-INFO: step: 190 lr_xt 0.00211904
+2024-12-14-05:12:47-root-INFO: grad norm: 209.475 195.640 74.863
+2024-12-14-05:12:47-root-INFO: grad norm: 195.285 182.638 69.135
+2024-12-14-05:12:48-root-INFO: Loss Change: 2282.287 -> 2241.636
+2024-12-14-05:12:48-root-INFO: Regularization Change: 0.000 -> 0.159
+2024-12-14-05:12:48-root-INFO: Learning rate of xt decay: 0.04043 -> 0.04091.
+2024-12-14-05:12:48-root-INFO: step: 189 lr_xt 0.00221139
+2024-12-14-05:12:48-root-INFO: grad norm: 209.011 196.766 70.490
+2024-12-14-05:12:48-root-INFO: grad norm: 197.679 185.428 68.510
+2024-12-14-05:12:49-root-INFO: Loss Change: 2245.410 -> 2205.778
+2024-12-14-05:12:49-root-INFO: Regularization Change: 0.000 -> 0.156
+2024-12-14-05:12:49-root-INFO: Learning rate of xt decay: 0.04091 -> 0.04140.
+2024-12-14-05:12:49-root-INFO: step: 188 lr_xt 0.00230740
+2024-12-14-05:12:49-root-INFO: grad norm: 238.762 223.796 83.202
+2024-12-14-05:12:49-root-INFO: Loss too large (2211.584->2212.686)! Learning rate decreased to 0.00185.
+2024-12-14-05:12:50-root-INFO: grad norm: 178.536 167.769 61.065
+2024-12-14-05:12:50-root-INFO: Loss Change: 2211.584 -> 2168.011
+2024-12-14-05:12:50-root-INFO: Regularization Change: 0.000 -> 0.122
+2024-12-14-05:12:50-root-INFO: Learning rate of xt decay: 0.04140 -> 0.04190.
+2024-12-14-05:12:50-root-INFO: step: 187 lr_xt 0.00240719
+2024-12-14-05:12:50-root-INFO: grad norm: 131.620 123.617 45.198
+2024-12-14-05:12:50-root-INFO: grad norm: 147.134 137.977 51.095
+2024-12-14-05:12:51-root-INFO: Loss Change: 2168.123 -> 2141.185
+2024-12-14-05:12:51-root-INFO: Regularization Change: 0.000 -> 0.172
+2024-12-14-05:12:51-root-INFO: Learning rate of xt decay: 0.04190 -> 0.04240.
+2024-12-14-05:12:51-root-INFO: step: 186 lr_xt 0.00251089
+2024-12-14-05:12:51-root-INFO: grad norm: 229.165 215.852 76.972
+2024-12-14-05:12:51-root-INFO: Loss too large (2145.823->2151.466)! Learning rate decreased to 0.00201.
+2024-12-14-05:12:52-root-INFO: grad norm: 185.178 174.669 61.495
+2024-12-14-05:12:52-root-INFO: Loss Change: 2145.823 -> 2103.678
+2024-12-14-05:12:52-root-INFO: Regularization Change: 0.000 -> 0.128
+2024-12-14-05:12:52-root-INFO: Learning rate of xt decay: 0.04240 -> 0.04291.
+2024-12-14-05:12:52-root-INFO: step: 185 lr_xt 0.00261863
+2024-12-14-05:12:52-root-INFO: grad norm: 170.630 161.107 56.205
+2024-12-14-05:12:53-root-INFO: grad norm: 182.369 172.140 60.218
+2024-12-14-05:12:53-root-INFO: Loss Change: 2106.739 -> 2077.318
+2024-12-14-05:12:53-root-INFO: Regularization Change: 0.000 -> 0.195
+2024-12-14-05:12:53-root-INFO: Learning rate of xt decay: 0.04291 -> 0.04343.
+2024-12-14-05:12:53-root-INFO: step: 184 lr_xt 0.00273055
+2024-12-14-05:12:53-root-INFO: grad norm: 228.540 216.855 72.145
+2024-12-14-05:12:53-root-INFO: Loss too large (2083.331->2087.503)! Learning rate decreased to 0.00218.
+2024-12-14-05:12:54-root-INFO: grad norm: 180.876 171.343 57.947
+2024-12-14-05:12:54-root-INFO: Loss Change: 2083.331 -> 2036.611
+2024-12-14-05:12:54-root-INFO: Regularization Change: 0.000 -> 0.149
+2024-12-14-05:12:54-root-INFO: Learning rate of xt decay: 0.04343 -> 0.04395.
+2024-12-14-05:12:54-root-INFO: step: 183 lr_xt 0.00284680
+2024-12-14-05:12:54-root-INFO: grad norm: 154.647 146.032 50.896
+2024-12-14-05:12:55-root-INFO: grad norm: 163.224 154.503 52.637
+2024-12-14-05:12:55-root-INFO: Loss Change: 2039.364 -> 2006.038
+2024-12-14-05:12:55-root-INFO: Regularization Change: 0.000 -> 0.226
+2024-12-14-05:12:55-root-INFO: Learning rate of xt decay: 0.04395 -> 0.04448.
+2024-12-14-05:12:55-root-INFO: step: 182 lr_xt 0.00296752
+2024-12-14-05:12:55-root-INFO: grad norm: 203.601 193.544 63.197
+2024-12-14-05:12:56-root-INFO: grad norm: 187.405 178.112 58.283
+2024-12-14-05:12:56-root-INFO: Loss Change: 2008.972 -> 1962.095
+2024-12-14-05:12:56-root-INFO: Regularization Change: 0.000 -> 0.249
+2024-12-14-05:12:56-root-INFO: Learning rate of xt decay: 0.04448 -> 0.04501.
+2024-12-14-05:12:56-root-INFO: step: 181 lr_xt 0.00309285
+2024-12-14-05:12:56-root-INFO: grad norm: 179.277 170.303 56.010
+2024-12-14-05:12:57-root-INFO: grad norm: 163.857 155.795 50.764
+2024-12-14-05:12:57-root-INFO: Loss Change: 1968.626 -> 1922.488
+2024-12-14-05:12:57-root-INFO: Regularization Change: 0.000 -> 0.254
+2024-12-14-05:12:57-root-INFO: Learning rate of xt decay: 0.04501 -> 0.04555.
+2024-12-14-05:12:57-root-INFO: step: 180 lr_xt 0.00322295
+2024-12-14-05:12:57-root-INFO: grad norm: 163.217 153.692 54.941
+2024-12-14-05:12:58-root-INFO: grad norm: 145.281 137.797 46.027
+2024-12-14-05:12:58-root-INFO: Loss Change: 1927.716 -> 1881.392
+2024-12-14-05:12:58-root-INFO: Regularization Change: 0.000 -> 0.266
+2024-12-14-05:12:58-root-INFO: Learning rate of xt decay: 0.04555 -> 0.04610.
+2024-12-14-05:12:58-root-INFO: step: 179 lr_xt 0.00335799
+2024-12-14-05:12:58-root-INFO: grad norm: 146.149 138.046 47.988
+2024-12-14-05:12:59-root-INFO: grad norm: 134.709 127.822 42.521
+2024-12-14-05:12:59-root-INFO: Loss Change: 1882.904 -> 1840.061
+2024-12-14-05:12:59-root-INFO: Regularization Change: 0.000 -> 0.267
+2024-12-14-05:12:59-root-INFO: Learning rate of xt decay: 0.04610 -> 0.04665.
+2024-12-14-05:12:59-root-INFO: step: 178 lr_xt 0.00349812
+2024-12-14-05:12:59-root-INFO: grad norm: 152.338 142.824 52.992
+2024-12-14-05:13:00-root-INFO: grad norm: 142.183 134.353 46.533
+2024-12-14-05:13:00-root-INFO: Loss Change: 1844.415 -> 1801.577
+2024-12-14-05:13:00-root-INFO: Regularization Change: 0.000 -> 0.282
+2024-12-14-05:13:00-root-INFO: Learning rate of xt decay: 0.04665 -> 0.04721.
+2024-12-14-05:13:00-root-INFO: step: 177 lr_xt 0.00364350
+2024-12-14-05:13:00-root-INFO: grad norm: 159.103 148.696 56.595
+2024-12-14-05:13:01-root-INFO: grad norm: 153.643 144.720 51.596
+2024-12-14-05:13:01-root-INFO: Loss Change: 1808.138 -> 1767.404
+2024-12-14-05:13:01-root-INFO: Regularization Change: 0.000 -> 0.291
+2024-12-14-05:13:01-root-INFO: Learning rate of xt decay: 0.04721 -> 0.04778.
+2024-12-14-05:13:01-root-INFO: step: 176 lr_xt 0.00379432
+2024-12-14-05:13:01-root-INFO: grad norm: 166.072 155.236 59.005
+2024-12-14-05:13:01-root-INFO: grad norm: 171.849 161.483 58.783
+2024-12-14-05:13:02-root-INFO: Loss Change: 1768.056 -> 1735.695
+2024-12-14-05:13:02-root-INFO: Regularization Change: 0.000 -> 0.292
+2024-12-14-05:13:02-root-INFO: Learning rate of xt decay: 0.04778 -> 0.04835.
+2024-12-14-05:13:02-root-INFO: step: 175 lr_xt 0.00395074
+2024-12-14-05:13:02-root-INFO: grad norm: 196.791 183.081 72.166
+2024-12-14-05:13:02-root-INFO: grad norm: 209.599 196.246 73.614
+2024-12-14-05:13:03-root-INFO: Loss Change: 1738.408 -> 1713.491
+2024-12-14-05:13:03-root-INFO: Regularization Change: 0.000 -> 0.312
+2024-12-14-05:13:03-root-INFO: Learning rate of xt decay: 0.04835 -> 0.04893.
+2024-12-14-05:13:03-root-INFO: step: 174 lr_xt 0.00411294
+2024-12-14-05:13:03-root-INFO: grad norm: 247.878 227.654 98.069
+2024-12-14-05:13:03-root-INFO: grad norm: 253.717 235.482 94.450
+2024-12-14-05:13:04-root-INFO: Loss Change: 1726.568 -> 1696.880
+2024-12-14-05:13:04-root-INFO: Regularization Change: 0.000 -> 0.315
+2024-12-14-05:13:04-root-INFO: Learning rate of xt decay: 0.04893 -> 0.04952.
+2024-12-14-05:13:04-root-INFO: step: 173 lr_xt 0.00428111
+2024-12-14-05:13:04-root-INFO: grad norm: 281.940 255.447 119.319
+2024-12-14-05:13:04-root-INFO: Loss too large (1709.462->1713.939)! Learning rate decreased to 0.00342.
+2024-12-14-05:13:05-root-INFO: grad norm: 192.170 174.684 80.093
+2024-12-14-05:13:05-root-INFO: Loss Change: 1709.462 -> 1616.829
+2024-12-14-05:13:05-root-INFO: Regularization Change: 0.000 -> 0.332
+2024-12-14-05:13:05-root-INFO: Learning rate of xt decay: 0.04952 -> 0.05011.
+2024-12-14-05:13:05-root-INFO: step: 172 lr_xt 0.00445543
+2024-12-14-05:13:05-root-INFO: grad norm: 154.751 142.436 60.498
+2024-12-14-05:13:06-root-INFO: grad norm: 189.249 172.646 77.515
+2024-12-14-05:13:06-root-INFO: Loss too large (1618.371->1620.354)! Learning rate decreased to 0.00356.
+2024-12-14-05:13:06-root-INFO: Loss Change: 1621.254 -> 1589.564
+2024-12-14-05:13:06-root-INFO: Regularization Change: 0.000 -> 0.298
+2024-12-14-05:13:06-root-INFO: Learning rate of xt decay: 0.05011 -> 0.05071.
+2024-12-14-05:13:06-root-INFO: step: 171 lr_xt 0.00463611
+2024-12-14-05:13:06-root-INFO: grad norm: 232.298 207.132 105.161
+2024-12-14-05:13:06-root-INFO: Loss too large (1601.348->1649.577)! Learning rate decreased to 0.00371.
+2024-12-14-05:13:06-root-INFO: Loss too large (1601.348->1609.078)! Learning rate decreased to 0.00297.
+2024-12-14-05:13:07-root-INFO: grad norm: 162.078 144.875 72.665
+2024-12-14-05:13:07-root-INFO: Loss Change: 1601.348 -> 1544.906
+2024-12-14-05:13:07-root-INFO: Regularization Change: 0.000 -> 0.203
+2024-12-14-05:13:07-root-INFO: Learning rate of xt decay: 0.05071 -> 0.05132.
+2024-12-14-05:13:07-root-INFO: step: 170 lr_xt 0.00482333
+2024-12-14-05:13:07-root-INFO: grad norm: 124.101 113.442 50.320
+2024-12-14-05:13:08-root-INFO: grad norm: 174.409 157.193 75.557
+2024-12-14-05:13:08-root-INFO: Loss too large (1546.614->1569.897)! Learning rate decreased to 0.00386.
+2024-12-14-05:13:08-root-INFO: Loss Change: 1546.659 -> 1530.318
+2024-12-14-05:13:08-root-INFO: Regularization Change: 0.000 -> 0.353
+2024-12-14-05:13:08-root-INFO: Learning rate of xt decay: 0.05132 -> 0.05194.
+2024-12-14-05:13:08-root-INFO: step: 169 lr_xt 0.00501730
+2024-12-14-05:13:09-root-INFO: grad norm: 288.690 254.409 136.449
+2024-12-14-05:13:09-root-INFO: Loss too large (1548.609->1647.577)! Learning rate decreased to 0.00401.
+2024-12-14-05:13:09-root-INFO: Loss too large (1548.609->1589.967)! Learning rate decreased to 0.00321.
+2024-12-14-05:13:09-root-INFO: Loss too large (1548.609->1549.446)! Learning rate decreased to 0.00257.
+2024-12-14-05:13:09-root-INFO: grad norm: 162.065 143.721 74.895
+2024-12-14-05:13:10-root-INFO: Loss Change: 1548.609 -> 1479.362
+2024-12-14-05:13:10-root-INFO: Regularization Change: 0.000 -> 0.235
+2024-12-14-05:13:10-root-INFO: Learning rate of xt decay: 0.05194 -> 0.05256.
+2024-12-14-05:13:10-root-INFO: step: 168 lr_xt 0.00521823
+2024-12-14-05:13:10-root-INFO: grad norm: 95.816 88.845 35.879
+2024-12-14-05:13:10-root-INFO: grad norm: 149.458 134.365 65.451
+2024-12-14-05:13:11-root-INFO: Loss too large (1471.377->1519.272)! Learning rate decreased to 0.00417.
+2024-12-14-05:13:11-root-INFO: Loss too large (1471.377->1479.861)! Learning rate decreased to 0.00334.
+2024-12-14-05:13:11-root-INFO: Loss Change: 1482.169 -> 1458.619
+2024-12-14-05:13:11-root-INFO: Regularization Change: 0.000 -> 0.357
+2024-12-14-05:13:11-root-INFO: Learning rate of xt decay: 0.05256 -> 0.05319.
+2024-12-14-05:13:11-root-INFO: step: 167 lr_xt 0.00542633
+2024-12-14-05:13:11-root-INFO: grad norm: 261.706 229.701 125.408
+2024-12-14-05:13:11-root-INFO: Loss too large (1474.248->1587.712)! Learning rate decreased to 0.00434.
+2024-12-14-05:13:11-root-INFO: Loss too large (1474.248->1535.281)! Learning rate decreased to 0.00347.
+2024-12-14-05:13:12-root-INFO: Loss too large (1474.248->1496.416)! Learning rate decreased to 0.00278.
+2024-12-14-05:13:12-root-INFO: grad norm: 181.018 159.918 84.817
+2024-12-14-05:13:12-root-INFO: Loss Change: 1474.248 -> 1416.713
+2024-12-14-05:13:12-root-INFO: Regularization Change: 0.000 -> 0.204
+2024-12-14-05:13:12-root-INFO: Learning rate of xt decay: 0.05319 -> 0.05383.
+2024-12-14-05:13:12-root-INFO: step: 166 lr_xt 0.00564182
+2024-12-14-05:13:13-root-INFO: grad norm: 122.312 110.971 51.437
+2024-12-14-05:13:13-root-INFO: Loss too large (1420.335->1437.314)! Learning rate decreased to 0.00451.
+2024-12-14-05:13:13-root-INFO: Loss too large (1420.335->1421.195)! Learning rate decreased to 0.00361.
+2024-12-14-05:13:13-root-INFO: grad norm: 146.606 130.145 67.496
+2024-12-14-05:13:14-root-INFO: Loss Change: 1420.335 -> 1405.398
+2024-12-14-05:13:14-root-INFO: Regularization Change: 0.000 -> 0.258
+2024-12-14-05:13:14-root-INFO: Learning rate of xt decay: 0.05383 -> 0.05447.
+2024-12-14-05:13:14-root-INFO: step: 165 lr_xt 0.00586491
+2024-12-14-05:13:14-root-INFO: grad norm: 296.401 261.405 139.718
+2024-12-14-05:13:14-root-INFO: Loss too large (1430.909->1591.848)! Learning rate decreased to 0.00469.
+2024-12-14-05:13:14-root-INFO: Loss too large (1430.909->1522.852)! Learning rate decreased to 0.00375.
+2024-12-14-05:13:14-root-INFO: Loss too large (1430.909->1469.710)! Learning rate decreased to 0.00300.
+2024-12-14-05:13:15-root-INFO: grad norm: 211.193 186.472 99.149
+2024-12-14-05:13:15-root-INFO: Loss Change: 1430.909 -> 1360.420
+2024-12-14-05:13:15-root-INFO: Regularization Change: 0.000 -> 0.279
+2024-12-14-05:13:15-root-INFO: Learning rate of xt decay: 0.05447 -> 0.05513.
+2024-12-14-05:13:15-root-INFO: step: 164 lr_xt 0.00609585
+2024-12-14-05:13:15-root-INFO: grad norm: 138.854 126.065 58.206
+2024-12-14-05:13:15-root-INFO: Loss too large (1364.831->1402.678)! Learning rate decreased to 0.00488.
+2024-12-14-05:13:15-root-INFO: Loss too large (1364.831->1375.439)! Learning rate decreased to 0.00390.
+2024-12-14-05:13:16-root-INFO: grad norm: 166.751 148.596 75.665
+2024-12-14-05:13:16-root-INFO: Loss Change: 1364.831 -> 1356.454
+2024-12-14-05:13:16-root-INFO: Regularization Change: 0.000 -> 0.301
+2024-12-14-05:13:16-root-INFO: Learning rate of xt decay: 0.05513 -> 0.05579.
+2024-12-14-05:13:16-root-INFO: step: 163 lr_xt 0.00633485
+2024-12-14-05:13:16-root-INFO: grad norm: 295.311 263.431 133.464
+2024-12-14-05:13:17-root-INFO: Loss too large (1376.546->1553.662)! Learning rate decreased to 0.00507.
+2024-12-14-05:13:17-root-INFO: Loss too large (1376.546->1477.889)! Learning rate decreased to 0.00405.
+2024-12-14-05:13:17-root-INFO: Loss too large (1376.546->1417.925)! Learning rate decreased to 0.00324.
+2024-12-14-05:13:17-root-INFO: grad norm: 212.438 187.608 99.665
+2024-12-14-05:13:18-root-INFO: Loss Change: 1376.546 -> 1303.163
+2024-12-14-05:13:18-root-INFO: Regularization Change: 0.000 -> 0.275
+2024-12-14-05:13:18-root-INFO: Learning rate of xt decay: 0.05579 -> 0.05646.
+2024-12-14-05:13:18-root-INFO: step: 162 lr_xt 0.00658217
+2024-12-14-05:13:18-root-INFO: grad norm: 151.077 136.756 64.202
+2024-12-14-05:13:18-root-INFO: Loss too large (1310.021->1372.121)! Learning rate decreased to 0.00527.
+2024-12-14-05:13:18-root-INFO: Loss too large (1310.021->1335.046)! Learning rate decreased to 0.00421.
+2024-12-14-05:13:18-root-INFO: Loss too large (1310.021->1311.519)! Learning rate decreased to 0.00337.
+2024-12-14-05:13:19-root-INFO: grad norm: 139.788 125.882 60.781
+2024-12-14-05:13:19-root-INFO: Loss Change: 1310.021 -> 1281.203
+2024-12-14-05:13:19-root-INFO: Regularization Change: 0.000 -> 0.182
+2024-12-14-05:13:19-root-INFO: Learning rate of xt decay: 0.05646 -> 0.05714.
+2024-12-14-05:13:19-root-INFO: step: 161 lr_xt 0.00683803
+2024-12-14-05:13:19-root-INFO: grad norm: 196.308 174.601 89.729
+2024-12-14-05:13:19-root-INFO: Loss too large (1292.859->1409.513)! Learning rate decreased to 0.00547.
+2024-12-14-05:13:20-root-INFO: Loss too large (1292.859->1359.113)! Learning rate decreased to 0.00438.
+2024-12-14-05:13:20-root-INFO: Loss too large (1292.859->1320.370)! Learning rate decreased to 0.00350.
+2024-12-14-05:13:20-root-INFO: grad norm: 179.576 158.297 84.791
+2024-12-14-05:13:20-root-INFO: Loss Change: 1292.859 -> 1260.646
+2024-12-14-05:13:20-root-INFO: Regularization Change: 0.000 -> 0.170
+2024-12-14-05:13:20-root-INFO: Learning rate of xt decay: 0.05714 -> 0.05782.
+2024-12-14-05:13:20-root-INFO: step: 160 lr_xt 0.00710269
+2024-12-14-05:13:21-root-INFO: grad norm: 228.413 203.461 103.808
+2024-12-14-05:13:21-root-INFO: Loss too large (1279.879->1431.783)! Learning rate decreased to 0.00568.
+2024-12-14-05:13:21-root-INFO: Loss too large (1279.879->1371.712)! Learning rate decreased to 0.00455.
+2024-12-14-05:13:21-root-INFO: Loss too large (1279.879->1323.140)! Learning rate decreased to 0.00364.
+2024-12-14-05:13:21-root-INFO: Loss too large (1279.879->1286.008)! Learning rate decreased to 0.00291.
+2024-12-14-05:13:22-root-INFO: grad norm: 156.485 138.747 72.367
+2024-12-14-05:13:22-root-INFO: Loss Change: 1279.879 -> 1231.126
+2024-12-14-05:13:22-root-INFO: Regularization Change: 0.000 -> 0.157
+2024-12-14-05:13:22-root-INFO: Learning rate of xt decay: 0.05782 -> 0.05852.
+2024-12-14-05:13:22-root-INFO: step: 159 lr_xt 0.00737641
+2024-12-14-05:13:22-root-INFO: grad norm: 142.835 126.647 66.048
+2024-12-14-05:13:22-root-INFO: Loss too large (1238.765->1312.147)! Learning rate decreased to 0.00590.
+2024-12-14-05:13:22-root-INFO: Loss too large (1238.765->1277.940)! Learning rate decreased to 0.00472.
+2024-12-14-05:13:23-root-INFO: Loss too large (1238.765->1252.500)! Learning rate decreased to 0.00378.
+2024-12-14-05:13:23-root-INFO: grad norm: 149.421 132.297 69.456
+2024-12-14-05:13:23-root-INFO: Loss Change: 1238.765 -> 1221.482
+2024-12-14-05:13:23-root-INFO: Regularization Change: 0.000 -> 0.174
+2024-12-14-05:13:23-root-INFO: Learning rate of xt decay: 0.05852 -> 0.05922.
+2024-12-14-05:13:23-root-INFO: step: 158 lr_xt 0.00765943
+2024-12-14-05:13:24-root-INFO: grad norm: 230.808 206.936 102.226
+2024-12-14-05:13:24-root-INFO: Loss too large (1238.749->1402.245)! Learning rate decreased to 0.00613.
+2024-12-14-05:13:24-root-INFO: Loss too large (1238.749->1344.111)! Learning rate decreased to 0.00490.
+2024-12-14-05:13:24-root-INFO: Loss too large (1238.749->1294.126)! Learning rate decreased to 0.00392.
+2024-12-14-05:13:24-root-INFO: Loss too large (1238.749->1254.432)! Learning rate decreased to 0.00314.
+2024-12-14-05:13:24-root-INFO: grad norm: 163.903 146.202 74.088
+2024-12-14-05:13:25-root-INFO: Loss Change: 1238.749 -> 1190.236
+2024-12-14-05:13:25-root-INFO: Regularization Change: 0.000 -> 0.170
+2024-12-14-05:13:25-root-INFO: Learning rate of xt decay: 0.05922 -> 0.05993.
+2024-12-14-05:13:25-root-INFO: step: 157 lr_xt 0.00795203
+2024-12-14-05:13:25-root-INFO: grad norm: 141.454 126.120 64.054
+2024-12-14-05:13:25-root-INFO: Loss too large (1199.659->1278.665)! Learning rate decreased to 0.00636.
+2024-12-14-05:13:25-root-INFO: Loss too large (1199.659->1241.262)! Learning rate decreased to 0.00509.
+2024-12-14-05:13:25-root-INFO: Loss too large (1199.659->1213.703)! Learning rate decreased to 0.00407.
+2024-12-14-05:13:26-root-INFO: grad norm: 145.836 131.303 63.463
+2024-12-14-05:13:26-root-INFO: Loss Change: 1199.659 -> 1180.872
+2024-12-14-05:13:26-root-INFO: Regularization Change: 0.000 -> 0.194
+2024-12-14-05:13:26-root-INFO: Learning rate of xt decay: 0.05993 -> 0.06065.
+2024-12-14-05:13:26-root-INFO: step: 156 lr_xt 0.00825448
+2024-12-14-05:13:26-root-INFO: grad norm: 231.919 211.167 95.889
+2024-12-14-05:13:27-root-INFO: Loss too large (1199.251->1389.535)! Learning rate decreased to 0.00660.
+2024-12-14-05:13:27-root-INFO: Loss too large (1199.251->1322.832)! Learning rate decreased to 0.00528.
+2024-12-14-05:13:27-root-INFO: Loss too large (1199.251->1266.035)! Learning rate decreased to 0.00423.
+2024-12-14-05:13:27-root-INFO: Loss too large (1199.251->1220.697)! Learning rate decreased to 0.00338.
+2024-12-14-05:13:27-root-INFO: grad norm: 167.531 152.305 69.784
+2024-12-14-05:13:28-root-INFO: Loss Change: 1199.251 -> 1149.225
+2024-12-14-05:13:28-root-INFO: Regularization Change: 0.000 -> 0.192
+2024-12-14-05:13:28-root-INFO: Learning rate of xt decay: 0.06065 -> 0.06138.
+2024-12-14-05:13:28-root-INFO: step: 155 lr_xt 0.00856705
+2024-12-14-05:13:28-root-INFO: grad norm: 137.485 124.906 57.452
+2024-12-14-05:13:28-root-INFO: Loss too large (1159.071->1249.712)! Learning rate decreased to 0.00685.
+2024-12-14-05:13:28-root-INFO: Loss too large (1159.071->1205.861)! Learning rate decreased to 0.00548.
+2024-12-14-05:13:28-root-INFO: Loss too large (1159.071->1175.516)! Learning rate decreased to 0.00439.
+2024-12-14-05:13:29-root-INFO: grad norm: 147.797 136.196 57.398
+2024-12-14-05:13:29-root-INFO: Loss Change: 1159.071 -> 1145.670
+2024-12-14-05:13:29-root-INFO: Regularization Change: 0.000 -> 0.226
+2024-12-14-05:13:29-root-INFO: Learning rate of xt decay: 0.06138 -> 0.06211.
+2024-12-14-05:13:29-root-INFO: step: 154 lr_xt 0.00889002
+2024-12-14-05:13:29-root-INFO: grad norm: 251.820 233.977 93.101
+2024-12-14-05:13:29-root-INFO: Loss too large (1167.255->1477.507)! Learning rate decreased to 0.00711.
+2024-12-14-05:13:30-root-INFO: Loss too large (1167.255->1369.770)! Learning rate decreased to 0.00569.
+2024-12-14-05:13:30-root-INFO: Loss too large (1167.255->1279.952)! Learning rate decreased to 0.00455.
+2024-12-14-05:13:30-root-INFO: Loss too large (1167.255->1211.426)! Learning rate decreased to 0.00364.
+2024-12-14-05:13:30-root-INFO: grad norm: 209.066 193.209 79.866
+2024-12-14-05:13:31-root-INFO: Loss Change: 1167.255 -> 1125.448
+2024-12-14-05:13:31-root-INFO: Regularization Change: 0.000 -> 0.243
+2024-12-14-05:13:31-root-INFO: Learning rate of xt decay: 0.06211 -> 0.06286.
+2024-12-14-05:13:31-root-INFO: step: 153 lr_xt 0.00922367
+2024-12-14-05:13:31-root-INFO: grad norm: 191.201 178.514 68.488
+2024-12-14-05:13:31-root-INFO: Loss too large (1135.560->1415.924)! Learning rate decreased to 0.00738.
+2024-12-14-05:13:31-root-INFO: Loss too large (1135.560->1294.992)! Learning rate decreased to 0.00590.
+2024-12-14-05:13:31-root-INFO: Loss too large (1135.560->1209.622)! Learning rate decreased to 0.00472.
+2024-12-14-05:13:31-root-INFO: Loss too large (1135.560->1154.500)! Learning rate decreased to 0.00378.
+2024-12-14-05:13:32-root-INFO: grad norm: 176.683 165.046 63.062
+2024-12-14-05:13:32-root-INFO: Loss Change: 1135.560 -> 1106.026
+2024-12-14-05:13:32-root-INFO: Regularization Change: 0.000 -> 0.185
+2024-12-14-05:13:32-root-INFO: Learning rate of xt decay: 0.06286 -> 0.06361.
+2024-12-14-05:13:32-root-INFO: step: 152 lr_xt 0.00956831
+2024-12-14-05:13:32-root-INFO: grad norm: 191.967 180.304 65.890
+2024-12-14-05:13:33-root-INFO: Loss too large (1117.077->1402.044)! Learning rate decreased to 0.00765.
+2024-12-14-05:13:33-root-INFO: Loss too large (1117.077->1277.594)! Learning rate decreased to 0.00612.
+2024-12-14-05:13:33-root-INFO: Loss too large (1117.077->1190.348)! Learning rate decreased to 0.00490.
+2024-12-14-05:13:33-root-INFO: Loss too large (1117.077->1134.372)! Learning rate decreased to 0.00392.
+2024-12-14-05:13:33-root-INFO: grad norm: 166.093 155.655 57.951
+2024-12-14-05:13:34-root-INFO: Loss Change: 1117.077 -> 1081.293
+2024-12-14-05:13:34-root-INFO: Regularization Change: 0.000 -> 0.179
+2024-12-14-05:13:34-root-INFO: Learning rate of xt decay: 0.06361 -> 0.06438.
+2024-12-14-05:13:34-root-INFO: step: 151 lr_xt 0.00992422
+2024-12-14-05:13:34-root-INFO: grad norm: 169.568 159.648 57.149
+2024-12-14-05:13:34-root-INFO: Loss too large (1090.224->1316.538)! Learning rate decreased to 0.00794.
+2024-12-14-05:13:34-root-INFO: Loss too large (1090.224->1212.546)! Learning rate decreased to 0.00635.
+2024-12-14-05:13:34-root-INFO: Loss too large (1090.224->1143.125)! Learning rate decreased to 0.00508.
+2024-12-14-05:13:34-root-INFO: Loss too large (1090.224->1100.607)! Learning rate decreased to 0.00406.
+2024-12-14-05:13:35-root-INFO: grad norm: 142.692 133.995 49.056
+2024-12-14-05:13:35-root-INFO: Loss Change: 1090.224 -> 1055.408
+2024-12-14-05:13:35-root-INFO: Regularization Change: 0.000 -> 0.183
+2024-12-14-05:13:35-root-INFO: Learning rate of xt decay: 0.06438 -> 0.06515.
+2024-12-14-05:13:35-root-INFO: step: 150 lr_xt 0.01029171
+2024-12-14-05:13:35-root-INFO: grad norm: 151.091 142.076 51.409
+2024-12-14-05:13:36-root-INFO: Loss too large (1063.718->1240.272)! Learning rate decreased to 0.00823.
+2024-12-14-05:13:36-root-INFO: Loss too large (1063.718->1158.573)! Learning rate decreased to 0.00659.
+2024-12-14-05:13:36-root-INFO: Loss too large (1063.718->1104.297)! Learning rate decreased to 0.00527.
+2024-12-14-05:13:36-root-INFO: Loss too large (1063.718->1070.527)! Learning rate decreased to 0.00422.
+2024-12-14-05:13:36-root-INFO: grad norm: 129.513 121.872 43.828
+2024-12-14-05:13:37-root-INFO: Loss Change: 1063.718 -> 1032.504
+2024-12-14-05:13:37-root-INFO: Regularization Change: 0.000 -> 0.185
+2024-12-14-05:13:37-root-INFO: Learning rate of xt decay: 0.06515 -> 0.06593.
+2024-12-14-05:13:37-root-INFO: step: 149 lr_xt 0.01067108
+2024-12-14-05:13:37-root-INFO: grad norm: 144.221 135.790 48.588
+2024-12-14-05:13:37-root-INFO: Loss too large (1041.822->1206.075)! Learning rate decreased to 0.00854.
+2024-12-14-05:13:37-root-INFO: Loss too large (1041.822->1130.293)! Learning rate decreased to 0.00683.
+2024-12-14-05:13:37-root-INFO: Loss too large (1041.822->1079.557)! Learning rate decreased to 0.00546.
+2024-12-14-05:13:37-root-INFO: Loss too large (1041.822->1048.003)! Learning rate decreased to 0.00437.
+2024-12-14-05:13:38-root-INFO: grad norm: 126.297 118.936 42.487
+2024-12-14-05:13:38-root-INFO: Loss Change: 1041.822 -> 1012.559
+2024-12-14-05:13:38-root-INFO: Regularization Change: 0.000 -> 0.195
+2024-12-14-05:13:38-root-INFO: Learning rate of xt decay: 0.06593 -> 0.06672.
+2024-12-14-05:13:38-root-INFO: step: 148 lr_xt 0.01106266
+2024-12-14-05:13:38-root-INFO: grad norm: 143.218 134.907 48.076
+2024-12-14-05:13:39-root-INFO: Loss too large (1020.106->1191.169)! Learning rate decreased to 0.00885.
+2024-12-14-05:13:39-root-INFO: Loss too large (1020.106->1111.173)! Learning rate decreased to 0.00708.
+2024-12-14-05:13:39-root-INFO: Loss too large (1020.106->1058.791)! Learning rate decreased to 0.00566.
+2024-12-14-05:13:39-root-INFO: Loss too large (1020.106->1026.359)! Learning rate decreased to 0.00453.
+2024-12-14-05:13:39-root-INFO: grad norm: 126.739 118.982 43.658
+2024-12-14-05:13:40-root-INFO: Loss Change: 1020.106 -> 991.292
+2024-12-14-05:13:40-root-INFO: Regularization Change: 0.000 -> 0.205
+2024-12-14-05:13:40-root-INFO: Learning rate of xt decay: 0.06672 -> 0.06752.
+2024-12-14-05:13:40-root-INFO: step: 147 lr_xt 0.01146675
+2024-12-14-05:13:40-root-INFO: grad norm: 140.211 131.547 48.524
+2024-12-14-05:13:40-root-INFO: Loss too large (999.199->1172.842)! Learning rate decreased to 0.00917.
+2024-12-14-05:13:40-root-INFO: Loss too large (999.199->1090.240)! Learning rate decreased to 0.00734.
+2024-12-14-05:13:40-root-INFO: Loss too large (999.199->1038.011)! Learning rate decreased to 0.00587.
+2024-12-14-05:13:41-root-INFO: Loss too large (999.199->1006.017)! Learning rate decreased to 0.00470.
+2024-12-14-05:13:41-root-INFO: grad norm: 125.097 117.160 43.851
+2024-12-14-05:13:41-root-INFO: Loss Change: 999.199 -> 971.158
+2024-12-14-05:13:41-root-INFO: Regularization Change: 0.000 -> 0.213
+2024-12-14-05:13:41-root-INFO: Learning rate of xt decay: 0.06752 -> 0.06833.
+2024-12-14-05:13:41-root-INFO: step: 146 lr_xt 0.01188369
+2024-12-14-05:13:42-root-INFO: grad norm: 139.668 130.050 50.934
+2024-12-14-05:13:42-root-INFO: Loss too large (981.552->1160.432)! Learning rate decreased to 0.00951.
+2024-12-14-05:13:42-root-INFO: Loss too large (981.552->1072.087)! Learning rate decreased to 0.00761.
+2024-12-14-05:13:42-root-INFO: Loss too large (981.552->1018.237)! Learning rate decreased to 0.00608.
+2024-12-14-05:13:42-root-INFO: Loss too large (981.552->985.948)! Learning rate decreased to 0.00487.
+2024-12-14-05:13:42-root-INFO: grad norm: 119.967 111.870 43.327
+2024-12-14-05:13:43-root-INFO: Loss Change: 981.552 -> 950.370
+2024-12-14-05:13:43-root-INFO: Regularization Change: 0.000 -> 0.231
+2024-12-14-05:13:43-root-INFO: Learning rate of xt decay: 0.06833 -> 0.06915.
+2024-12-14-05:13:43-root-INFO: step: 145 lr_xt 0.01231381
+2024-12-14-05:13:43-root-INFO: grad norm: 120.241 111.899 44.006
+2024-12-14-05:13:43-root-INFO: Loss too large (955.860->1080.062)! Learning rate decreased to 0.00985.
+2024-12-14-05:13:43-root-INFO: Loss too large (955.860->1014.929)! Learning rate decreased to 0.00788.
+2024-12-14-05:13:43-root-INFO: Loss too large (955.860->976.568)! Learning rate decreased to 0.00630.
+2024-12-14-05:13:44-root-INFO: grad norm: 136.812 127.794 48.848
+2024-12-14-05:13:44-root-INFO: Loss Change: 955.860 -> 945.255
+2024-12-14-05:13:44-root-INFO: Regularization Change: 0.000 -> 0.369
+2024-12-14-05:13:44-root-INFO: Learning rate of xt decay: 0.06915 -> 0.06998.
+2024-12-14-05:13:44-root-INFO: step: 144 lr_xt 0.01275743
+2024-12-14-05:13:44-root-INFO: grad norm: 174.682 160.897 68.015
+2024-12-14-05:13:45-root-INFO: Loss too large (954.571->1218.828)! Learning rate decreased to 0.01021.
+2024-12-14-05:13:45-root-INFO: Loss too large (954.571->1078.186)! Learning rate decreased to 0.00816.
+2024-12-14-05:13:45-root-INFO: Loss too large (954.571->998.555)! Learning rate decreased to 0.00653.
+2024-12-14-05:13:45-root-INFO: grad norm: 161.637 152.019 54.923
+2024-12-14-05:13:46-root-INFO: Loss Change: 954.571 -> 916.002
+2024-12-14-05:13:46-root-INFO: Regularization Change: 0.000 -> 0.452
+2024-12-14-05:13:46-root-INFO: Learning rate of xt decay: 0.06998 -> 0.07082.
+2024-12-14-05:13:46-root-INFO: step: 143 lr_xt 0.01321490
+2024-12-14-05:13:46-root-INFO: grad norm: 134.409 126.280 46.035
+2024-12-14-05:13:46-root-INFO: Loss too large (921.176->1029.517)! Learning rate decreased to 0.01057.
+2024-12-14-05:13:46-root-INFO: Loss too large (921.176->960.120)! Learning rate decreased to 0.00846.
+2024-12-14-05:13:46-root-INFO: Loss too large (921.176->921.335)! Learning rate decreased to 0.00677.
+2024-12-14-05:13:47-root-INFO: grad norm: 104.842 98.229 36.645
+2024-12-14-05:13:47-root-INFO: Loss Change: 921.176 -> 875.366
+2024-12-14-05:13:47-root-INFO: Regularization Change: 0.000 -> 0.423
+2024-12-14-05:13:47-root-INFO: Learning rate of xt decay: 0.07082 -> 0.07167.
+2024-12-14-05:13:47-root-INFO: step: 142 lr_xt 0.01368658
+2024-12-14-05:13:47-root-INFO: grad norm: 89.893 85.044 29.127
+2024-12-14-05:13:47-root-INFO: Loss too large (877.353->914.795)! Learning rate decreased to 0.01095.
+2024-12-14-05:13:47-root-INFO: Loss too large (877.353->887.406)! Learning rate decreased to 0.00876.
+2024-12-14-05:13:48-root-INFO: grad norm: 105.254 98.342 37.514
+2024-12-14-05:13:48-root-INFO: Loss Change: 877.353 -> 865.730
+2024-12-14-05:13:48-root-INFO: Regularization Change: 0.000 -> 0.569
+2024-12-14-05:13:48-root-INFO: Learning rate of xt decay: 0.07167 -> 0.07253.
+2024-12-14-05:13:48-root-INFO: step: 141 lr_xt 0.01417280
+2024-12-14-05:13:48-root-INFO: grad norm: 145.991 134.249 57.363
+2024-12-14-05:13:49-root-INFO: Loss too large (871.239->1002.940)! Learning rate decreased to 0.01134.
+2024-12-14-05:13:49-root-INFO: Loss too large (871.239->927.658)! Learning rate decreased to 0.00907.
+2024-12-14-05:13:49-root-INFO: Loss too large (871.239->881.503)! Learning rate decreased to 0.00726.
+2024-12-14-05:13:49-root-INFO: grad norm: 111.894 104.404 40.250
+2024-12-14-05:13:50-root-INFO: Loss Change: 871.239 -> 822.688
+2024-12-14-05:13:50-root-INFO: Regularization Change: 0.000 -> 0.438
+2024-12-14-05:13:50-root-INFO: Learning rate of xt decay: 0.07253 -> 0.07340.
+2024-12-14-05:13:50-root-INFO: step: 140 lr_xt 0.01467393
+2024-12-14-05:13:50-root-INFO: grad norm: 81.201 76.823 26.303
+2024-12-14-05:13:50-root-INFO: Loss too large (824.221->849.363)! Learning rate decreased to 0.01174.
+2024-12-14-05:13:50-root-INFO: Loss too large (824.221->826.597)! Learning rate decreased to 0.00939.
+2024-12-14-05:13:51-root-INFO: grad norm: 92.316 84.912 36.225
+2024-12-14-05:13:51-root-INFO: Loss Change: 824.221 -> 807.876
+2024-12-14-05:13:51-root-INFO: Regularization Change: 0.000 -> 0.599
+2024-12-14-05:13:51-root-INFO: Learning rate of xt decay: 0.07340 -> 0.07428.
+2024-12-14-05:13:51-root-INFO: step: 139 lr_xt 0.01519033
+2024-12-14-05:13:51-root-INFO: grad norm: 120.408 110.278 48.341
+2024-12-14-05:13:51-root-INFO: Loss too large (812.201->896.833)! Learning rate decreased to 0.01215.
+2024-12-14-05:13:51-root-INFO: Loss too large (812.201->843.800)! Learning rate decreased to 0.00972.
+2024-12-14-05:13:52-root-INFO: grad norm: 124.747 114.601 49.280
+2024-12-14-05:13:52-root-INFO: Loss Change: 812.201 -> 787.462
+2024-12-14-05:13:52-root-INFO: Regularization Change: 0.000 -> 0.648
+2024-12-14-05:13:52-root-INFO: Learning rate of xt decay: 0.07428 -> 0.07517.
+2024-12-14-05:13:52-root-INFO: step: 138 lr_xt 0.01572237
+2024-12-14-05:13:52-root-INFO: grad norm: 117.803 109.146 44.326
+2024-12-14-05:13:52-root-INFO: Loss too large (790.872->846.474)! Learning rate decreased to 0.01258.
+2024-12-14-05:13:53-root-INFO: Loss too large (790.872->798.242)! Learning rate decreased to 0.01006.
+2024-12-14-05:13:53-root-INFO: grad norm: 103.843 95.031 41.862
+2024-12-14-05:13:53-root-INFO: Loss Change: 790.872 -> 746.275
+2024-12-14-05:13:53-root-INFO: Regularization Change: 0.000 -> 0.681
+2024-12-14-05:13:53-root-INFO: Learning rate of xt decay: 0.07517 -> 0.07608.
+2024-12-14-05:13:53-root-INFO: step: 137 lr_xt 0.01627042
+2024-12-14-05:13:54-root-INFO: grad norm: 102.042 95.017 37.206
+2024-12-14-05:13:54-root-INFO: Loss too large (750.739->789.394)! Learning rate decreased to 0.01302.
+2024-12-14-05:13:54-root-INFO: Loss too large (750.739->754.172)! Learning rate decreased to 0.01041.
+2024-12-14-05:13:54-root-INFO: grad norm: 91.584 83.938 36.633
+2024-12-14-05:13:55-root-INFO: Loss Change: 750.739 -> 711.737
+2024-12-14-05:13:55-root-INFO: Regularization Change: 0.000 -> 0.685
+2024-12-14-05:13:55-root-INFO: Learning rate of xt decay: 0.07608 -> 0.07699.
+2024-12-14-05:13:55-root-INFO: step: 136 lr_xt 0.01683487
+2024-12-14-05:13:55-root-INFO: grad norm: 91.132 84.919 33.073
+2024-12-14-05:13:55-root-INFO: Loss too large (715.564->744.895)! Learning rate decreased to 0.01347.
+2024-12-14-05:13:55-root-INFO: Loss too large (715.564->716.578)! Learning rate decreased to 0.01077.
+2024-12-14-05:13:56-root-INFO: grad norm: 83.955 77.635 31.956
+2024-12-14-05:13:56-root-INFO: Loss Change: 715.564 -> 681.081
+2024-12-14-05:13:56-root-INFO: Regularization Change: 0.000 -> 0.673
+2024-12-14-05:13:56-root-INFO: Learning rate of xt decay: 0.07699 -> 0.07791.
+2024-12-14-05:13:56-root-INFO: step: 135 lr_xt 0.01741608
+2024-12-14-05:13:56-root-INFO: grad norm: 87.121 81.180 31.620
+2024-12-14-05:13:56-root-INFO: Loss too large (685.668->715.786)! Learning rate decreased to 0.01393.
+2024-12-14-05:13:56-root-INFO: Loss too large (685.668->688.651)! Learning rate decreased to 0.01115.
+2024-12-14-05:13:57-root-INFO: grad norm: 80.966 75.248 29.885
+2024-12-14-05:13:57-root-INFO: Loss Change: 685.668 -> 654.385
+2024-12-14-05:13:57-root-INFO: Regularization Change: 0.000 -> 0.626
+2024-12-14-05:13:57-root-INFO: Learning rate of xt decay: 0.07791 -> 0.07885.
+2024-12-14-05:13:57-root-INFO: step: 134 lr_xt 0.01801447
+2024-12-14-05:13:57-root-INFO: grad norm: 88.861 82.389 33.292
+2024-12-14-05:13:57-root-INFO: Loss too large (660.429->699.771)! Learning rate decreased to 0.01441.
+2024-12-14-05:13:58-root-INFO: Loss too large (660.429->667.926)! Learning rate decreased to 0.01153.
+2024-12-14-05:13:58-root-INFO: grad norm: 84.051 77.891 31.582
+2024-12-14-05:13:58-root-INFO: Loss Change: 660.429 -> 632.570
+2024-12-14-05:13:58-root-INFO: Regularization Change: 0.000 -> 0.590
+2024-12-14-05:13:58-root-INFO: Learning rate of xt decay: 0.07885 -> 0.07979.
+2024-12-14-05:13:58-root-INFO: step: 133 lr_xt 0.01863041
+2024-12-14-05:13:59-root-INFO: grad norm: 91.237 84.262 34.987
+2024-12-14-05:13:59-root-INFO: Loss too large (638.798->686.654)! Learning rate decreased to 0.01490.
+2024-12-14-05:13:59-root-INFO: Loss too large (638.798->648.984)! Learning rate decreased to 0.01192.
+2024-12-14-05:13:59-root-INFO: grad norm: 86.578 79.833 33.503
+2024-12-14-05:14:00-root-INFO: Loss Change: 638.798 -> 612.579
+2024-12-14-05:14:00-root-INFO: Regularization Change: 0.000 -> 0.563
+2024-12-14-05:14:00-root-INFO: Learning rate of xt decay: 0.07979 -> 0.08075.
+2024-12-14-05:14:00-root-INFO: step: 132 lr_xt 0.01926430
+2024-12-14-05:14:00-root-INFO: grad norm: 93.967 86.557 36.576
+2024-12-14-05:14:00-root-INFO: Loss too large (619.444->674.099)! Learning rate decreased to 0.01541.
+2024-12-14-05:14:00-root-INFO: Loss too large (619.444->631.807)! Learning rate decreased to 0.01233.
+2024-12-14-05:14:00-root-INFO: grad norm: 87.898 80.933 34.292
+2024-12-14-05:14:01-root-INFO: Loss Change: 619.444 -> 593.176
+2024-12-14-05:14:01-root-INFO: Regularization Change: 0.000 -> 0.549
+2024-12-14-05:14:01-root-INFO: Learning rate of xt decay: 0.08075 -> 0.08172.
+2024-12-14-05:14:01-root-INFO: step: 131 lr_xt 0.01991656
+2024-12-14-05:14:01-root-INFO: grad norm: 94.507 87.277 36.252
+2024-12-14-05:14:01-root-INFO: Loss too large (601.287->656.681)! Learning rate decreased to 0.01593.
+2024-12-14-05:14:01-root-INFO: Loss too large (601.287->613.032)! Learning rate decreased to 0.01275.
+2024-12-14-05:14:02-root-INFO: grad norm: 85.737 78.899 33.551
+2024-12-14-05:14:02-root-INFO: Loss Change: 601.287 -> 574.156
+2024-12-14-05:14:02-root-INFO: Regularization Change: 0.000 -> 0.541
+2024-12-14-05:14:02-root-INFO: Learning rate of xt decay: 0.08172 -> 0.08270.
+2024-12-14-05:14:02-root-INFO: step: 130 lr_xt 0.02058758
+2024-12-14-05:14:02-root-INFO: grad norm: 91.802 85.111 34.404
+2024-12-14-05:14:02-root-INFO: Loss too large (580.415->641.544)! Learning rate decreased to 0.01647.
+2024-12-14-05:14:03-root-INFO: Loss too large (580.415->596.901)! Learning rate decreased to 0.01318.
+2024-12-14-05:14:03-root-INFO: grad norm: 87.683 81.085 33.368
+2024-12-14-05:14:03-root-INFO: Loss Change: 580.415 -> 559.494
+2024-12-14-05:14:03-root-INFO: Regularization Change: 0.000 -> 0.497
+2024-12-14-05:14:03-root-INFO: Learning rate of xt decay: 0.08270 -> 0.08369.
+2024-12-14-05:14:03-root-INFO: step: 129 lr_xt 0.02127779
+2024-12-14-05:14:04-root-INFO: grad norm: 94.770 88.007 35.158
+2024-12-14-05:14:04-root-INFO: Loss too large (567.366->633.337)! Learning rate decreased to 0.01702.
+2024-12-14-05:14:04-root-INFO: Loss too large (567.366->585.181)! Learning rate decreased to 0.01362.
+2024-12-14-05:14:04-root-INFO: grad norm: 87.604 81.087 33.156
+2024-12-14-05:14:05-root-INFO: Loss Change: 567.366 -> 544.437
+2024-12-14-05:14:05-root-INFO: Regularization Change: 0.000 -> 0.449
+2024-12-14-05:14:05-root-INFO: Learning rate of xt decay: 0.08369 -> 0.08470.
+2024-12-14-05:14:05-root-INFO: step: 128 lr_xt 0.02198759
+2024-12-14-05:14:05-root-INFO: grad norm: 93.474 87.312 33.377
+2024-12-14-05:14:05-root-INFO: Loss too large (551.358->620.572)! Learning rate decreased to 0.01759.
+2024-12-14-05:14:05-root-INFO: Loss too large (551.358->572.100)! Learning rate decreased to 0.01407.
+2024-12-14-05:14:05-root-INFO: grad norm: 87.786 81.370 32.945
+2024-12-14-05:14:06-root-INFO: Loss Change: 551.358 -> 530.966
+2024-12-14-05:14:06-root-INFO: Regularization Change: 0.000 -> 0.421
+2024-12-14-05:14:06-root-INFO: Learning rate of xt decay: 0.08470 -> 0.08571.
+2024-12-14-05:14:06-root-INFO: step: 127 lr_xt 0.02271741
+2024-12-14-05:14:06-root-INFO: grad norm: 92.225 86.058 33.157
+2024-12-14-05:14:06-root-INFO: Loss too large (538.237->606.149)! Learning rate decreased to 0.01817.
+2024-12-14-05:14:06-root-INFO: Loss too large (538.237->557.871)! Learning rate decreased to 0.01454.
+2024-12-14-05:14:07-root-INFO: grad norm: 86.224 79.877 32.468
+2024-12-14-05:14:07-root-INFO: Loss Change: 538.237 -> 518.069
+2024-12-14-05:14:07-root-INFO: Regularization Change: 0.000 -> 0.409
+2024-12-14-05:14:07-root-INFO: Learning rate of xt decay: 0.08571 -> 0.08674.
+2024-12-14-05:14:07-root-INFO: step: 126 lr_xt 0.02346768
+2024-12-14-05:14:07-root-INFO: grad norm: 89.366 83.575 31.649
+2024-12-14-05:14:07-root-INFO: Loss too large (524.563->589.969)! Learning rate decreased to 0.01877.
+2024-12-14-05:14:08-root-INFO: Loss too large (524.563->541.962)! Learning rate decreased to 0.01502.
+2024-12-14-05:14:08-root-INFO: grad norm: 82.895 76.517 31.887
+2024-12-14-05:14:08-root-INFO: Loss Change: 524.563 -> 504.690
+2024-12-14-05:14:08-root-INFO: Regularization Change: 0.000 -> 0.403
+2024-12-14-05:14:08-root-INFO: Learning rate of xt decay: 0.08674 -> 0.08778.
+2024-12-14-05:14:08-root-INFO: step: 125 lr_xt 0.02423882
+2024-12-14-05:14:09-root-INFO: grad norm: 88.759 83.183 30.964
+2024-12-14-05:14:09-root-INFO: Loss too large (511.422->582.097)! Learning rate decreased to 0.01939.
+2024-12-14-05:14:09-root-INFO: Loss too large (511.422->532.253)! Learning rate decreased to 0.01551.
+2024-12-14-05:14:09-root-INFO: grad norm: 85.245 79.182 31.574
+2024-12-14-05:14:10-root-INFO: Loss Change: 511.422 -> 494.988
+2024-12-14-05:14:10-root-INFO: Regularization Change: 0.000 -> 0.410
+2024-12-14-05:14:10-root-INFO: Learning rate of xt decay: 0.08778 -> 0.08884.
+2024-12-14-05:14:10-root-INFO: step: 124 lr_xt 0.02515763
+2024-12-14-05:14:10-root-INFO: grad norm: 87.577 81.740 31.439
+2024-12-14-05:14:10-root-INFO: Loss too large (504.130->562.139)! Learning rate decreased to 0.02013.
+2024-12-14-05:14:10-root-INFO: Loss too large (504.130->513.236)! Learning rate decreased to 0.01610.
+2024-12-14-05:14:10-root-INFO: grad norm: 75.601 69.259 30.310
+2024-12-14-05:14:11-root-INFO: Loss Change: 504.130 -> 477.674
+2024-12-14-05:14:11-root-INFO: Regularization Change: 0.000 -> 0.458
+2024-12-14-05:14:11-root-INFO: Learning rate of xt decay: 0.08884 -> 0.08990.
+2024-12-14-05:14:11-root-INFO: step: 123 lr_xt 0.02597490
+2024-12-14-05:14:11-root-INFO: grad norm: 78.031 73.273 26.831
+2024-12-14-05:14:11-root-INFO: Loss too large (482.235->540.714)! Learning rate decreased to 0.02078.
+2024-12-14-05:14:11-root-INFO: Loss too large (482.235->496.515)! Learning rate decreased to 0.01662.
+2024-12-14-05:14:12-root-INFO: grad norm: 74.092 68.623 27.938
+2024-12-14-05:14:12-root-INFO: Loss Change: 482.235 -> 466.106
+2024-12-14-05:14:12-root-INFO: Regularization Change: 0.000 -> 0.428
+2024-12-14-05:14:12-root-INFO: Learning rate of xt decay: 0.08990 -> 0.09098.
+2024-12-14-05:14:12-root-INFO: step: 122 lr_xt 0.02681440
+2024-12-14-05:14:12-root-INFO: grad norm: 73.918 69.125 26.185
+2024-12-14-05:14:12-root-INFO: Loss too large (471.497->516.519)! Learning rate decreased to 0.02145.
+2024-12-14-05:14:13-root-INFO: Loss too large (471.497->476.681)! Learning rate decreased to 0.01716.
+2024-12-14-05:14:13-root-INFO: grad norm: 63.978 58.917 24.940
+2024-12-14-05:14:13-root-INFO: Loss Change: 471.497 -> 449.513
+2024-12-14-05:14:13-root-INFO: Regularization Change: 0.000 -> 0.422
+2024-12-14-05:14:13-root-INFO: Learning rate of xt decay: 0.09098 -> 0.09207.
+2024-12-14-05:14:13-root-INFO: step: 121 lr_xt 0.02767658
+2024-12-14-05:14:14-root-INFO: grad norm: 66.535 62.704 22.251
+2024-12-14-05:14:14-root-INFO: Loss too large (454.139->498.969)! Learning rate decreased to 0.02214.
+2024-12-14-05:14:14-root-INFO: Loss too large (454.139->463.008)! Learning rate decreased to 0.01771.
+2024-12-14-05:14:14-root-INFO: grad norm: 65.515 61.078 23.699
+2024-12-14-05:14:14-root-INFO: Loss too large (442.692->446.052)! Learning rate decreased to 0.01417.
+2024-12-14-05:14:15-root-INFO: Loss Change: 454.139 -> 435.258
+2024-12-14-05:14:15-root-INFO: Regularization Change: 0.000 -> 0.428
+2024-12-14-05:14:15-root-INFO: Learning rate of xt decay: 0.09207 -> 0.09318.
+2024-12-14-05:14:15-root-INFO: step: 120 lr_xt 0.02856188
+2024-12-14-05:14:15-root-INFO: grad norm: 65.990 60.784 25.691
+2024-12-14-05:14:15-root-INFO: Loss too large (438.599->502.935)! Learning rate decreased to 0.02285.
+2024-12-14-05:14:15-root-INFO: Loss too large (438.599->470.547)! Learning rate decreased to 0.01828.
+2024-12-14-05:14:15-root-INFO: Loss too large (438.599->448.783)! Learning rate decreased to 0.01462.
+2024-12-14-05:14:16-root-INFO: grad norm: 64.426 59.417 24.909
+2024-12-14-05:14:16-root-INFO: Loss Change: 438.599 -> 426.213
+2024-12-14-05:14:16-root-INFO: Regularization Change: 0.000 -> 0.444
+2024-12-14-05:14:16-root-INFO: Learning rate of xt decay: 0.09318 -> 0.09430.
+2024-12-14-05:14:16-root-INFO: step: 119 lr_xt 0.02947075
+2024-12-14-05:14:16-root-INFO: grad norm: 61.843 56.491 25.166
+2024-12-14-05:14:16-root-INFO: Loss too large (429.294->471.294)! Learning rate decreased to 0.02358.
+2024-12-14-05:14:17-root-INFO: Loss too large (429.294->447.028)! Learning rate decreased to 0.01886.
+2024-12-14-05:14:17-root-INFO: Loss too large (429.294->430.713)! Learning rate decreased to 0.01509.
+2024-12-14-05:14:17-root-INFO: grad norm: 47.736 43.931 18.676
+2024-12-14-05:14:17-root-INFO: Loss Change: 429.294 -> 411.209
+2024-12-14-05:14:17-root-INFO: Regularization Change: 0.000 -> 0.340
+2024-12-14-05:14:17-root-INFO: Learning rate of xt decay: 0.09430 -> 0.09543.
+2024-12-14-05:14:18-root-INFO: step: 118 lr_xt 0.03040366
+2024-12-14-05:14:18-root-INFO: grad norm: 43.730 40.515 16.458
+2024-12-14-05:14:18-root-INFO: Loss too large (413.100->438.111)! Learning rate decreased to 0.02432.
+2024-12-14-05:14:18-root-INFO: Loss too large (413.100->422.984)! Learning rate decreased to 0.01946.
+2024-12-14-05:14:18-root-INFO: Loss too large (413.100->413.384)! Learning rate decreased to 0.01557.
+2024-12-14-05:14:19-root-INFO: grad norm: 41.218 38.326 15.168
+2024-12-14-05:14:19-root-INFO: Loss Change: 413.100 -> 403.231
+2024-12-14-05:14:19-root-INFO: Regularization Change: 0.000 -> 0.293
+2024-12-14-05:14:19-root-INFO: Learning rate of xt decay: 0.09543 -> 0.09657.
+2024-12-14-05:14:19-root-INFO: step: 117 lr_xt 0.03136105
+2024-12-14-05:14:19-root-INFO: grad norm: 43.113 40.182 15.624
+2024-12-14-05:14:19-root-INFO: Loss too large (404.511->433.381)! Learning rate decreased to 0.02509.
+2024-12-14-05:14:19-root-INFO: Loss too large (404.511->416.505)! Learning rate decreased to 0.02007.
+2024-12-14-05:14:19-root-INFO: Loss too large (404.511->405.916)! Learning rate decreased to 0.01606.
+2024-12-14-05:14:20-root-INFO: grad norm: 41.107 38.474 14.474
+2024-12-14-05:14:20-root-INFO: Loss Change: 404.511 -> 395.601
+2024-12-14-05:14:20-root-INFO: Regularization Change: 0.000 -> 0.271
+2024-12-14-05:14:20-root-INFO: Learning rate of xt decay: 0.09657 -> 0.09773.
+2024-12-14-05:14:20-root-INFO: step: 116 lr_xt 0.03234339
+2024-12-14-05:14:20-root-INFO: grad norm: 44.299 41.573 15.299
+2024-12-14-05:14:21-root-INFO: Loss too large (397.098->433.223)! Learning rate decreased to 0.02587.
+2024-12-14-05:14:21-root-INFO: Loss too large (397.098->412.513)! Learning rate decreased to 0.02070.
+2024-12-14-05:14:21-root-INFO: Loss too large (397.098->399.937)! Learning rate decreased to 0.01656.
+2024-12-14-05:14:21-root-INFO: grad norm: 42.387 39.958 14.144
+2024-12-14-05:14:22-root-INFO: Loss Change: 397.098 -> 388.522
+2024-12-14-05:14:22-root-INFO: Regularization Change: 0.000 -> 0.265
+2024-12-14-05:14:22-root-INFO: Learning rate of xt decay: 0.09773 -> 0.09891.
+2024-12-14-05:14:22-root-INFO: step: 115 lr_xt 0.03335113
+2024-12-14-05:14:22-root-INFO: grad norm: 45.711 43.131 15.140
+2024-12-14-05:14:22-root-INFO: Loss too large (390.330->430.144)! Learning rate decreased to 0.02668.
+2024-12-14-05:14:22-root-INFO: Loss too large (390.330->407.414)! Learning rate decreased to 0.02134.
+2024-12-14-05:14:22-root-INFO: Loss too large (390.330->393.617)! Learning rate decreased to 0.01708.
+2024-12-14-05:14:23-root-INFO: grad norm: 41.391 39.007 13.843
+2024-12-14-05:14:23-root-INFO: Loss Change: 390.330 -> 380.450
+2024-12-14-05:14:23-root-INFO: Regularization Change: 0.000 -> 0.264
+2024-12-14-05:14:23-root-INFO: Learning rate of xt decay: 0.09891 -> 0.10009.
+2024-12-14-05:14:23-root-INFO: step: 114 lr_xt 0.03438473
+2024-12-14-05:14:23-root-INFO: grad norm: 44.217 41.433 15.442
+2024-12-14-05:14:23-root-INFO: Loss too large (382.915->418.284)! Learning rate decreased to 0.02751.
+2024-12-14-05:14:24-root-INFO: Loss too large (382.915->398.041)! Learning rate decreased to 0.02201.
+2024-12-14-05:14:24-root-INFO: Loss too large (382.915->385.716)! Learning rate decreased to 0.01760.
+2024-12-14-05:14:24-root-INFO: grad norm: 38.591 36.379 12.878
+2024-12-14-05:14:24-root-INFO: Loss Change: 382.915 -> 372.453
+2024-12-14-05:14:24-root-INFO: Regularization Change: 0.000 -> 0.267
+2024-12-14-05:14:24-root-INFO: Learning rate of xt decay: 0.10009 -> 0.10129.
+2024-12-14-05:14:24-root-INFO: step: 113 lr_xt 0.03544467
+2024-12-14-05:14:25-root-INFO: grad norm: 37.442 35.132 12.946
+2024-12-14-05:14:25-root-INFO: Loss too large (373.963->398.612)! Learning rate decreased to 0.02836.
+2024-12-14-05:14:25-root-INFO: Loss too large (373.963->383.872)! Learning rate decreased to 0.02268.
+2024-12-14-05:14:25-root-INFO: Loss too large (373.963->375.061)! Learning rate decreased to 0.01815.
+2024-12-14-05:14:25-root-INFO: grad norm: 33.317 31.543 10.726
+2024-12-14-05:14:26-root-INFO: Loss Change: 373.963 -> 364.987
+2024-12-14-05:14:26-root-INFO: Regularization Change: 0.000 -> 0.257
+2024-12-14-05:14:26-root-INFO: Learning rate of xt decay: 0.10129 -> 0.10251.
+2024-12-14-05:14:26-root-INFO: step: 112 lr_xt 0.03653141
+2024-12-14-05:14:26-root-INFO: grad norm: 34.713 32.723 11.582
+2024-12-14-05:14:26-root-INFO: Loss too large (366.306->389.391)! Learning rate decreased to 0.02923.
+2024-12-14-05:14:26-root-INFO: Loss too large (366.306->375.613)! Learning rate decreased to 0.02338.
+2024-12-14-05:14:26-root-INFO: Loss too large (366.306->367.552)! Learning rate decreased to 0.01870.
+2024-12-14-05:14:27-root-INFO: grad norm: 32.176 30.590 9.978
+2024-12-14-05:14:27-root-INFO: Loss Change: 366.306 -> 358.617
+2024-12-14-05:14:27-root-INFO: Regularization Change: 0.000 -> 0.251
+2024-12-14-05:14:27-root-INFO: Learning rate of xt decay: 0.10251 -> 0.10374.
+2024-12-14-05:14:27-root-INFO: step: 111 lr_xt 0.03764541
+2024-12-14-05:14:27-root-INFO: grad norm: 33.637 31.870 10.757
+2024-12-14-05:14:28-root-INFO: Loss too large (359.884->383.270)! Learning rate decreased to 0.03012.
+2024-12-14-05:14:28-root-INFO: Loss too large (359.884->369.294)! Learning rate decreased to 0.02409.
+2024-12-14-05:14:28-root-INFO: Loss too large (359.884->361.158)! Learning rate decreased to 0.01927.
+2024-12-14-05:14:28-root-INFO: grad norm: 31.527 30.068 9.479
+2024-12-14-05:14:28-root-INFO: Loss Change: 359.884 -> 352.606
+2024-12-14-05:14:28-root-INFO: Regularization Change: 0.000 -> 0.249
+2024-12-14-05:14:28-root-INFO: Learning rate of xt decay: 0.10374 -> 0.10498.
+2024-12-14-05:14:29-root-INFO: step: 110 lr_xt 0.03878715
+2024-12-14-05:14:29-root-INFO: grad norm: 34.696 32.816 11.266
+2024-12-14-05:14:29-root-INFO: Loss too large (354.433->380.381)! Learning rate decreased to 0.03103.
+2024-12-14-05:14:29-root-INFO: Loss too large (354.433->365.349)! Learning rate decreased to 0.02482.
+2024-12-14-05:14:29-root-INFO: Loss too large (354.433->356.476)! Learning rate decreased to 0.01986.
+2024-12-14-05:14:30-root-INFO: grad norm: 31.860 30.433 9.426
+2024-12-14-05:14:30-root-INFO: Loss Change: 354.433 -> 346.962
+2024-12-14-05:14:30-root-INFO: Regularization Change: 0.000 -> 0.248
+2024-12-14-05:14:30-root-INFO: Learning rate of xt decay: 0.10498 -> 0.10624.
+2024-12-14-05:14:30-root-INFO: step: 109 lr_xt 0.03995709
+2024-12-14-05:14:30-root-INFO: grad norm: 33.126 31.320 10.787
+2024-12-14-05:14:30-root-INFO: Loss too large (348.436->371.688)! Learning rate decreased to 0.03197.
+2024-12-14-05:14:30-root-INFO: Loss too large (348.436->358.018)! Learning rate decreased to 0.02557.
+2024-12-14-05:14:31-root-INFO: Loss too large (348.436->349.930)! Learning rate decreased to 0.02046.
+2024-12-14-05:14:31-root-INFO: grad norm: 29.703 28.363 8.822
+2024-12-14-05:14:31-root-INFO: Loss Change: 348.436 -> 340.976
+2024-12-14-05:14:31-root-INFO: Regularization Change: 0.000 -> 0.244
+2024-12-14-05:14:31-root-INFO: Learning rate of xt decay: 0.10624 -> 0.10752.
+2024-12-14-05:14:31-root-INFO: step: 108 lr_xt 0.04115569
+2024-12-14-05:14:32-root-INFO: grad norm: 29.826 28.276 9.490
+2024-12-14-05:14:32-root-INFO: Loss too large (342.120->360.679)! Learning rate decreased to 0.03292.
+2024-12-14-05:14:32-root-INFO: Loss too large (342.120->349.345)! Learning rate decreased to 0.02634.
+2024-12-14-05:14:32-root-INFO: Loss too large (342.120->342.708)! Learning rate decreased to 0.02107.
+2024-12-14-05:14:32-root-INFO: grad norm: 27.217 26.031 7.946
+2024-12-14-05:14:33-root-INFO: Loss Change: 342.120 -> 335.322
+2024-12-14-05:14:33-root-INFO: Regularization Change: 0.000 -> 0.243
+2024-12-14-05:14:33-root-INFO: Learning rate of xt decay: 0.10752 -> 0.10881.
+2024-12-14-05:14:33-root-INFO: step: 107 lr_xt 0.04238344
+2024-12-14-05:14:33-root-INFO: grad norm: 28.183 26.788 8.757
+2024-12-14-05:14:33-root-INFO: Loss too large (336.289->353.033)! Learning rate decreased to 0.03391.
+2024-12-14-05:14:33-root-INFO: Loss too large (336.289->342.663)! Learning rate decreased to 0.02713.
+2024-12-14-05:14:33-root-INFO: Loss too large (336.289->336.626)! Learning rate decreased to 0.02170.
+2024-12-14-05:14:34-root-INFO: grad norm: 25.404 24.315 7.357
+2024-12-14-05:14:34-root-INFO: Loss Change: 336.289 -> 329.667
+2024-12-14-05:14:34-root-INFO: Regularization Change: 0.000 -> 0.238
+2024-12-14-05:14:34-root-INFO: Learning rate of xt decay: 0.10881 -> 0.11011.
+2024-12-14-05:14:34-root-INFO: step: 106 lr_xt 0.04364080
+2024-12-14-05:14:34-root-INFO: grad norm: 26.004 24.707 8.110
+2024-12-14-05:14:34-root-INFO: Loss too large (330.628->344.661)! Learning rate decreased to 0.03491.
+2024-12-14-05:14:35-root-INFO: Loss too large (330.628->335.744)! Learning rate decreased to 0.02793.
+2024-12-14-05:14:35-root-INFO: grad norm: 32.279 31.059 8.792
+2024-12-14-05:14:35-root-INFO: Loss too large (330.588->330.614)! Learning rate decreased to 0.02234.
+2024-12-14-05:14:35-root-INFO: Loss Change: 330.628 -> 325.712
+2024-12-14-05:14:35-root-INFO: Regularization Change: 0.000 -> 0.297
+2024-12-14-05:14:35-root-INFO: Learning rate of xt decay: 0.11011 -> 0.11144.
+2024-12-14-05:14:36-root-INFO: step: 105 lr_xt 0.04492824
+2024-12-14-05:14:36-root-INFO: grad norm: 30.079 28.638 9.198
+2024-12-14-05:14:36-root-INFO: Loss too large (326.980->346.503)! Learning rate decreased to 0.03594.
+2024-12-14-05:14:36-root-INFO: Loss too large (326.980->334.379)! Learning rate decreased to 0.02875.
+2024-12-14-05:14:36-root-INFO: Loss too large (326.980->327.302)! Learning rate decreased to 0.02300.
+2024-12-14-05:14:37-root-INFO: grad norm: 24.639 23.647 6.921
+2024-12-14-05:14:37-root-INFO: Loss Change: 326.980 -> 319.188
+2024-12-14-05:14:37-root-INFO: Regularization Change: 0.000 -> 0.245
+2024-12-14-05:14:37-root-INFO: Learning rate of xt decay: 0.11144 -> 0.11277.
+2024-12-14-05:14:37-root-INFO: step: 104 lr_xt 0.04624623
+2024-12-14-05:14:37-root-INFO: grad norm: 24.737 23.497 7.733
+2024-12-14-05:14:37-root-INFO: Loss too large (320.267->332.940)! Learning rate decreased to 0.03700.
+2024-12-14-05:14:37-root-INFO: Loss too large (320.267->324.804)! Learning rate decreased to 0.02960.
+2024-12-14-05:14:38-root-INFO: grad norm: 29.449 28.290 8.181
+2024-12-14-05:14:38-root-INFO: Loss Change: 320.267 -> 319.001
+2024-12-14-05:14:38-root-INFO: Regularization Change: 0.000 -> 0.376
+2024-12-14-05:14:38-root-INFO: Learning rate of xt decay: 0.11277 -> 0.11413.
+2024-12-14-05:14:38-root-INFO: step: 103 lr_xt 0.04759523
+2024-12-14-05:14:38-root-INFO: grad norm: 39.191 36.940 13.088
+2024-12-14-05:14:38-root-INFO: Loss too large (320.628->352.555)! Learning rate decreased to 0.03808.
+2024-12-14-05:14:39-root-INFO: Loss too large (320.628->334.290)! Learning rate decreased to 0.03046.
+2024-12-14-05:14:39-root-INFO: Loss too large (320.628->322.822)! Learning rate decreased to 0.02437.
+2024-12-14-05:14:39-root-INFO: grad norm: 28.020 26.887 7.888
+2024-12-14-05:14:39-root-INFO: Loss Change: 320.628 -> 309.072
+2024-12-14-05:14:39-root-INFO: Regularization Change: 0.000 -> 0.312
+2024-12-14-05:14:39-root-INFO: Learning rate of xt decay: 0.11413 -> 0.11550.
+2024-12-14-05:14:40-root-INFO: step: 102 lr_xt 0.04897571
+2024-12-14-05:14:40-root-INFO: grad norm: 20.641 19.702 6.158
+2024-12-14-05:14:40-root-INFO: Loss too large (309.957->315.250)! Learning rate decreased to 0.03918.
+2024-12-14-05:14:40-root-INFO: Loss too large (309.957->310.352)! Learning rate decreased to 0.03134.
+2024-12-14-05:14:40-root-INFO: grad norm: 21.492 20.680 5.850
+2024-12-14-05:14:41-root-INFO: Loss Change: 309.957 -> 305.318
+2024-12-14-05:14:41-root-INFO: Regularization Change: 0.000 -> 0.360
+2024-12-14-05:14:41-root-INFO: Learning rate of xt decay: 0.11550 -> 0.11688.
+2024-12-14-05:14:41-root-INFO: step: 101 lr_xt 0.05038813
+2024-12-14-05:14:41-root-INFO: grad norm: 27.294 25.945 8.474
+2024-12-14-05:14:41-root-INFO: Loss too large (306.622->322.125)! Learning rate decreased to 0.04031.
+2024-12-14-05:14:41-root-INFO: Loss too large (306.622->312.167)! Learning rate decreased to 0.03225.
+2024-12-14-05:14:42-root-INFO: grad norm: 28.500 27.459 7.635
+2024-12-14-05:14:42-root-INFO: Loss Change: 306.622 -> 302.599
+2024-12-14-05:14:42-root-INFO: Regularization Change: 0.000 -> 0.351
+2024-12-14-05:14:42-root-INFO: Learning rate of xt decay: 0.11688 -> 0.11828.
+2024-12-14-05:14:42-root-INFO: step: 100 lr_xt 0.05183295
+2024-12-14-05:14:42-root-INFO: grad norm: 32.070 30.459 10.038
+2024-12-14-05:14:42-root-INFO: Loss too large (304.053->324.147)! Learning rate decreased to 0.04147.
+2024-12-14-05:14:42-root-INFO: Loss too large (304.053->311.021)! Learning rate decreased to 0.03317.
+2024-12-14-05:14:43-root-INFO: grad norm: 29.798 28.762 7.789
+2024-12-14-05:14:43-root-INFO: Loss Change: 304.053 -> 297.038
+2024-12-14-05:14:43-root-INFO: Regularization Change: 0.000 -> 0.353
+2024-12-14-05:14:43-root-INFO: Learning rate of xt decay: 0.11828 -> 0.11970.
+2024-12-14-05:14:43-root-INFO: step: 99 lr_xt 0.05331064
+2024-12-14-05:14:43-root-INFO: grad norm: 27.903 26.678 8.176
+2024-12-14-05:14:44-root-INFO: Loss too large (298.286->310.835)! Learning rate decreased to 0.04265.
+2024-12-14-05:14:44-root-INFO: Loss too large (298.286->300.922)! Learning rate decreased to 0.03412.
+2024-12-14-05:14:44-root-INFO: grad norm: 24.255 23.421 6.306
+2024-12-14-05:14:44-root-INFO: Loss Change: 298.286 -> 290.537
+2024-12-14-05:14:44-root-INFO: Regularization Change: 0.000 -> 0.352
+2024-12-14-05:14:44-root-INFO: Learning rate of xt decay: 0.11970 -> 0.12114.
+2024-12-14-05:14:45-root-INFO: step: 98 lr_xt 0.05482165
+2024-12-14-05:14:45-root-INFO: grad norm: 23.429 22.461 6.665
+2024-12-14-05:14:45-root-INFO: Loss too large (291.698->299.620)! Learning rate decreased to 0.04386.
+2024-12-14-05:14:45-root-INFO: Loss too large (291.698->292.671)! Learning rate decreased to 0.03509.
+2024-12-14-05:14:45-root-INFO: grad norm: 20.720 19.977 5.502
+2024-12-14-05:14:46-root-INFO: Loss Change: 291.698 -> 285.033
+2024-12-14-05:14:46-root-INFO: Regularization Change: 0.000 -> 0.347
+2024-12-14-05:14:46-root-INFO: Learning rate of xt decay: 0.12114 -> 0.12259.
+2024-12-14-05:14:46-root-INFO: step: 97 lr_xt 0.05636643
+2024-12-14-05:14:46-root-INFO: grad norm: 20.323 19.475 5.809
+2024-12-14-05:14:46-root-INFO: Loss too large (285.769->291.190)! Learning rate decreased to 0.04509.
+2024-12-14-05:14:46-root-INFO: Loss too large (285.769->285.998)! Learning rate decreased to 0.03607.
+2024-12-14-05:14:47-root-INFO: grad norm: 18.565 17.878 5.007
+2024-12-14-05:14:47-root-INFO: Loss Change: 285.769 -> 279.964
+2024-12-14-05:14:47-root-INFO: Regularization Change: 0.000 -> 0.349
+2024-12-14-05:14:47-root-INFO: Learning rate of xt decay: 0.12259 -> 0.12406.
+2024-12-14-05:14:47-root-INFO: step: 96 lr_xt 0.05794543
+2024-12-14-05:14:47-root-INFO: grad norm: 19.601 18.713 5.833
+2024-12-14-05:14:47-root-INFO: Loss too large (280.800->285.837)! Learning rate decreased to 0.04636.
+2024-12-14-05:14:47-root-INFO: Loss too large (280.800->281.019)! Learning rate decreased to 0.03709.
+2024-12-14-05:14:48-root-INFO: grad norm: 18.174 17.482 4.965
+2024-12-14-05:14:48-root-INFO: Loss Change: 280.800 -> 274.945
+2024-12-14-05:14:48-root-INFO: Regularization Change: 0.000 -> 0.371
+2024-12-14-05:14:48-root-INFO: Learning rate of xt decay: 0.12406 -> 0.12555.
+2024-12-14-05:14:48-root-INFO: step: 95 lr_xt 0.05955910
+2024-12-14-05:14:48-root-INFO: grad norm: 19.717 18.818 5.886
+2024-12-14-05:14:49-root-INFO: Loss too large (275.950->280.695)! Learning rate decreased to 0.04765.
+2024-12-14-05:14:49-root-INFO: Loss too large (275.950->275.951)! Learning rate decreased to 0.03812.
+2024-12-14-05:14:49-root-INFO: grad norm: 18.435 17.752 4.971
+2024-12-14-05:14:49-root-INFO: Loss Change: 275.950 -> 269.348
+2024-12-14-05:14:49-root-INFO: Regularization Change: 0.000 -> 0.426
+2024-12-14-05:14:49-root-INFO: Learning rate of xt decay: 0.12555 -> 0.12706.
+2024-12-14-05:14:50-root-INFO: step: 94 lr_xt 0.06120788
+2024-12-14-05:14:50-root-INFO: grad norm: 18.473 17.681 5.351
+2024-12-14-05:14:50-root-INFO: Loss too large (269.791->272.165)! Learning rate decreased to 0.04897.
+2024-12-14-05:14:50-root-INFO: grad norm: 22.500 21.668 6.063
+2024-12-14-05:14:51-root-INFO: Loss Change: 269.791 -> 266.639
+2024-12-14-05:14:51-root-INFO: Regularization Change: 0.000 -> 0.809
+2024-12-14-05:14:51-root-INFO: Learning rate of xt decay: 0.12706 -> 0.12858.
+2024-12-14-05:14:51-root-INFO: step: 93 lr_xt 0.06289219
+2024-12-14-05:14:51-root-INFO: grad norm: 32.077 30.483 9.988
+2024-12-14-05:14:51-root-INFO: Loss too large (268.275->286.734)! Learning rate decreased to 0.05031.
+2024-12-14-05:14:51-root-INFO: Loss too large (268.275->273.309)! Learning rate decreased to 0.04025.
+2024-12-14-05:14:52-root-INFO: grad norm: 25.894 24.792 7.473
+2024-12-14-05:14:52-root-INFO: Loss Change: 268.275 -> 257.537
+2024-12-14-05:14:52-root-INFO: Regularization Change: 0.000 -> 0.546
+2024-12-14-05:14:52-root-INFO: Learning rate of xt decay: 0.12858 -> 0.13013.
+2024-12-14-05:14:52-root-INFO: step: 92 lr_xt 0.06461248
+2024-12-14-05:14:52-root-INFO: grad norm: 19.347 18.630 5.219
+2024-12-14-05:14:52-root-INFO: Loss too large (258.208->261.469)! Learning rate decreased to 0.05169.
+2024-12-14-05:14:53-root-INFO: grad norm: 21.810 20.853 6.389
+2024-12-14-05:14:53-root-INFO: Loss Change: 258.208 -> 255.995
+2024-12-14-05:14:53-root-INFO: Regularization Change: 0.000 -> 0.621
+2024-12-14-05:14:53-root-INFO: Learning rate of xt decay: 0.13013 -> 0.13169.
+2024-12-14-05:14:53-root-INFO: step: 91 lr_xt 0.06636917
+2024-12-14-05:14:53-root-INFO: grad norm: 27.744 26.453 8.364
+2024-12-14-05:14:53-root-INFO: Loss too large (256.931->268.946)! Learning rate decreased to 0.05310.
+2024-12-14-05:14:53-root-INFO: Loss too large (256.931->258.052)! Learning rate decreased to 0.04248.
+2024-12-14-05:14:54-root-INFO: grad norm: 20.406 19.542 5.875
+2024-12-14-05:14:54-root-INFO: Loss Change: 256.931 -> 246.615
+2024-12-14-05:14:54-root-INFO: Regularization Change: 0.000 -> 0.461
+2024-12-14-05:14:54-root-INFO: Learning rate of xt decay: 0.13169 -> 0.13327.
+2024-12-14-05:14:54-root-INFO: step: 90 lr_xt 0.06816268
+2024-12-14-05:14:54-root-INFO: grad norm: 15.331 14.769 4.111
+2024-12-14-05:14:55-root-INFO: Loss too large (247.056->247.897)! Learning rate decreased to 0.05453.
+2024-12-14-05:14:55-root-INFO: grad norm: 16.833 16.108 4.888
+2024-12-14-05:14:55-root-INFO: Loss Change: 247.056 -> 243.810
+2024-12-14-05:14:55-root-INFO: Regularization Change: 0.000 -> 0.577
+2024-12-14-05:14:55-root-INFO: Learning rate of xt decay: 0.13327 -> 0.13487.
+2024-12-14-05:14:55-root-INFO: step: 89 lr_xt 0.06999342
+2024-12-14-05:14:56-root-INFO: grad norm: 21.339 20.412 6.220
+2024-12-14-05:14:56-root-INFO: Loss too large (244.377->251.355)! Learning rate decreased to 0.05599.
+2024-12-14-05:14:56-root-INFO: Loss too large (244.377->244.532)! Learning rate decreased to 0.04480.
+2024-12-14-05:14:56-root-INFO: grad norm: 16.706 15.984 4.860
+2024-12-14-05:14:56-root-INFO: Loss Change: 244.377 -> 236.904
+2024-12-14-05:14:56-root-INFO: Regularization Change: 0.000 -> 0.414
+2024-12-14-05:14:56-root-INFO: Learning rate of xt decay: 0.13487 -> 0.13649.
+2024-12-14-05:14:57-root-INFO: step: 88 lr_xt 0.07186179
+2024-12-14-05:14:57-root-INFO: grad norm: 13.526 13.017 3.677
+2024-12-14-05:14:57-root-INFO: grad norm: 20.356 19.430 6.068
+2024-12-14-05:14:57-root-INFO: Loss too large (237.028->242.735)! Learning rate decreased to 0.05749.
+2024-12-14-05:14:58-root-INFO: Loss Change: 237.139 -> 235.800
+2024-12-14-05:14:58-root-INFO: Regularization Change: 0.000 -> 0.857
+2024-12-14-05:14:58-root-INFO: Learning rate of xt decay: 0.13649 -> 0.13813.
+2024-12-14-05:14:58-root-INFO: step: 87 lr_xt 0.07376819
+2024-12-14-05:14:58-root-INFO: grad norm: 24.720 23.595 7.374
+2024-12-14-05:14:58-root-INFO: Loss too large (236.307->243.756)! Learning rate decreased to 0.05901.
+2024-12-14-05:14:58-root-INFO: grad norm: 23.858 22.845 6.881
+2024-12-14-05:14:59-root-INFO: Loss Change: 236.307 -> 228.765
+2024-12-14-05:14:59-root-INFO: Regularization Change: 0.000 -> 0.795
+2024-12-14-05:14:59-root-INFO: Learning rate of xt decay: 0.13813 -> 0.13978.
+2024-12-14-05:14:59-root-INFO: step: 86 lr_xt 0.07571301
+2024-12-14-05:14:59-root-INFO: grad norm: 20.561 19.832 5.426
+2024-12-14-05:14:59-root-INFO: grad norm: 24.263 23.290 6.804
+2024-12-14-05:15:00-root-INFO: Loss Change: 229.070 -> 227.639
+2024-12-14-05:15:00-root-INFO: Regularization Change: 0.000 -> 1.387
+2024-12-14-05:15:00-root-INFO: Learning rate of xt decay: 0.13978 -> 0.14146.
+2024-12-14-05:15:00-root-INFO: step: 85 lr_xt 0.07769664
+2024-12-14-05:15:00-root-INFO: grad norm: 29.221 28.128 7.919
+2024-12-14-05:15:00-root-INFO: Loss too large (227.900->231.011)! Learning rate decreased to 0.06216.
+2024-12-14-05:15:01-root-INFO: grad norm: 22.712 21.841 6.230
+2024-12-14-05:15:01-root-INFO: Loss Change: 227.900 -> 214.540
+2024-12-14-05:15:01-root-INFO: Regularization Change: 0.000 -> 1.246
+2024-12-14-05:15:01-root-INFO: Learning rate of xt decay: 0.14146 -> 0.14316.
+2024-12-14-05:15:01-root-INFO: step: 84 lr_xt 0.07971945
+2024-12-14-05:15:01-root-INFO: grad norm: 23.240 22.200 6.872
+2024-12-14-05:15:01-root-INFO: Loss too large (214.045->224.240)! Learning rate decreased to 0.06378.
+2024-12-14-05:15:01-root-INFO: Loss too large (214.045->216.536)! Learning rate decreased to 0.05102.
+2024-12-14-05:15:02-root-INFO: grad norm: 19.544 18.752 5.509
+2024-12-14-05:15:02-root-INFO: Loss Change: 214.045 -> 204.564
+2024-12-14-05:15:02-root-INFO: Regularization Change: 0.000 -> 0.698
+2024-12-14-05:15:02-root-INFO: Learning rate of xt decay: 0.14316 -> 0.14488.
+2024-12-14-05:15:02-root-INFO: step: 83 lr_xt 0.08178179
+2024-12-14-05:15:02-root-INFO: grad norm: 15.782 14.995 4.922
+2024-12-14-05:15:02-root-INFO: Loss too large (204.361->207.822)! Learning rate decreased to 0.06543.
+2024-12-14-05:15:03-root-INFO: Loss too large (204.361->204.575)! Learning rate decreased to 0.05234.
+2024-12-14-05:15:03-root-INFO: grad norm: 14.728 14.184 3.967
+2024-12-14-05:15:03-root-INFO: Loss Change: 204.361 -> 197.759
+2024-12-14-05:15:03-root-INFO: Regularization Change: 0.000 -> 0.598
+2024-12-14-05:15:03-root-INFO: Learning rate of xt decay: 0.14488 -> 0.14661.
+2024-12-14-05:15:03-root-INFO: step: 82 lr_xt 0.08388403
+2024-12-14-05:15:04-root-INFO: grad norm: 11.239 10.513 3.974
+2024-12-14-05:15:04-root-INFO: grad norm: 15.202 14.261 5.266
+2024-12-14-05:15:04-root-INFO: Loss Change: 197.319 -> 195.988
+2024-12-14-05:15:04-root-INFO: Regularization Change: 0.000 -> 1.500
+2024-12-14-05:15:04-root-INFO: Learning rate of xt decay: 0.14661 -> 0.14837.
+2024-12-14-05:15:04-root-INFO: step: 81 lr_xt 0.08602650
+2024-12-14-05:15:05-root-INFO: grad norm: 26.362 24.637 9.378
+2024-12-14-05:15:05-root-INFO: Loss too large (195.113->203.274)! Learning rate decreased to 0.06882.
+2024-12-14-05:15:05-root-INFO: Loss too large (195.113->196.285)! Learning rate decreased to 0.05506.
+2024-12-14-05:15:05-root-INFO: grad norm: 15.443 14.506 5.297
+2024-12-14-05:15:06-root-INFO: Loss Change: 195.113 -> 183.763
+2024-12-14-05:15:06-root-INFO: Regularization Change: 0.000 -> 1.127
+2024-12-14-05:15:06-root-INFO: Learning rate of xt decay: 0.14837 -> 0.15015.
+2024-12-14-05:15:06-root-INFO: step: 80 lr_xt 0.08820955
+2024-12-14-05:15:06-root-INFO: grad norm: 7.572 7.156 2.475
+2024-12-14-05:15:06-root-INFO: grad norm: 6.677 6.144 2.614
+2024-12-14-05:15:06-root-INFO: Loss Change: 183.586 -> 176.232
+2024-12-14-05:15:06-root-INFO: Regularization Change: 0.000 -> 1.347
+2024-12-14-05:15:07-root-INFO: Learning rate of xt decay: 0.15015 -> 0.15196.
+2024-12-14-05:15:07-root-INFO: step: 79 lr_xt 0.09043348
+2024-12-14-05:15:07-root-INFO: grad norm: 6.801 6.506 1.982
+2024-12-14-05:15:07-root-INFO: grad norm: 6.122 5.780 2.018
+2024-12-14-05:15:07-root-INFO: Loss Change: 176.289 -> 170.532
+2024-12-14-05:15:07-root-INFO: Regularization Change: 0.000 -> 1.060
+2024-12-14-05:15:07-root-INFO: Learning rate of xt decay: 0.15196 -> 0.15378.
+2024-12-14-05:15:08-root-INFO: step: 78 lr_xt 0.09269861
+2024-12-14-05:15:08-root-INFO: grad norm: 6.380 6.108 1.840
+2024-12-14-05:15:08-root-INFO: grad norm: 5.656 5.376 1.759
+2024-12-14-05:15:08-root-INFO: Loss Change: 170.554 -> 165.794
+2024-12-14-05:15:08-root-INFO: Regularization Change: 0.000 -> 0.892
+2024-12-14-05:15:08-root-INFO: Learning rate of xt decay: 0.15378 -> 0.15562.
+2024-12-14-05:15:09-root-INFO: step: 77 lr_xt 0.09500525
+2024-12-14-05:15:09-root-INFO: grad norm: 5.902 5.670 1.637
+2024-12-14-05:15:09-root-INFO: grad norm: 5.176 4.924 1.595
+2024-12-14-05:15:09-root-INFO: Loss Change: 165.914 -> 162.121
+2024-12-14-05:15:09-root-INFO: Regularization Change: 0.000 -> 0.732
+2024-12-14-05:15:09-root-INFO: Learning rate of xt decay: 0.15562 -> 0.15749.
+2024-12-14-05:15:10-root-INFO: step: 76 lr_xt 0.09735366
+2024-12-14-05:15:10-root-INFO: grad norm: 5.817 5.603 1.565
+2024-12-14-05:15:10-root-INFO: grad norm: 5.575 5.316 1.679
+2024-12-14-05:15:10-root-INFO: Loss Change: 162.216 -> 159.372
+2024-12-14-05:15:10-root-INFO: Regularization Change: 0.000 -> 0.590
+2024-12-14-05:15:10-root-INFO: Learning rate of xt decay: 0.15749 -> 0.15938.
+2024-12-14-05:15:11-root-INFO: step: 75 lr_xt 0.09974414
+2024-12-14-05:15:11-root-INFO: grad norm: 7.240 7.034 1.716
+2024-12-14-05:15:11-root-INFO: grad norm: 8.040 7.697 2.323
+2024-12-14-05:15:11-root-INFO: Loss Change: 159.628 -> 157.764
+2024-12-14-05:15:11-root-INFO: Regularization Change: 0.000 -> 0.557
+2024-12-14-05:15:11-root-INFO: Learning rate of xt decay: 0.15938 -> 0.16129.
+2024-12-14-05:15:12-root-INFO: step: 74 lr_xt 0.10217692
+2024-12-14-05:15:12-root-INFO: grad norm: 9.740 9.403 2.538
+2024-12-14-05:15:12-root-INFO: grad norm: 8.858 8.459 2.629
+2024-12-14-05:15:12-root-INFO: Loss Change: 158.225 -> 155.057
+2024-12-14-05:15:12-root-INFO: Regularization Change: 0.000 -> 0.552
+2024-12-14-05:15:12-root-INFO: Learning rate of xt decay: 0.16129 -> 0.16323.
+2024-12-14-05:15:12-root-INFO: step: 73 lr_xt 0.10465226
+2024-12-14-05:15:13-root-INFO: grad norm: 8.531 8.142 2.544
+2024-12-14-05:15:13-root-INFO: grad norm: 7.075 6.795 1.973
+2024-12-14-05:15:13-root-INFO: Loss Change: 155.474 -> 151.873
+2024-12-14-05:15:13-root-INFO: Regularization Change: 0.000 -> 0.607
+2024-12-14-05:15:13-root-INFO: Learning rate of xt decay: 0.16323 -> 0.16519.
+2024-12-14-05:15:13-root-INFO: step: 72 lr_xt 0.10717038
+2024-12-14-05:15:14-root-INFO: grad norm: 7.654 7.448 1.761
+2024-12-14-05:15:14-root-INFO: grad norm: 6.763 6.564 1.630
+2024-12-14-05:15:14-root-INFO: Loss Change: 152.208 -> 149.319
+2024-12-14-05:15:14-root-INFO: Regularization Change: 0.000 -> 0.557
+2024-12-14-05:15:14-root-INFO: Learning rate of xt decay: 0.16519 -> 0.16717.
+2024-12-14-05:15:14-root-INFO: step: 71 lr_xt 0.10973151
+2024-12-14-05:15:15-root-INFO: grad norm: 6.984 6.795 1.614
+2024-12-14-05:15:15-root-INFO: grad norm: 6.172 5.983 1.516
+2024-12-14-05:15:15-root-INFO: Loss Change: 149.526 -> 146.786
+2024-12-14-05:15:15-root-INFO: Regularization Change: 0.000 -> 0.529
+2024-12-14-05:15:15-root-INFO: Learning rate of xt decay: 0.16717 -> 0.16918.
+2024-12-14-05:15:15-root-INFO: step: 70 lr_xt 0.11233583
+2024-12-14-05:15:16-root-INFO: grad norm: 6.391 6.233 1.412
+2024-12-14-05:15:16-root-INFO: grad norm: 5.864 5.707 1.346
+2024-12-14-05:15:16-root-INFO: Loss Change: 146.991 -> 144.629
+2024-12-14-05:15:16-root-INFO: Regularization Change: 0.000 -> 0.492
+2024-12-14-05:15:16-root-INFO: Learning rate of xt decay: 0.16918 -> 0.17121.
+2024-12-14-05:15:16-root-INFO: step: 69 lr_xt 0.11498353
+2024-12-14-05:15:17-root-INFO: grad norm: 6.578 6.436 1.357
+2024-12-14-05:15:17-root-INFO: grad norm: 5.661 5.519 1.260
+2024-12-14-05:15:17-root-INFO: Loss Change: 144.834 -> 142.495
+2024-12-14-05:15:17-root-INFO: Regularization Change: 0.000 -> 0.480
+2024-12-14-05:15:17-root-INFO: Learning rate of xt decay: 0.17121 -> 0.17326.
+2024-12-14-05:15:17-root-INFO: step: 68 lr_xt 0.11767478
+2024-12-14-05:15:17-root-INFO: grad norm: 5.568 5.439 1.194
+2024-12-14-05:15:18-root-INFO: grad norm: 5.013 4.866 1.205
+2024-12-14-05:15:18-root-INFO: Loss Change: 142.639 -> 140.550
+2024-12-14-05:15:18-root-INFO: Regularization Change: 0.000 -> 0.450
+2024-12-14-05:15:18-root-INFO: Learning rate of xt decay: 0.17326 -> 0.17534.
+2024-12-14-05:15:18-root-INFO: step: 67 lr_xt 0.12040972
+2024-12-14-05:15:18-root-INFO: grad norm: 5.139 5.008 1.154
+2024-12-14-05:15:19-root-INFO: grad norm: 4.883 4.741 1.168
+2024-12-14-05:15:19-root-INFO: Loss Change: 140.688 -> 138.858
+2024-12-14-05:15:19-root-INFO: Regularization Change: 0.000 -> 0.436
+2024-12-14-05:15:19-root-INFO: Learning rate of xt decay: 0.17534 -> 0.17745.
+2024-12-14-05:15:19-root-INFO: step: 66 lr_xt 0.12318848
+2024-12-14-05:15:19-root-INFO: grad norm: 5.471 5.340 1.192
+2024-12-14-05:15:20-root-INFO: grad norm: 5.053 4.924 1.137
+2024-12-14-05:15:20-root-INFO: Loss Change: 139.004 -> 137.098
+2024-12-14-05:15:20-root-INFO: Regularization Change: 0.000 -> 0.432
+2024-12-14-05:15:20-root-INFO: Learning rate of xt decay: 0.17745 -> 0.17957.
+2024-12-14-05:15:20-root-INFO: step: 65 lr_xt 0.12601118
+2024-12-14-05:15:20-root-INFO: grad norm: 5.262 5.139 1.131
+2024-12-14-05:15:21-root-INFO: grad norm: 4.745 4.623 1.069
+2024-12-14-05:15:21-root-INFO: Loss Change: 137.224 -> 135.322
+2024-12-14-05:15:21-root-INFO: Regularization Change: 0.000 -> 0.433
+2024-12-14-05:15:21-root-INFO: Learning rate of xt decay: 0.17957 -> 0.18173.
+2024-12-14-05:15:21-root-INFO: step: 64 lr_xt 0.12887791
+2024-12-14-05:15:21-root-INFO: grad norm: 4.734 4.615 1.055
+2024-12-14-05:15:22-root-INFO: grad norm: 4.378 4.256 1.026
+2024-12-14-05:15:22-root-INFO: Loss Change: 135.466 -> 133.669
+2024-12-14-05:15:22-root-INFO: Regularization Change: 0.000 -> 0.435
+2024-12-14-05:15:22-root-INFO: Learning rate of xt decay: 0.18173 -> 0.18391.
+2024-12-14-05:15:22-root-INFO: step: 63 lr_xt 0.13178874
+2024-12-14-05:15:22-root-INFO: grad norm: 4.857 4.732 1.099
+2024-12-14-05:15:23-root-INFO: grad norm: 4.387 4.251 1.086
+2024-12-14-05:15:23-root-INFO: Loss Change: 133.854 -> 132.016
+2024-12-14-05:15:23-root-INFO: Regularization Change: 0.000 -> 0.450
+2024-12-14-05:15:23-root-INFO: Learning rate of xt decay: 0.18391 -> 0.18612.
+2024-12-14-05:15:23-root-INFO: step: 62 lr_xt 0.13474373
+2024-12-14-05:15:23-root-INFO: grad norm: 4.431 4.293 1.095
+2024-12-14-05:15:24-root-INFO: grad norm: 4.149 3.987 1.148
+2024-12-14-05:15:24-root-INFO: Loss Change: 132.136 -> 130.419
+2024-12-14-05:15:24-root-INFO: Regularization Change: 0.000 -> 0.450
+2024-12-14-05:15:24-root-INFO: Learning rate of xt decay: 0.18612 -> 0.18835.
+2024-12-14-05:15:24-root-INFO: step: 61 lr_xt 0.13774291
+2024-12-14-05:15:24-root-INFO: grad norm: 4.732 4.558 1.269
+2024-12-14-05:15:25-root-INFO: grad norm: 4.402 4.182 1.372
+2024-12-14-05:15:25-root-INFO: Loss Change: 130.588 -> 128.804
+2024-12-14-05:15:25-root-INFO: Regularization Change: 0.000 -> 0.464
+2024-12-14-05:15:25-root-INFO: Learning rate of xt decay: 0.18835 -> 0.19061.
+2024-12-14-05:15:25-root-INFO: step: 60 lr_xt 0.14078630
+2024-12-14-05:15:25-root-INFO: grad norm: 4.614 4.422 1.318
+2024-12-14-05:15:26-root-INFO: grad norm: 4.286 4.041 1.430
+2024-12-14-05:15:26-root-INFO: Loss Change: 128.963 -> 127.169
+2024-12-14-05:15:26-root-INFO: Regularization Change: 0.000 -> 0.470
+2024-12-14-05:15:26-root-INFO: Learning rate of xt decay: 0.19061 -> 0.19290.
+2024-12-14-05:15:26-root-INFO: step: 59 lr_xt 0.14387389
+2024-12-14-05:15:26-root-INFO: grad norm: 4.625 4.439 1.298
+2024-12-14-05:15:27-root-INFO: grad norm: 4.177 3.927 1.423
+2024-12-14-05:15:27-root-INFO: Loss Change: 127.357 -> 125.541
+2024-12-14-05:15:27-root-INFO: Regularization Change: 0.000 -> 0.477
+2024-12-14-05:15:27-root-INFO: Learning rate of xt decay: 0.19290 -> 0.19521.
+2024-12-14-05:15:27-root-INFO: step: 58 lr_xt 0.14700566
+2024-12-14-05:15:27-root-INFO: grad norm: 4.218 4.046 1.195
+2024-12-14-05:15:28-root-INFO: grad norm: 3.884 3.647 1.337
+2024-12-14-05:15:28-root-INFO: Loss Change: 125.671 -> 123.980
+2024-12-14-05:15:28-root-INFO: Regularization Change: 0.000 -> 0.468
+2024-12-14-05:15:28-root-INFO: Learning rate of xt decay: 0.19521 -> 0.19756.
+2024-12-14-05:15:28-root-INFO: step: 57 lr_xt 0.15018154
+2024-12-14-05:15:28-root-INFO: grad norm: 4.181 4.011 1.179
+2024-12-14-05:15:29-root-INFO: grad norm: 3.798 3.566 1.308
+2024-12-14-05:15:29-root-INFO: Loss Change: 124.134 -> 122.345
+2024-12-14-05:15:29-root-INFO: Regularization Change: 0.000 -> 0.487
+2024-12-14-05:15:29-root-INFO: Learning rate of xt decay: 0.19756 -> 0.19993.
+2024-12-14-05:15:29-root-INFO: step: 56 lr_xt 0.15340147
+2024-12-14-05:15:29-root-INFO: grad norm: 3.931 3.775 1.096
+2024-12-14-05:15:30-root-INFO: grad norm: 3.481 3.269 1.196
+2024-12-14-05:15:30-root-INFO: Loss Change: 122.483 -> 120.775
+2024-12-14-05:15:30-root-INFO: Regularization Change: 0.000 -> 0.482
+2024-12-14-05:15:30-root-INFO: Learning rate of xt decay: 0.19993 -> 0.20232.
+2024-12-14-05:15:30-root-INFO: step: 55 lr_xt 0.15666536
+2024-12-14-05:15:30-root-INFO: grad norm: 3.632 3.489 1.011
+2024-12-14-05:15:31-root-INFO: grad norm: 3.270 3.105 1.025
+2024-12-14-05:15:31-root-INFO: Loss Change: 120.897 -> 119.362
+2024-12-14-05:15:31-root-INFO: Regularization Change: 0.000 -> 0.464
+2024-12-14-05:15:31-root-INFO: Learning rate of xt decay: 0.20232 -> 0.20475.
+2024-12-14-05:15:31-root-INFO: step: 54 lr_xt 0.15997308
+2024-12-14-05:15:31-root-INFO: grad norm: 4.092 3.990 0.906
+2024-12-14-05:15:32-root-INFO: grad norm: 3.187 3.065 0.871
+2024-12-14-05:15:32-root-INFO: Loss Change: 119.494 -> 117.965
+2024-12-14-05:15:32-root-INFO: Regularization Change: 0.000 -> 0.489
+2024-12-14-05:15:32-root-INFO: Learning rate of xt decay: 0.20475 -> 0.20721.
+2024-12-14-05:15:32-root-INFO: step: 53 lr_xt 0.16332449
+2024-12-14-05:15:32-root-INFO: grad norm: 3.338 3.239 0.809
+2024-12-14-05:15:33-root-INFO: grad norm: 3.990 3.908 0.806
+2024-12-14-05:15:33-root-INFO: Loss Change: 118.052 -> 116.898
+2024-12-14-05:15:33-root-INFO: Regularization Change: 0.000 -> 0.543
+2024-12-14-05:15:33-root-INFO: Learning rate of xt decay: 0.20721 -> 0.20970.
+2024-12-14-05:15:33-root-INFO: step: 52 lr_xt 0.16671942
+2024-12-14-05:15:33-root-INFO: grad norm: 2.956 2.866 0.723
+2024-12-14-05:15:33-root-INFO: grad norm: 2.892 2.818 0.650
+2024-12-14-05:15:34-root-INFO: Loss Change: 116.946 -> 115.057
+2024-12-14-05:15:34-root-INFO: Regularization Change: 0.000 -> 0.645
+2024-12-14-05:15:34-root-INFO: Learning rate of xt decay: 0.20970 -> 0.21221.
+2024-12-14-05:15:34-root-INFO: step: 51 lr_xt 0.17015769
+2024-12-14-05:15:34-root-INFO: grad norm: 3.234 3.162 0.676
+2024-12-14-05:15:34-root-INFO: grad norm: 2.984 2.916 0.631
+2024-12-14-05:15:35-root-INFO: Loss Change: 115.190 -> 113.681
+2024-12-14-05:15:35-root-INFO: Regularization Change: 0.000 -> 0.493
+2024-12-14-05:15:35-root-INFO: Learning rate of xt decay: 0.21221 -> 0.21476.
+2024-12-14-05:15:35-root-INFO: step: 50 lr_xt 0.17363908
+2024-12-14-05:15:35-root-INFO: grad norm: 3.205 3.145 0.615
+2024-12-14-05:15:35-root-INFO: grad norm: 2.895 2.832 0.600
+2024-12-14-05:15:36-root-INFO: Loss Change: 113.742 -> 112.206
+2024-12-14-05:15:36-root-INFO: Regularization Change: 0.000 -> 0.506
+2024-12-14-05:15:36-root-INFO: Learning rate of xt decay: 0.21476 -> 0.21734.
+2024-12-14-05:15:36-root-INFO: step: 49 lr_xt 0.17716334
+2024-12-14-05:15:36-root-INFO: grad norm: 2.866 2.805 0.588
+2024-12-14-05:15:36-root-INFO: grad norm: 2.965 2.906 0.588
+2024-12-14-05:15:37-root-INFO: Loss Change: 112.292 -> 111.043
+2024-12-14-05:15:37-root-INFO: Regularization Change: 0.000 -> 0.541
+2024-12-14-05:15:37-root-INFO: Learning rate of xt decay: 0.21734 -> 0.21994.
+2024-12-14-05:15:37-root-INFO: step: 48 lr_xt 0.18073022
+2024-12-14-05:15:37-root-INFO: grad norm: 4.770 4.727 0.639
+2024-12-14-05:15:37-root-INFO: grad norm: 2.594 2.532 0.563
+2024-12-14-05:15:38-root-INFO: Loss Change: 111.167 -> 109.760
+2024-12-14-05:15:38-root-INFO: Regularization Change: 0.000 -> 0.891
+2024-12-14-05:15:38-root-INFO: Learning rate of xt decay: 0.21994 -> 0.22258.
+2024-12-14-05:15:38-root-INFO: step: 47 lr_xt 0.18433941
+2024-12-14-05:15:38-root-INFO: grad norm: 2.806 2.748 0.570
+2024-12-14-05:15:38-root-INFO: grad norm: 2.824 2.765 0.576
+2024-12-14-05:15:39-root-INFO: Loss Change: 109.786 -> 107.848
+2024-12-14-05:15:39-root-INFO: Regularization Change: 0.000 -> 0.770
+2024-12-14-05:15:39-root-INFO: Learning rate of xt decay: 0.22258 -> 0.22525.
+2024-12-14-05:15:39-root-INFO: step: 46 lr_xt 0.18799060
+2024-12-14-05:15:39-root-INFO: grad norm: 3.043 2.992 0.556
+2024-12-14-05:15:39-root-INFO: grad norm: 2.958 2.897 0.599
+2024-12-14-05:15:40-root-INFO: Loss Change: 107.935 -> 106.426
+2024-12-14-05:15:40-root-INFO: Regularization Change: 0.000 -> 0.570
+2024-12-14-05:15:40-root-INFO: Learning rate of xt decay: 0.22525 -> 0.22796.
+2024-12-14-05:15:40-root-INFO: step: 45 lr_xt 0.19168344
+2024-12-14-05:15:40-root-INFO: grad norm: 3.502 3.453 0.584
+2024-12-14-05:15:40-root-INFO: grad norm: 3.015 2.947 0.636
+2024-12-14-05:15:41-root-INFO: Loss Change: 106.526 -> 104.916
+2024-12-14-05:15:41-root-INFO: Regularization Change: 0.000 -> 0.589
+2024-12-14-05:15:41-root-INFO: Learning rate of xt decay: 0.22796 -> 0.23069.
+2024-12-14-05:15:41-root-INFO: step: 44 lr_xt 0.19541757
+2024-12-14-05:15:41-root-INFO: grad norm: 2.962 2.905 0.579
+2024-12-14-05:15:41-root-INFO: grad norm: 2.832 2.757 0.646
+2024-12-14-05:15:42-root-INFO: Loss Change: 105.002 -> 103.522
+2024-12-14-05:15:42-root-INFO: Regularization Change: 0.000 -> 0.585
+2024-12-14-05:15:42-root-INFO: Learning rate of xt decay: 0.23069 -> 0.23346.
+2024-12-14-05:15:42-root-INFO: step: 43 lr_xt 0.19919257
+2024-12-14-05:15:42-root-INFO: grad norm: 3.586 3.525 0.656
+2024-12-14-05:15:42-root-INFO: grad norm: 3.752 3.660 0.828
+2024-12-14-05:15:43-root-INFO: Loss Change: 103.670 -> 102.536
+2024-12-14-05:15:43-root-INFO: Regularization Change: 0.000 -> 0.595
+2024-12-14-05:15:43-root-INFO: Learning rate of xt decay: 0.23346 -> 0.23626.
+2024-12-14-05:15:43-root-INFO: step: 42 lr_xt 0.20300803
+2024-12-14-05:15:43-root-INFO: grad norm: 4.785 4.731 0.716
+2024-12-14-05:15:43-root-INFO: grad norm: 3.717 3.613 0.870
+2024-12-14-05:15:44-root-INFO: Loss Change: 102.755 -> 101.015
+2024-12-14-05:15:44-root-INFO: Regularization Change: 0.000 -> 0.739
+2024-12-14-05:15:44-root-INFO: Learning rate of xt decay: 0.23626 -> 0.23910.
+2024-12-14-05:15:44-root-INFO: step: 41 lr_xt 0.20721469
+2024-12-14-05:15:44-root-INFO: grad norm: 4.808 4.742 0.795
+2024-12-14-05:15:44-root-INFO: grad norm: 4.274 4.162 0.975
+2024-12-14-05:15:44-root-INFO: Loss Change: 101.270 -> 99.859
+2024-12-14-05:15:44-root-INFO: Regularization Change: 0.000 -> 0.719
+2024-12-14-05:15:44-root-INFO: Learning rate of xt decay: 0.23910 -> 0.24197.
+2024-12-14-05:15:45-root-INFO: step: 40 lr_xt 0.21110784
+2024-12-14-05:15:45-root-INFO: grad norm: 3.982 3.920 0.700
+2024-12-14-05:15:45-root-INFO: grad norm: 3.615 3.530 0.780
+2024-12-14-05:15:45-root-INFO: Loss Change: 100.011 -> 98.284
+2024-12-14-05:15:45-root-INFO: Regularization Change: 0.000 -> 0.682
+2024-12-14-05:15:45-root-INFO: Learning rate of xt decay: 0.24197 -> 0.24487.
+2024-12-14-05:15:46-root-INFO: step: 39 lr_xt 0.21503976
+2024-12-14-05:15:46-root-INFO: grad norm: 4.172 4.108 0.731
+2024-12-14-05:15:46-root-INFO: grad norm: 4.167 4.059 0.942
+2024-12-14-05:15:46-root-INFO: Loss Change: 98.455 -> 97.054
+2024-12-14-05:15:46-root-INFO: Regularization Change: 0.000 -> 0.634
+2024-12-14-05:15:46-root-INFO: Learning rate of xt decay: 0.24487 -> 0.24781.
+2024-12-14-05:15:47-root-INFO: step: 38 lr_xt 0.21900989
+2024-12-14-05:15:47-root-INFO: grad norm: 4.829 4.756 0.838
+2024-12-14-05:15:47-root-INFO: grad norm: 4.468 4.333 1.090
+2024-12-14-05:15:47-root-INFO: Loss Change: 97.306 -> 95.613
+2024-12-14-05:15:47-root-INFO: Regularization Change: 0.000 -> 0.684
+2024-12-14-05:15:47-root-INFO: Learning rate of xt decay: 0.24781 -> 0.25078.
+2024-12-14-05:15:48-root-INFO: step: 37 lr_xt 0.22301766
+2024-12-14-05:15:48-root-INFO: grad norm: 4.504 4.433 0.793
+2024-12-14-05:15:48-root-INFO: grad norm: 4.309 4.195 0.989
+2024-12-14-05:15:48-root-INFO: Loss Change: 95.833 -> 94.265
+2024-12-14-05:15:48-root-INFO: Regularization Change: 0.000 -> 0.740
+2024-12-14-05:15:48-root-INFO: Learning rate of xt decay: 0.25078 -> 0.25379.
+2024-12-14-05:15:49-root-INFO: step: 36 lr_xt 0.22706247
+2024-12-14-05:15:49-root-INFO: grad norm: 5.925 5.847 0.959
+2024-12-14-05:15:49-root-INFO: grad norm: 4.665 4.508 1.200
+2024-12-14-05:15:49-root-INFO: Loss Change: 94.616 -> 92.830
+2024-12-14-05:15:49-root-INFO: Regularization Change: 0.000 -> 1.160
+2024-12-14-05:15:49-root-INFO: Learning rate of xt decay: 0.25379 -> 0.25684.
+2024-12-14-05:15:49-root-INFO: step: 35 lr_xt 0.23114370
+2024-12-14-05:15:50-root-INFO: grad norm: 4.538 4.462 0.826
+2024-12-14-05:15:50-root-INFO: grad norm: 4.162 4.045 0.979
+2024-12-14-05:15:50-root-INFO: Loss Change: 93.053 -> 90.991
+2024-12-14-05:15:50-root-INFO: Regularization Change: 0.000 -> 0.880
+2024-12-14-05:15:50-root-INFO: Learning rate of xt decay: 0.25684 -> 0.25992.
+2024-12-14-05:15:50-root-INFO: step: 34 lr_xt 0.23526068
+2024-12-14-05:15:51-root-INFO: grad norm: 4.430 4.356 0.808
+2024-12-14-05:15:51-root-INFO: grad norm: 4.209 4.082 1.025
+2024-12-14-05:15:51-root-INFO: Loss Change: 91.249 -> 89.392
+2024-12-14-05:15:51-root-INFO: Regularization Change: 0.000 -> 0.848
+2024-12-14-05:15:51-root-INFO: Learning rate of xt decay: 0.25992 -> 0.26304.
+2024-12-14-05:15:51-root-INFO: step: 33 lr_xt 0.23941272
+2024-12-14-05:15:52-root-INFO: grad norm: 4.825 4.723 0.989
+2024-12-14-05:15:52-root-INFO: grad norm: 4.574 4.413 1.203
+2024-12-14-05:15:52-root-INFO: Loss Change: 89.700 -> 87.727
+2024-12-14-05:15:52-root-INFO: Regularization Change: 0.000 -> 0.879
+2024-12-14-05:15:52-root-INFO: Learning rate of xt decay: 0.26304 -> 0.26620.
+2024-12-14-05:15:52-root-INFO: step: 32 lr_xt 0.24359912
+2024-12-14-05:15:53-root-INFO: grad norm: 4.877 4.806 0.831
+2024-12-14-05:15:53-root-INFO: grad norm: 4.604 4.395 1.373
+2024-12-14-05:15:53-root-INFO: Loss Change: 88.058 -> 86.199
+2024-12-14-05:15:53-root-INFO: Regularization Change: 0.000 -> 1.050
+2024-12-14-05:15:53-root-INFO: Learning rate of xt decay: 0.26620 -> 0.26939.
+2024-12-14-05:15:53-root-INFO: step: 31 lr_xt 0.24781911
+2024-12-14-05:15:54-root-INFO: grad norm: 5.845 5.516 1.932
+2024-12-14-05:15:54-root-INFO: grad norm: 4.347 4.171 1.224
+2024-12-14-05:15:54-root-INFO: Loss Change: 86.609 -> 83.991
+2024-12-14-05:15:54-root-INFO: Regularization Change: 0.000 -> 1.456
+2024-12-14-05:15:54-root-INFO: Learning rate of xt decay: 0.26939 -> 0.27262.
+2024-12-14-05:15:54-root-INFO: step: 30 lr_xt 0.25207194
+2024-12-14-05:15:55-root-INFO: grad norm: 4.504 4.416 0.883
+2024-12-14-05:15:55-root-INFO: grad norm: 4.109 3.959 1.098
+2024-12-14-05:15:55-root-INFO: Loss Change: 84.301 -> 81.983
+2024-12-14-05:15:55-root-INFO: Regularization Change: 0.000 -> 1.121
+2024-12-14-05:15:55-root-INFO: Learning rate of xt decay: 0.27262 -> 0.27589.
+2024-12-14-05:15:55-root-INFO: step: 29 lr_xt 0.25635679
+2024-12-14-05:15:55-root-INFO: grad norm: 4.693 4.576 1.044
+2024-12-14-05:15:56-root-INFO: grad norm: 4.665 4.453 1.390
+2024-12-14-05:15:56-root-INFO: Loss Change: 82.313 -> 80.397
+2024-12-14-05:15:56-root-INFO: Regularization Change: 0.000 -> 1.088
+2024-12-14-05:15:56-root-INFO: Learning rate of xt decay: 0.27589 -> 0.27921.
+2024-12-14-05:15:56-root-INFO: step: 28 lr_xt 0.26067283
+2024-12-14-05:15:56-root-INFO: grad norm: 5.321 5.160 1.296
+2024-12-14-05:15:57-root-INFO: grad norm: 4.985 4.788 1.389
+2024-12-14-05:15:57-root-INFO: Loss Change: 80.820 -> 78.471
+2024-12-14-05:15:57-root-INFO: Regularization Change: 0.000 -> 1.145
+2024-12-14-05:15:57-root-INFO: Learning rate of xt decay: 0.27921 -> 0.28256.
+2024-12-14-05:15:57-root-INFO: step: 27 lr_xt 0.26501920
+2024-12-14-05:15:57-root-INFO: grad norm: 5.300 5.218 0.925
+2024-12-14-05:15:58-root-INFO: grad norm: 5.006 4.772 1.510
+2024-12-14-05:15:58-root-INFO: Loss Change: 78.907 -> 76.609
+2024-12-14-05:15:58-root-INFO: Regularization Change: 0.000 -> 1.388
+2024-12-14-05:15:58-root-INFO: Learning rate of xt decay: 0.28256 -> 0.28595.
+2024-12-14-05:15:58-root-INFO: step: 26 lr_xt 0.26939500
+2024-12-14-05:15:58-root-INFO: grad norm: 5.734 5.542 1.472
+2024-12-14-05:15:59-root-INFO: grad norm: 4.929 4.712 1.447
+2024-12-14-05:15:59-root-INFO: Loss Change: 77.118 -> 73.922
+2024-12-14-05:15:59-root-INFO: Regularization Change: 0.000 -> 1.504
+2024-12-14-05:15:59-root-INFO: Learning rate of xt decay: 0.28595 -> 0.28938.
+2024-12-14-05:15:59-root-INFO: step: 25 lr_xt 0.27379933
+2024-12-14-05:15:59-root-INFO: grad norm: 5.135 5.049 0.936
+2024-12-14-05:16:00-root-INFO: grad norm: 4.646 4.448 1.340
+2024-12-14-05:16:00-root-INFO: Loss Change: 74.367 -> 71.346
+2024-12-14-05:16:00-root-INFO: Regularization Change: 0.000 -> 1.540
+2024-12-14-05:16:00-root-INFO: Learning rate of xt decay: 0.28938 -> 0.29285.
+2024-12-14-05:16:00-root-INFO: step: 24 lr_xt 0.27823123
+2024-12-14-05:16:00-root-INFO: grad norm: 4.876 4.785 0.940
+2024-12-14-05:16:01-root-INFO: grad norm: 4.270 4.127 1.095
+2024-12-14-05:16:01-root-INFO: Loss Change: 71.761 -> 68.539
+2024-12-14-05:16:01-root-INFO: Regularization Change: 0.000 -> 1.593
+2024-12-14-05:16:01-root-INFO: Learning rate of xt decay: 0.29285 -> 0.29636.
+2024-12-14-05:16:01-root-INFO: step: 23 lr_xt 0.28268972
+2024-12-14-05:16:01-root-INFO: grad norm: 4.631 4.523 0.996
+2024-12-14-05:16:02-root-INFO: grad norm: 4.281 4.166 0.987
+2024-12-14-05:16:02-root-INFO: Loss Change: 68.918 -> 65.908
+2024-12-14-05:16:02-root-INFO: Regularization Change: 0.000 -> 1.693
+2024-12-14-05:16:02-root-INFO: Learning rate of xt decay: 0.29636 -> 0.29992.
+2024-12-14-05:16:02-root-INFO: step: 22 lr_xt 0.28717380
+2024-12-14-05:16:02-root-INFO: grad norm: 4.771 4.700 0.821
+2024-12-14-05:16:03-root-INFO: grad norm: 4.112 4.015 0.888
+2024-12-14-05:16:03-root-INFO: Loss Change: 66.305 -> 62.848
+2024-12-14-05:16:03-root-INFO: Regularization Change: 0.000 -> 1.778
+2024-12-14-05:16:03-root-INFO: Learning rate of xt decay: 0.29992 -> 0.30352.
+2024-12-14-05:16:03-root-INFO: step: 21 lr_xt 0.29168243
+2024-12-14-05:16:03-root-INFO: grad norm: 4.144 4.076 0.748
+2024-12-14-05:16:04-root-INFO: grad norm: 3.875 3.757 0.951
+2024-12-14-05:16:04-root-INFO: Loss Change: 63.176 -> 60.253
+2024-12-14-05:16:04-root-INFO: Regularization Change: 0.000 -> 1.815
+2024-12-14-05:16:04-root-INFO: Learning rate of xt decay: 0.30352 -> 0.30716.
+2024-12-14-05:16:04-root-INFO: step: 20 lr_xt 0.29621455
+2024-12-14-05:16:04-root-INFO: grad norm: 4.433 4.342 0.892
+2024-12-14-05:16:05-root-INFO: grad norm: 4.373 4.218 1.150
+2024-12-14-05:16:05-root-INFO: Loss Change: 60.562 -> 57.769
+2024-12-14-05:16:05-root-INFO: Regularization Change: 0.000 -> 1.837
+2024-12-14-05:16:05-root-INFO: Learning rate of xt decay: 0.30716 -> 0.31085.
+2024-12-14-05:16:05-root-INFO: step: 19 lr_xt 0.30076908
+2024-12-14-05:16:05-root-INFO: grad norm: 4.452 4.353 0.934
+2024-12-14-05:16:06-root-INFO: grad norm: 3.719 3.644 0.743
+2024-12-14-05:16:06-root-INFO: Loss Change: 58.074 -> 54.399
+2024-12-14-05:16:06-root-INFO: Regularization Change: 0.000 -> 1.914
+2024-12-14-05:16:06-root-INFO: Learning rate of xt decay: 0.31085 -> 0.31458.
+2024-12-14-05:16:06-root-INFO: step: 18 lr_xt 0.30534490
+2024-12-14-05:16:06-root-INFO: grad norm: 4.031 3.969 0.704
+2024-12-14-05:16:07-root-INFO: grad norm: 3.655 3.572 0.775
+2024-12-14-05:16:07-root-INFO: Loss Change: 54.708 -> 51.656
+2024-12-14-05:16:07-root-INFO: Regularization Change: 0.000 -> 1.815
+2024-12-14-05:16:07-root-INFO: Learning rate of xt decay: 0.31458 -> 0.31835.
+2024-12-14-05:16:07-root-INFO: step: 17 lr_xt 0.30994086
+2024-12-14-05:16:07-root-INFO: grad norm: 3.928 3.863 0.712
+2024-12-14-05:16:08-root-INFO: grad norm: 3.663 3.579 0.779
+2024-12-14-05:16:08-root-INFO: Loss Change: 51.933 -> 48.977
+2024-12-14-05:16:08-root-INFO: Regularization Change: 0.000 -> 1.821
+2024-12-14-05:16:08-root-INFO: Learning rate of xt decay: 0.31835 -> 0.32217.
+2024-12-14-05:16:08-root-INFO: step: 16 lr_xt 0.31455579
+2024-12-14-05:16:08-root-INFO: grad norm: 3.987 3.915 0.757
+2024-12-14-05:16:09-root-INFO: grad norm: 3.577 3.506 0.714
+2024-12-14-05:16:09-root-INFO: Loss Change: 49.255 -> 46.124
+2024-12-14-05:16:09-root-INFO: Regularization Change: 0.000 -> 1.838
+2024-12-14-05:16:09-root-INFO: Learning rate of xt decay: 0.32217 -> 0.32604.
+2024-12-14-05:16:09-root-INFO: step: 15 lr_xt 0.31918850
+2024-12-14-05:16:09-root-INFO: grad norm: 3.886 3.823 0.699
+2024-12-14-05:16:10-root-INFO: grad norm: 3.484 3.415 0.690
+2024-12-14-05:16:10-root-INFO: Loss Change: 46.406 -> 43.282
+2024-12-14-05:16:10-root-INFO: Regularization Change: 0.000 -> 1.861
+2024-12-14-05:16:10-root-INFO: Learning rate of xt decay: 0.32604 -> 0.32995.
+2024-12-14-05:16:10-root-INFO: step: 14 lr_xt 0.32383775
+2024-12-14-05:16:10-root-INFO: grad norm: 3.737 3.676 0.672
+2024-12-14-05:16:10-root-INFO: grad norm: 3.318 3.249 0.677
+2024-12-14-05:16:11-root-INFO: Loss Change: 43.564 -> 40.459
+2024-12-14-05:16:11-root-INFO: Regularization Change: 0.000 -> 1.887
+2024-12-14-05:16:11-root-INFO: Learning rate of xt decay: 0.32995 -> 0.33391.
+2024-12-14-05:16:11-root-INFO: step: 13 lr_xt 0.32850231
+2024-12-14-05:16:11-root-INFO: grad norm: 3.600 3.542 0.641
+2024-12-14-05:16:11-root-INFO: grad norm: 3.197 3.122 0.691
+2024-12-14-05:16:12-root-INFO: Loss Change: 40.730 -> 37.748
+2024-12-14-05:16:12-root-INFO: Regularization Change: 0.000 -> 1.879
+2024-12-14-05:16:12-root-INFO: Learning rate of xt decay: 0.33391 -> 0.33792.
+2024-12-14-05:16:12-root-INFO: step: 12 lr_xt 0.33318090
+2024-12-14-05:16:12-root-INFO: grad norm: 3.515 3.456 0.637
+2024-12-14-05:16:12-root-INFO: grad norm: 3.239 3.155 0.735
+2024-12-14-05:16:13-root-INFO: Loss Change: 38.007 -> 35.350
+2024-12-14-05:16:13-root-INFO: Regularization Change: 0.000 -> 1.828
+2024-12-14-05:16:13-root-INFO: Learning rate of xt decay: 0.33792 -> 0.34197.
+2024-12-14-05:16:13-root-INFO: step: 11 lr_xt 0.33787222
+2024-12-14-05:16:13-root-INFO: grad norm: 3.750 3.684 0.700
+2024-12-14-05:16:13-root-INFO: grad norm: 3.202 3.119 0.722
+2024-12-14-05:16:14-root-INFO: Loss Change: 35.634 -> 32.919
+2024-12-14-05:16:14-root-INFO: Regularization Change: 0.000 -> 1.827
+2024-12-14-05:16:14-root-INFO: Learning rate of xt decay: 0.34197 -> 0.34608.
+2024-12-14-05:16:14-root-INFO: step: 10 lr_xt 0.34257494
+2024-12-14-05:16:14-root-INFO: grad norm: 3.362 3.309 0.594
+2024-12-14-05:16:14-root-INFO: grad norm: 2.832 2.771 0.585
+2024-12-14-05:16:15-root-INFO: Loss Change: 33.133 -> 30.469
+2024-12-14-05:16:15-root-INFO: Regularization Change: 0.000 -> 1.707
+2024-12-14-05:16:15-root-INFO: Learning rate of xt decay: 0.34608 -> 0.35023.
+2024-12-14-05:16:15-root-INFO: step: 9 lr_xt 0.34728771
+2024-12-14-05:16:15-root-INFO: grad norm: 2.986 2.944 0.499
+2024-12-14-05:16:15-root-INFO: grad norm: 2.568 2.516 0.518
+2024-12-14-05:16:16-root-INFO: Loss Change: 30.669 -> 28.302
+2024-12-14-05:16:16-root-INFO: Regularization Change: 0.000 -> 1.604
+2024-12-14-05:16:16-root-INFO: Learning rate of xt decay: 0.35023 -> 0.35443.
+2024-12-14-05:16:16-root-INFO: step: 8 lr_xt 0.35200918
+2024-12-14-05:16:16-root-INFO: grad norm: 2.962 2.927 0.452
+2024-12-14-05:16:16-root-INFO: grad norm: 2.462 2.419 0.457
+2024-12-14-05:16:17-root-INFO: Loss Change: 28.534 -> 26.191
+2024-12-14-05:16:17-root-INFO: Regularization Change: 0.000 -> 1.600
+2024-12-14-05:16:17-root-INFO: Learning rate of xt decay: 0.35443 -> 0.35869.
+2024-12-14-05:16:17-root-INFO: step: 7 lr_xt 0.35673794
+2024-12-14-05:16:17-root-INFO: grad norm: 2.684 2.659 0.362
+2024-12-14-05:16:17-root-INFO: grad norm: 2.204 2.175 0.358
+2024-12-14-05:16:18-root-INFO: Loss Change: 26.401 -> 24.118
+2024-12-14-05:16:18-root-INFO: Regularization Change: 0.000 -> 1.579
+2024-12-14-05:16:18-root-INFO: Learning rate of xt decay: 0.35869 -> 0.36299.
+2024-12-14-05:16:18-root-INFO: step: 6 lr_xt 0.36147257
+2024-12-14-05:16:18-root-INFO: grad norm: 2.593 2.570 0.350
+2024-12-14-05:16:18-root-INFO: grad norm: 2.378 2.344 0.399
+2024-12-14-05:16:19-root-INFO: Loss Change: 24.335 -> 21.507
+2024-12-14-05:16:19-root-INFO: Regularization Change: 0.000 -> 1.766
+2024-12-14-05:16:19-root-INFO: Learning rate of xt decay: 0.36299 -> 0.36735.
+2024-12-14-05:16:19-root-INFO: step: 5 lr_xt 0.36621164
+2024-12-14-05:16:19-root-INFO: grad norm: 3.069 3.045 0.382
+2024-12-14-05:16:19-root-INFO: grad norm: 2.183 2.155 0.352
+2024-12-14-05:16:20-root-INFO: Loss Change: 21.705 -> 19.065
+2024-12-14-05:16:20-root-INFO: Regularization Change: 0.000 -> 2.008
+2024-12-14-05:16:20-root-INFO: Learning rate of xt decay: 0.36735 -> 0.37175.
+2024-12-14-05:16:20-root-INFO: step: 4 lr_xt 0.37095370
+2024-12-14-05:16:20-root-INFO: grad norm: 2.527 2.507 0.319
+2024-12-14-05:16:20-root-INFO: grad norm: 2.100 2.011 0.604
+2024-12-14-05:16:21-root-INFO: Loss Change: 19.284 -> 17.110
+2024-12-14-05:16:21-root-INFO: Regularization Change: 0.000 -> 1.750
+2024-12-14-05:16:21-root-INFO: Learning rate of xt decay: 0.37175 -> 0.37621.
+2024-12-14-05:16:21-root-INFO: step: 3 lr_xt 0.37569726
+2024-12-14-05:16:21-root-INFO: grad norm: 2.418 2.401 0.292
+2024-12-14-05:16:21-root-INFO: grad norm: 1.981 1.944 0.380
+2024-12-14-05:16:21-root-INFO: Loss Change: 17.328 -> 14.988
+2024-12-14-05:16:21-root-INFO: Regularization Change: 0.000 -> 1.832
+2024-12-14-05:16:22-root-INFO: Learning rate of xt decay: 0.37621 -> 0.38073.
+2024-12-14-05:16:22-root-INFO: step: 2 lr_xt 0.38044082
+2024-12-14-05:16:22-root-INFO: grad norm: 2.695 2.615 0.649
+2024-12-14-05:16:22-root-INFO: grad norm: 2.037 1.987 0.448
+2024-12-14-05:16:22-root-INFO: Loss Change: 15.218 -> 12.685
+2024-12-14-05:16:22-root-INFO: Regularization Change: 0.000 -> 2.165
+2024-12-14-05:16:22-root-INFO: Learning rate of xt decay: 0.38073 -> 0.38530.
+2024-12-14-05:16:23-root-INFO: step: 1 lr_xt 0.38518288
+2024-12-14-05:16:23-root-INFO: grad norm: 2.749 2.733 0.301
+2024-12-14-05:16:23-root-INFO: grad norm: 2.149 2.111 0.403
+2024-12-14-05:16:23-root-INFO: Loss Change: 12.915 -> 9.873
+2024-12-14-05:16:23-root-INFO: Regularization Change: 0.000 -> 2.554
+2024-12-14-05:16:23-root-INFO: Learning rate of xt decay: 0.38530 -> 0.38992.
+2024-12-14-05:16:23-root-INFO: loss_00001_0: 9.873313903808594
+2024-12-14-05:16:24-root-INFO: It takes 277.421 seconds for image 00001
+2024-12-14-05:16:24-root-INFO: lpips_score_00001: 0.177 0.199
+2024-12-14-05:16:24-root-INFO: psnr_score_00001: 20.603 20.616
+2024-12-14-05:16:24-root-INFO: ssim_score_00001: 0.799 0.769
+2024-12-14-05:16:24-root-INFO: mean_lpips: 0.18792548775672913
+2024-12-14-05:16:24-root-INFO: best_mean_lpips: 0.17662160098552704
+2024-12-14-05:16:24-root-INFO: mean_psnr: 20.609283447265625
+2024-12-14-05:16:24-root-INFO: best_mean_psnr: 20.61605453491211
+2024-12-14-05:16:24-root-INFO: mean_ssim: 0.7838151454925537
+2024-12-14-05:16:24-root-INFO: best_mean_ssim: 0.7985656261444092
+2024-12-14-05:16:24-root-INFO: final_loss: 9.873313903808594
+2024-12-14-05:16:24-root-INFO: mean time: 277.420743227005
+2024-12-14-05:16:24-root-INFO: Your samples are ready and waiting for you here: 
+train_results/copaint/imagenet/half/ 
+ 
+Enjoy.

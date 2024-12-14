@@ -1,0 +1,14 @@
+{"time":"2024-12-14T06:46:25.730749174+05:30","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmp34c3gjdm/port-34617.txt","pid":34617,"debug":false,"disable-analytics":false}
+{"time":"2024-12-14T06:46:25.73079109+05:30","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-12-14T06:46:25.731464052+05:30","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":35521,"Zone":""}}
+{"time":"2024-12-14T06:46:25.731542005+05:30","level":"INFO","msg":"Will exit if parent process dies.","ppid":34617}
+{"time":"2024-12-14T06:46:25.909771335+05:30","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:27.138779975+05:30","level":"INFO","msg":"handleInformInit: received","streamId":"rlius4fg","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:27.251342491+05:30","level":"INFO","msg":"handleInformInit: stream started","streamId":"rlius4fg","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:29.097766359+05:30","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:29.097849674+05:30","level":"INFO","msg":"connection: Close: initiating connection closure","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:29.097909931+05:30","level":"INFO","msg":"server is shutting down"}
+{"time":"2024-12-14T06:46:29.098012684+05:30","level":"INFO","msg":"connection: Close: connection successfully closed","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:31.572568426+05:30","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:31.572617319+05:30","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"127.0.0.1:45614"}
+{"time":"2024-12-14T06:46:31.572648373+05:30","level":"INFO","msg":"server is closed"}

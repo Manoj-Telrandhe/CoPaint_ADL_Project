@@ -1,0 +1,32 @@
+2024-12-14-06:14:32-root-INFO: Load 100 samples
+2024-12-14-06:14:32-root-INFO: Prepare model...
+Traceback (most recent call last):
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 351, in <module>
+    main()
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 180, in main
+    unet, sampler = prepare_model(config.algorithm, config, device)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/main.py", line 44, in prepare_model
+    unet = create_model(**select_args(conf, model_defaults().keys()), conf=conf)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/script_util.py", line 183, in create_model
+    return UNetModel(
+           ^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 492, in __init__
+    AttentionBlock(
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/unet.py", line 295, in __init__
+    self.proj_out = zero_module(conv_nd(1, channels, channels, 1))
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/Documents/shashank/adl_project/CoPaint/guided_diffusion/nn.py", line 29, in conv_nd
+    return nn.Conv1d(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 342, in __init__
+    super().__init__(
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 176, in __init__
+    self.reset_parameters()
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/modules/conv.py", line 182, in reset_parameters
+    init.kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/home/shashank23088/anaconda3/envs/copaint/lib/python3.12/site-packages/torch/nn/init.py", line 518, in kaiming_uniform_
+    return tensor.uniform_(-bound, bound, generator=generator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
