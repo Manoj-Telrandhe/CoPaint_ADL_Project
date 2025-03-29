@@ -1,6 +1,6 @@
 # Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models
 
-This is the official impelmenation of the paper [Towards Coherent Image Inpainting Using Denoising Diffusion Implicit Models](https://arxiv.org/pdf/2304.03322.pdf).
+
 Corresponding WANDB runs for training CoPaint on ImageNet: [WANDB Runs](https://wandb.ai/shashankgsharma/ADL_PROJECT_INPAINTING).
 Project Report can be find in this link: [Project Report](https://www.overleaf.com/project/675cb0cbfe4b46458525160b).
 
